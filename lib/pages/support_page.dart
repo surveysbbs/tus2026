@@ -22,31 +22,27 @@ class SupportPage extends StatelessWidget {
     ],
     "Dhaka": [
       {
-        "name": "Rahim Y Uddin",
-        "role": "Senior Programmer",
+        "name": "Jatan Kumar Saha",
+        "role": "System Analyst",
         "phone": "017xxxxxxx",
       },
     ],
     "Khulna": [
       {
-        "name": "Rahim B Uddin",
-        "role": "Division ICT Officer",
+        "name": "S M Ahsan Kabir",
+        "role": "System Analyst",
         "phone": "017xxxxxxx",
       },
     ],
     "Mymensingh": [
       {
-        "name": "Rahim C Uddin",
-        "role": "Division ICT Officer",
+        "name": "Mosammat Sayeeda Begum",
+        "role": "Senior Programmer",
         "phone": "017xxxxxxx",
       },
     ],
     "Rajshahi": [
-      {
-        "name": "MOSAMMAT SAYEEDA BEGUM",
-        "role": "Senior Programmer",
-        "phone": "01552319752",
-      },
+      {"name": "Tarana Nasrin", "role": "Programmer", "phone": "01552319752"},
     ],
     "Rangpur": [
       {
