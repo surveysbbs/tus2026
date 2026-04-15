@@ -82,7 +82,7 @@ class PartialListPage extends StatelessWidget {
                     children: [
                       // ===== EDIT BUTTON =====
                       IconButton(
-                        icon: const Icon(Icons.edit, color: Colors.orange),
+                        icon: const Icon(Icons.edit, color: Colors.brown),
                         tooltip: "Edit",
                         onPressed: () {
                           Navigator.push(

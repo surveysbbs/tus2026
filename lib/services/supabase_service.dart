@@ -24,4 +24,14 @@ class SupabaseService {
 
     await supabase.from('surveys').upsert(allData, onConflict: 'house_id');
   }
+
+  //login er por data load
+  Future<List<dynamic>> getUserData(String username) async {
+  final data = await supabase
+      .from('surveys')
+      .select()
+      .eq('username', username);
+
+  return data;
+}
 }

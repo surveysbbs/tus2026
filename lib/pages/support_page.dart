@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:url_launcher/url_launcher.dart';
-import 'login_page.dart';
+//import 'login_page.dart';
 
 class SupportPage extends StatelessWidget {
   const SupportPage({super.key});
@@ -78,9 +78,7 @@ class SupportPage extends StatelessWidget {
       onTap: () => _callNumber(officer["phone"]!),
       child: Card(
         elevation: 4,
-        shape: RoundedRectangleBorder(
-          borderRadius: BorderRadius.circular(12),
-        ),
+        shape: RoundedRectangleBorder(borderRadius: BorderRadius.circular(12)),
         child: Padding(
           padding: const EdgeInsets.all(10),
           child: Column(
@@ -95,8 +93,10 @@ class SupportPage extends StatelessWidget {
               ),
               const Divider(),
 
-              Text(officer["name"]!,
-                  style: const TextStyle(fontWeight: FontWeight.w600)),
+              Text(
+                officer["name"]!,
+                style: const TextStyle(fontWeight: FontWeight.w600),
+              ),
 
               Text(officer["role"]!),
 
@@ -136,7 +136,7 @@ class SupportPage extends StatelessWidget {
                 crossAxisCount: 2, // 2 column
                 crossAxisSpacing: 8,
                 mainAxisSpacing: 8,
-                childAspectRatio: 1.4,
+                childAspectRatio: 5.0,
               ),
               itemBuilder: (context, index) {
                 final division = divisions[index];
@@ -144,29 +144,6 @@ class SupportPage extends StatelessWidget {
 
                 return divisionCard(division, officer);
               },
-            ),
-          ),
-
-          // ===== LOGOUT BUTTON =====
-          Padding(
-            padding: const EdgeInsets.all(8),
-            child: SizedBox(
-              width: double.infinity,
-              child: ElevatedButton.icon(
-                onPressed: () {
-                  Navigator.pushAndRemoveUntil(
-                    context,
-                    MaterialPageRoute(builder: (_) => const LoginPage()),
-                    (route) => false,
-                  );
-                },
-                icon: const Icon(Icons.logout),
-                label: const Text("Logout"),
-                style: ElevatedButton.styleFrom(
-                  backgroundColor: Colors.red,
-                  padding: const EdgeInsets.symmetric(vertical: 12),
-                ),
-              ),
             ),
           ),
         ],

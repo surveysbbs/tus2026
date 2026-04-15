@@ -138,7 +138,7 @@ class _DashboardPageState extends State<DashboardPage>
                     Text(
                       title,
                       style: const TextStyle(
-                        fontSize: 12,
+                        fontSize: 22,
                         fontWeight: FontWeight.w500,
                       ),
                     ),
@@ -391,7 +391,7 @@ class _DashboardPageState extends State<DashboardPage>
                 "আংশিক সংরক্ষিত",
                 Icons.history,
                 const PartialListPage(),
-                Colors.orange.shade700,
+                Colors.brown.shade700,
               ),
               menuButton(
                 context,

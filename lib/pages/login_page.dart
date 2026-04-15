@@ -5,6 +5,9 @@ import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 
+import '../services/supabase_service.dart';
+import '../config/supabase_config.dart';
+
 import 'dashboard_page.dart';
 
 class LoginPage extends StatefulWidget {
@@ -51,6 +54,68 @@ class _LoginPageState extends State<LoginPage> {
   String hashPassword(String password) {
     return sha256.convert(utf8.encode(password)).toString();
   }
+
+  Future<void> downloadUserData() async {
+  final metaBox = Hive.box('metaBox');
+  final surveyBox = Hive.box('surveyBox');
+
+  final username = metaBox.get('username');
+
+  if (username == null) return;
+
+  final supabaseService = SupabaseService(
+    url: supabaseUrl,
+    anonKey: supabaseKey,
+  );
+
+  final serverData = await supabaseService.getUserData(username);
+
+  for (final item in serverData) {
+    final data = Map<String, dynamic>.from(item);
+
+    final localData = {
+      'house_id': data['house_id'],
+      'serial': data['serial'],
+      'psu': data['psu'],
+      'division': data['division'],
+      'district': data['district'],
+      'ctn': data['ctn'],
+      'upazila': data['upazila'],
+      'psn': data['psn'],
+      'union_name': data['union_name'],
+      'mouza': data['mouza'],
+      'village': data['village'],
+      'ea_code': data['ea_code'],
+      'head': data['head'],
+      'mother': data['mother'],
+      'father': data['father'],
+      'address': data['address'],
+      'mobile': data['mobile'],
+      'profession': data['profession'],
+      'totalMember': data['total_member'],
+      'female': data['female'],
+      'male': data['male'],
+      'comment': data['comment'],
+      'isPartial': data['is_partial'] ?? false,
+      'latitude': data['latitude'],
+      'longitude': data['longitude'],
+      'data_status': data['data_status'],
+      'fromServer': true,
+      'username': data['username'],
+    };
+
+    // 🔥 duplicate avoid (IMPORTANT)
+    final existingIndex = surveyBox.values.toList().indexWhere(
+      (e) => e['house_id'] == localData['house_id'],
+    );
+
+    if (existingIndex != -1) {
+      await surveyBox.putAt(existingIndex, localData);
+    } else {
+      await surveyBox.add(localData);
+    }
+  }
+}
 
   Future<void> login() async {
     if (userController.text.trim().isEmpty ||
@@ -114,6 +179,8 @@ class _LoginPageState extends State<LoginPage> {
       await metaBox.put('mobile', userData['mobile']);
       await metaBox.put('psu', userData['psu']);
       await metaBox.put('is_logged_in', true);
+
+      await downloadUserData();
 
       if (!mounted) return;
 
