@@ -1,0 +1,27 @@
+import 'package:supabase/supabase.dart';
+//import 'package:tus_listing_app/config/supabase_config.dart';
+
+class SupabaseService {
+  final SupabaseClient supabase;
+
+  SupabaseService({required String url, required String anonKey})
+    : supabase = SupabaseClient(url, anonKey);
+
+  // পুরানো ডাটা রিড করতে
+  Future<List<dynamic>> getSurveys() async {
+    final data = await supabase.from('surveys').select();
+    return data;
+  }
+
+  // একক ডাটা insert/update
+  Future<void> upsertSurvey(Map<String, dynamic> surveyData) async {
+    await supabase.from('surveys').upsert(surveyData, onConflict: 'house_id');
+  }
+
+  // অনেকগুলো ডাটা একসাথে insert/update
+  Future<void> bulkUpsert(List<Map<String, dynamic>> allData) async {
+    if (allData.isEmpty) return;
+
+    await supabase.from('surveys').upsert(allData, onConflict: 'house_id');
+  }
+}
