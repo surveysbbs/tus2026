@@ -56,6 +56,7 @@ class _SyncPageState extends State<SyncPage> {
   try {
     final List<Map<String, dynamic>> uploadData = unsynced.map((e) {
       return {
+        'username': e['username'],
         'house_id': e['house_id'] ?? "${e['psu']}_${e['serial']}",
         'serial': e['serial'] ?? '',
         'psu': e['psu'] ?? '',

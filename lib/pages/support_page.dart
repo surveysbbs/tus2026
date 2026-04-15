@@ -132,7 +132,7 @@ class SupportPage extends StatelessWidget {
                 crossAxisCount: 2, // 2 column
                 crossAxisSpacing: 8,
                 mainAxisSpacing: 8,
-                childAspectRatio: 5.0,
+                childAspectRatio: 3.7,
               ),
               itemBuilder: (context, index) {
                 final division = divisions[index];

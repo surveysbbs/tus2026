@@ -56,66 +56,86 @@ class _LoginPageState extends State<LoginPage> {
   }
 
   Future<void> downloadUserData() async {
-  final metaBox = Hive.box('metaBox');
-  final surveyBox = Hive.box('surveyBox');
+    final metaBox = Hive.box('metaBox');
+    final surveyBox = Hive.box('surveyBox');
 
-  final username = metaBox.get('username');
+    final username = metaBox.get('username');
 
-  if (username == null) return;
+    if (username == null) return;
 
-  final supabaseService = SupabaseService(
-    url: supabaseUrl,
-    anonKey: supabaseKey,
-  );
-
-  final serverData = await supabaseService.getUserData(username);
-
-  for (final item in serverData) {
-    final data = Map<String, dynamic>.from(item);
-
-    final localData = {
-      'house_id': data['house_id'],
-      'serial': data['serial'],
-      'psu': data['psu'],
-      'division': data['division'],
-      'district': data['district'],
-      'ctn': data['ctn'],
-      'upazila': data['upazila'],
-      'psn': data['psn'],
-      'union_name': data['union_name'],
-      'mouza': data['mouza'],
-      'village': data['village'],
-      'ea_code': data['ea_code'],
-      'head': data['head'],
-      'mother': data['mother'],
-      'father': data['father'],
-      'address': data['address'],
-      'mobile': data['mobile'],
-      'profession': data['profession'],
-      'totalMember': data['total_member'],
-      'female': data['female'],
-      'male': data['male'],
-      'comment': data['comment'],
-      'isPartial': data['is_partial'] ?? false,
-      'latitude': data['latitude'],
-      'longitude': data['longitude'],
-      'data_status': data['data_status'],
-      'fromServer': true,
-      'username': data['username'],
-    };
-
-    // 🔥 duplicate avoid (IMPORTANT)
-    final existingIndex = surveyBox.values.toList().indexWhere(
-      (e) => e['house_id'] == localData['house_id'],
+    final supabaseService = SupabaseService(
+      url: supabaseUrl,
+      anonKey: supabaseKey,
     );
 
-    if (existingIndex != -1) {
-      await surveyBox.putAt(existingIndex, localData);
-    } else {
-      await surveyBox.add(localData);
+    final serverData = await supabaseService.getUserData(username);
+
+    for (final item in serverData) {
+      final data = Map<String, dynamic>.from(item);
+
+      final localData = {
+        'house_id': data['house_id'],
+        'serial': data['serial'],
+        'psu': data['psu'],
+        'division': data['division'],
+        'district': data['district'],
+        'ctn': data['ctn'],
+        'upazila': data['upazila'],
+        'psn': data['psn'],
+        'union_name': data['union_name'],
+        'mouza': data['mouza'],
+        'village': data['village'],
+        'ea_code': data['ea_code'],
+        'head': data['head'],
+        'mother': data['mother'],
+        'father': data['father'],
+        'address': data['address'],
+        'mobile': data['mobile'],
+        'profession': data['profession'],
+        'totalMember': data['total_member'],
+        'female': data['female'],
+        'male': data['male'],
+        'comment': data['comment'],
+        'isPartial': data['is_partial'] ?? false,
+        'latitude': data['latitude'],
+        'longitude': data['longitude'],
+        'data_status': data['data_status'],
+        'fromServer': true,
+        'username': data['username'],
+      };
+
+      // 🔥 duplicate avoid (IMPORTANT)
+      final existingIndex = surveyBox.values.toList().indexWhere(
+        (e) => e['house_id'] == localData['house_id'],
+      );
+
+      if (existingIndex != -1) {
+        await surveyBox.putAt(existingIndex, localData);
+      } else {
+        await surveyBox.add(localData);
+      }
+    }
+    final Map<String, int> maxSerialByPsu = {};
+
+    for (final item in surveyBox.values) {
+      if (item is Map) {
+        final psu = item['psu']?.toString() ?? '';
+        final serialStr = item['serial']?.toString() ?? '';
+        final serialNum = int.tryParse(serialStr) ?? 0;
+
+        if (psu.isNotEmpty) {
+          final currentMax = maxSerialByPsu[psu] ?? 0;
+          if (serialNum > currentMax) {
+            maxSerialByPsu[psu] = serialNum;
+          }
+        }
+      }
+    }
+
+    for (final entry in maxSerialByPsu.entries) {
+      await metaBox.put('serial_${entry.key}', entry.value + 1);
     }
   }
-}
 
   Future<void> login() async {
     if (userController.text.trim().isEmpty ||
@@ -167,11 +187,6 @@ class _LoginPageState extends State<LoginPage> {
         return;
       }
 
-      await Supabase.instance.client
-          .from('enumerators')
-          .update({'login_status': 1})
-          .eq('id', userData['id']);
-
       final metaBox = Hive.box('metaBox');
       await metaBox.put('user_id', userData['id']);
       await metaBox.put('username', userData['username']);
@@ -180,7 +195,21 @@ class _LoginPageState extends State<LoginPage> {
       await metaBox.put('psu', userData['psu']);
       await metaBox.put('is_logged_in', true);
 
-      await downloadUserData();
+      try {
+        await downloadUserData();
+      } catch (e) {
+        debugPrint("Download error: $e");
+
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(content: Text("ডাটা ডাউনলোড করতে সমস্যা হয়েছে")),
+        );
+
+        return; // ❗ login stop
+      }
+      await Supabase.instance.client
+          .from('enumerators')
+          .update({'login_status': 1})
+          .eq('id', userData['id']);
 
       if (!mounted) return;
 

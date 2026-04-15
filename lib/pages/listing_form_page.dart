@@ -481,6 +481,7 @@ class _ListingFormPageState extends State<ListingFormPage> {
         status = 2;
       }
       final data = {
+        'username': meta.get('username'),
         'house_id': "${selectedPsu}_${serial.text.trim()}", // Primary Key
         'latitude': pos?.latitude,
         'longitude': pos?.longitude,
@@ -565,6 +566,7 @@ class _ListingFormPageState extends State<ListingFormPage> {
           : 1;
       // ২. ডাটা লোকাল Hive-এ সেভ করার জন্য ম্যাপ তৈরি
       final localData = {
+        'username': meta.get('username'),
         'house_id': "${selectedPsu}_${serial.text.trim()}",
         'latitude': pos?.latitude,
         'longitude': pos?.longitude,
