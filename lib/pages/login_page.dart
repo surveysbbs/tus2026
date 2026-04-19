@@ -209,7 +209,7 @@ class _LoginPageState extends State<LoginPage> {
       await Supabase.instance.client
           .from('enumerators')
           .update({'login_status': 1})
-          .eq('id', userData['id']);
+          .eq('username', userData['username']);
 
       if (!mounted) return;
 
@@ -257,23 +257,29 @@ class _LoginPageState extends State<LoginPage> {
               const SizedBox(height: 20),
 
               const Text(
-                "টাইম ইউজ সার্ভে (TUS) ২০২৬",
+                "টাইম ইউজ সার্ভে ২০২৬",
                 textAlign: TextAlign.center,
                 style: TextStyle(
-                  fontSize: 22,
+                  fontSize: 26,
                   fontWeight: FontWeight.bold,
-                  color: Colors.black87,
+                  color: Color.fromARGB(221, 93, 42, 235),
                 ),
               ),
               const Text(
                 "লিস্টিং অপারেশন",
                 textAlign: TextAlign.center,
-                style: TextStyle(fontSize: 18, color: Colors.black87),
+                style: TextStyle(
+                  fontSize: 22,
+                  color: Color.fromARGB(221, 93, 79, 227),
+                ),
               ),
               const Text(
                 "ব্যবহারকারী লগইন",
                 textAlign: TextAlign.center,
-                style: TextStyle(fontSize: 16, color: Colors.black87),
+                style: TextStyle(
+                  fontSize: 20,
+                  color: Color.fromARGB(221, 133, 108, 234),
+                ),
               ),
 
               const SizedBox(height: 40),

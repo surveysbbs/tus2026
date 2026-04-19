@@ -16,7 +16,7 @@ class PartialListPage extends StatelessWidget {
       appBar: AppBar(
         title: const Text("আংশিক সংগৃহীত তালিকা"),
         backgroundColor:
-            Colors.orange.shade800, // আংশিক তালিকার সাথে মিল রেখে কালার
+            Colors.brown.shade800, // আংশিক তালিকার সাথে মিল রেখে কালার
         foregroundColor: Colors.white,
       ),
 
