@@ -27,13 +27,17 @@ class _SavedListPageState extends State<SavedListPage> {
       return;
     }
 
-    // SyncPage যেহেতু পুরো বক্স চেক করে unsynced ডাটা পাঠায়,
-    // তাই সরাসরি সেখানে পাঠিয়ে দিতে।
+    debugPrint("SELECTED INDEXES = $selectedIndexes");
     Navigator.push(
       context,
       MaterialPageRoute(
-        builder: (_) => SyncPage(supabaseService: SupabaseService(url: supabaseUrl,
-              anonKey: supabaseKey,)),
+        builder: (_) => SyncPage(
+          supabaseService: SupabaseService(
+            url: supabaseUrl,
+            anonKey: supabaseKey,
+          ),
+          selectedIndexes: selectedIndexes.toList(),
+        ),
       ),
     ).then((_) {
       // সিঙ্ক শেষ করে ফিরে আসলে সিলেকশন ক্লিয়ার করে দেওয়া

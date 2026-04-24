@@ -91,11 +91,13 @@ class _ListingFormPageState extends State<ListingFormPage> {
   @override
   void initState() {
     super.initState();
-    loadSelectedPsuAndGeo();
 
     // fill existing data in edit/view mode
     if (widget.editData != null) {
       final d = widget.editData!;
+
+      selectedPsu = d['psu']?.toString() ?? '';
+      selectedGeo = Map<String, dynamic>.from(d);
 
       serial.text = d['serial']?.toString() ?? '';
       head.text = d['head']?.toString() ?? '';
@@ -109,6 +111,7 @@ class _ListingFormPageState extends State<ListingFormPage> {
       male.text = d['male']?.toString() ?? '';
       comment.text = d['comment']?.toString() ?? '';
     } else {
+      loadSelectedPsuAndGeo();
       // generate PSU-wise serial for new record
       final psu = meta.get('selected_psu')?.toString() ?? '';
       final key = 'serial_$psu';
@@ -134,23 +137,29 @@ class _ListingFormPageState extends State<ListingFormPage> {
   }
 
   Future<Position?> _getCurrentLocation() async {
-    bool serviceEnabled;
-    LocationPermission permission;
+    try {
+      bool serviceEnabled;
+      LocationPermission permission;
 
-    serviceEnabled = await Geolocator.isLocationServiceEnabled();
-    if (!serviceEnabled) return null;
+      serviceEnabled = await Geolocator.isLocationServiceEnabled();
+      if (!serviceEnabled) return null;
 
-    permission = await Geolocator.checkPermission();
-    if (permission == LocationPermission.denied) {
-      permission = await Geolocator.requestPermission();
-      if (permission == LocationPermission.denied) return null;
+      permission = await Geolocator.checkPermission();
+      if (permission == LocationPermission.denied) {
+        permission = await Geolocator.requestPermission();
+        if (permission == LocationPermission.denied) return null;
+      }
+
+      if (permission == LocationPermission.deniedForever) return null;
+
+      return await Geolocator.getCurrentPosition(
+        desiredAccuracy: LocationAccuracy.high,
+        timeLimit: const Duration(seconds: 8),
+      );
+    } catch (e) {
+      debugPrint("Location error: $e");
+      return null;
     }
-
-    if (permission == LocationPermission.deniedForever) return null;
-
-    return await Geolocator.getCurrentPosition(
-      desiredAccuracy: LocationAccuracy.high,
-    );
   }
 
   // load selected PSU from Hive and fetch geocode from Supabase
@@ -567,7 +576,11 @@ class _ListingFormPageState extends State<ListingFormPage> {
     }
 
     try {
+      debugPrint("sendToServer start");
       Position? pos = await _getCurrentLocation();
+      debugPrint("location done: $pos");
+
+      debugPrint("before local save");
 
       // স্ট্যাটাস নির্ধারণ
       int status =
@@ -637,6 +650,7 @@ class _ListingFormPageState extends State<ListingFormPage> {
           final next = (meta.get(key) ?? 1) + 1;
           await meta.put(key, next);
         } else {
+          if (!mounted) return;
           ScaffoldMessenger.of(context).showSnackBar(
             const SnackBar(content: Text("এই খানার তথ্য আগে থেকেই আছে")),
           );

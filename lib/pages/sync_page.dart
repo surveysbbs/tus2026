@@ -6,8 +6,13 @@ import '../services/supabase_service.dart';
 
 class SyncPage extends StatefulWidget {
   final SupabaseService supabaseService;
+  final List<int>? selectedIndexes;
 
-  const SyncPage({super.key, required this.supabaseService});
+  const SyncPage({
+    super.key,
+    required this.supabaseService,
+    this.selectedIndexes,
+  });
 
   @override
   State<SyncPage> createState() => _SyncPageState();
@@ -20,6 +25,7 @@ class _SyncPageState extends State<SyncPage> {
   int total = 0;
   int success = 0;
   int fail = 0;
+  bool isSuccess = false;
 
   @override
   void initState() {
@@ -31,13 +37,44 @@ class _SyncPageState extends State<SyncPage> {
     if (!mounted) return;
     setState(() => syncing = true);
 
-    final List<Map<String, dynamic>> unsynced = box.values
-        .where((e) {
-          final data = e as Map;
-          return (data['fromServer'] == false || data['fromServer'] == null);
-        })
-        .map((e) => Map<String, dynamic>.from(e as Map))
-        .toList();
+    final List<Map<String, dynamic>> unsynced = [];
+    final List<int> syncingIndexes = [];
+
+    final bool selectedMode =
+        widget.selectedIndexes != null && widget.selectedIndexes!.isNotEmpty;
+
+    debugPrint("SYNC PAGE RECEIVED INDEXES = ${widget.selectedIndexes}");
+
+    if (selectedMode) {
+      for (final i in widget.selectedIndexes!) {
+        final raw = box.getAt(i);
+
+        if (raw is Map) {
+          final bool fromServer = raw['fromServer'] == true;
+
+          if (!fromServer) {
+            unsynced.add(Map<String, dynamic>.from(raw));
+            syncingIndexes.add(i);
+          }
+        }
+      }
+    } else {
+      for (int i = 0; i < box.length; i++) {
+        final raw = box.getAt(i);
+
+        if (raw is Map) {
+          final bool fromServer = raw['fromServer'] == true;
+
+          if (!fromServer) {
+            unsynced.add(Map<String, dynamic>.from(raw));
+            syncingIndexes.add(i);
+          }
+        }
+      }
+    }
+
+    debugPrint("UPLOAD COUNT = ${unsynced.length}");
+    debugPrint("SYNCING INDEXES = $syncingIndexes");
 
     total = unsynced.length;
     success = 0;
@@ -67,17 +104,6 @@ class _SyncPageState extends State<SyncPage> {
           'union_name': e['union_name'],
           'mouza': e['mouza'],
           'village': e['village'],
-          'division_code': e['division_code'],
-          'district_code': e['district_code'],
-          'ctc': e['ctc'],
-          'upazila_code': e['upazila_code'],
-          'psc': e['psc'],
-          'union_code': e['union_code'],
-          'mouza_code': e['mouza_code'],
-          'village_code': e['village_code'],
-          'rmo_tus': e['rmo_tus'],
-          'rmo_phc': e['rmo_phc'],
-          'ea_code': e['ea_code'],
           'head': e['head'] ?? '',
           'mother': e['mother'] ?? '',
           'father': e['father'] ?? '',
@@ -98,44 +124,44 @@ class _SyncPageState extends State<SyncPage> {
 
       await widget.supabaseService.bulkUpsert(uploadData);
 
-      for (int i = 0; i < box.length; i++) {
+      for (final i in syncingIndexes) {
         final raw = box.getAt(i);
+
         if (raw is Map) {
           final updated = Map<String, dynamic>.from(raw);
-          final shouldSync =
-              (updated['fromServer'] == false || updated['fromServer'] == null);
-
-          if (shouldSync) {
-            updated['fromServer'] = true;
-            await box.putAt(i, updated);
-          }
+          updated['fromServer'] = true;
+          await box.putAt(i, updated);
         }
       }
 
       success = total;
+      isSuccess = true;
     } catch (err) {
       fail = total;
+      isSuccess = false;
       debugPrint("Bulk Sync failed: $err");
     }
 
     if (!mounted) return;
     setState(() => syncing = false);
-
     ScaffoldMessenger.of(context).showSnackBar(
-      SnackBar(
-        content: Text(
-          success > 0
-              ? "সব তথ্য সফলভাবে সার্ভারে পাঠানো হয়েছে"
-              : "তথ্য পাঠানো সম্ভব হয়নি, ইন্টারনেট চেক করুন।",
-        ),
-        duration: const Duration(seconds: 4),
-      ),
-    );
+  SnackBar(
+    content: Text(
+      success > 0
+          ? "সব তথ্য সফলভাবে সার্ভারে পাঠানো হয়েছে"
+          : "তথ্য পাঠানো সম্ভব হয়নি, আবার চেষ্টা করুন।",
+    ),
+    duration: const Duration(seconds: 2),
+  ),
+);
 
-    if (success > 0) {
-      await Future.delayed(const Duration(seconds: 2));
-      if (mounted) Navigator.pop(context);
-    }
+if (success > 0) {
+  await Future.delayed(const Duration(seconds: 2));
+
+  if (mounted) {
+    Navigator.pop(context);
+  }
+}
   }
 
   @override
@@ -152,7 +178,11 @@ class _SyncPageState extends State<SyncPage> {
                   Text("প্রেরিত হচ্ছে..."),
                 ],
               )
-            : Text("সার্ভারে পাঠানো হয়েছে"),
+            : Text(
+                isSuccess
+                    ? "সার্ভারে সফলভাবে পাঠানো হয়েছে"
+                    : "সার্ভারে পাঠানো যায়নি, আবার চেষ্টা করুন",
+              ),
       ),
     );
   }

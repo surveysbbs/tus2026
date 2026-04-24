@@ -98,10 +98,46 @@ class _DashboardPageState extends State<DashboardPage>
     }
   }
 
+  Future<void> loadDataInBackground() async {
+    try {
+      final metaBox = Hive.box('metaBox');
+      final surveyBox = Hive.box('surveyBox');
+
+      final username = metaBox.get('username');
+      if (username == null) return;
+
+      final supabaseService = SupabaseService(
+        url: supabaseUrl,
+        anonKey: supabaseKey,
+      );
+
+      final serverData = await supabaseService.getUserData(username);
+
+      // ⚠️ UI freeze এড়াতে batch update
+      for (final item in serverData) {
+        final data = Map<String, dynamic>.from(item);
+
+        final exists = surveyBox.values.any(
+          (e) => e['house_id'] == data['house_id'],
+        );
+
+        if (!exists) {
+          await surveyBox.add(data);
+        }
+      }
+    } catch (e) {
+      debugPrint("Dashboard background load error: $e");
+    }
+  }
+
   @override
   void initState() {
     super.initState();
     loadAssignedPsus();
+
+    WidgetsBinding.instance.addPostFrameCallback((_) {
+      loadDataInBackground();
+    });
   }
 
   @override

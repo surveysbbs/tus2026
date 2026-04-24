@@ -15,12 +15,12 @@ import 'config/supabase_config.dart';
 @pragma('vm:entry-point')
 void callbackDispatcher() {
   Workmanager().executeTask((task, inputData) async {
+    Box? box;
     try {
-      
       final Directory appDocDir = await getApplicationDocumentsDirectory();
       Hive.init(appDocDir.path);
 
-      final box = await Hive.openBox('surveyBox');
+      box = await Hive.openBox('surveyBox');
 
       final supabaseService = SupabaseService(
         url: supabaseUrl,
@@ -33,16 +33,59 @@ void callbackDispatcher() {
         if (item is Map) {
           final data = Map<String, dynamic>.from(item);
           final bool fromServer = data['fromServer'] == true;
-          final int status = data['data_status'] ?? 0;
+          //final int status = int.tryParse('${data['data_status'] ?? 0}') ?? 0;
 
-          if (!fromServer && status != 0) {
+          if (!fromServer) {
             unsyncedData.add(data);
           }
         }
       }
 
       if (unsyncedData.isNotEmpty) {
-        await supabaseService.bulkUpsert(unsyncedData);
+        final uploadData = unsyncedData.map((e) {
+          return {
+            'username': e['username'],
+            'house_id': e['house_id'] ?? "${e['psu']}_${e['serial']}",
+            'serial': e['serial'] ?? '',
+            'psu': e['psu'] ?? '',
+            'division': e['division'],
+            'district': e['district'],
+            'ctn': e['ctn'],
+            'upazila': e['upazila'],
+            'psn': e['psn'],
+            'union_name': e['union_name'],
+            'mouza': e['mouza'],
+            'village': e['village'],
+            'division_code': e['division_code'],
+            'district_code': e['district_code'],
+            'ctc': e['ctc'],
+            'upazila_code': e['upazila_code'],
+            'psc': e['psc'],
+            'union_code': e['union_code'],
+            'mouza_code': e['mouza_code'],
+            'village_code': e['village_code'],
+            'rmo_tus': e['rmo_tus'],
+            'rmo_phc': e['rmo_phc'],
+            'ea_code': e['ea_code'],
+            'head': e['head'] ?? '',
+            'mother': e['mother'] ?? '',
+            'father': e['father'] ?? '',
+            'address': e['address'] ?? '',
+            'mobile': e['mobile'] ?? '',
+            'profession': e['profession'] ?? '',
+            'total_member': e['totalMember'],
+            'female': e['female'],
+            'male': e['male'],
+            'comment': e['comment'] ?? '',
+            'is_partial': e['isPartial'] ?? false,
+            'latitude': e['latitude'],
+            'longitude': e['longitude'],
+            'data_status': e['data_status'],
+            'updated_at': DateTime.now().toIso8601String(),
+          };
+        }).toList();
+
+        await supabaseService.bulkUpsert(uploadData);
 
         for (int i = 0; i < box.length; i++) {
           final rawItem = box.getAt(i);
@@ -51,9 +94,9 @@ void callbackDispatcher() {
             final item = Map<String, dynamic>.from(rawItem);
 
             final bool fromServer = item['fromServer'] == true;
-            final int status = item['data_status'] ?? 0;
+            //final int status = int.tryParse('${item['data_status'] ?? 0}') ?? 0;
 
-            if (!fromServer && status != 0) {
+            if (!fromServer) {
               item['fromServer'] = true;
               await box.putAt(i, item);
             }
@@ -65,6 +108,9 @@ void callbackDispatcher() {
       return true;
     } catch (e) {
       debugPrint("Background Sync Error: $e");
+      if (box != null && box.isOpen) {
+        await box.close();
+      }
       return false;
     }
   });

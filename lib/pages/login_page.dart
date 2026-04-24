@@ -60,7 +60,6 @@ class _LoginPageState extends State<LoginPage> {
     final surveyBox = Hive.box('surveyBox');
 
     final username = metaBox.get('username');
-
     if (username == null) return;
 
     final supabaseService = SupabaseService(
@@ -70,51 +69,43 @@ class _LoginPageState extends State<LoginPage> {
 
     final serverData = await supabaseService.getUserData(username);
 
-    for (final item in serverData) {
-      final data = Map<String, dynamic>.from(item);
+    final existingMap = <String, int>{};
 
-      final localData = {
-        'house_id': data['house_id'],
-        'serial': data['serial'],
-        'psu': data['psu'],
-        'division': data['division'],
-        'district': data['district'],
-        'ctn': data['ctn'],
-        'upazila': data['upazila'],
-        'psn': data['psn'],
-        'union_name': data['union_name'],
-        'mouza': data['mouza'],
-        'village': data['village'],
-        'ea_code': data['ea_code'],
-        'head': data['head'],
-        'mother': data['mother'],
-        'father': data['father'],
-        'address': data['address'],
-        'mobile': data['mobile'],
-        'profession': data['profession'],
-        'totalMember': data['total_member'],
-        'female': data['female'],
-        'male': data['male'],
-        'comment': data['comment'],
-        'isPartial': data['is_partial'] ?? false,
-        'latitude': data['latitude'],
-        'longitude': data['longitude'],
-        'data_status': data['data_status'],
-        'fromServer': true,
-        'username': data['username'],
-      };
+    for (int i = 0; i < surveyBox.length; i++) {
+      final item = surveyBox.getAt(i);
 
-      // 🔥 duplicate avoid (IMPORTANT)
-      final existingIndex = surveyBox.values.toList().indexWhere(
-        (e) => e['house_id'] == localData['house_id'],
-      );
-
-      if (existingIndex != -1) {
-        await surveyBox.putAt(existingIndex, localData);
-      } else {
-        await surveyBox.add(localData);
+      if (item is Map) {
+        final houseId = item['house_id'];
+        if (houseId != null) {
+          existingMap[houseId.toString()] = i;
+        }
       }
     }
+
+    for (final item in serverData) {
+      final raw = Map<String, dynamic>.from(item);
+
+      final houseId = raw['house_id']?.toString();
+      if (houseId == null || houseId.isEmpty) continue;
+
+      final data = {
+        ...raw,
+
+        // server field -> app field
+        'totalMember': raw['total_member'],
+        'isPartial': raw['is_partial'] ?? false,
+
+        // server থেকে আসা মানে already synced
+        'fromServer': true,
+      };
+
+      if (existingMap.containsKey(houseId)) {
+        await surveyBox.putAt(existingMap[houseId]!, data);
+      } else {
+        await surveyBox.add(data);
+      }
+    }
+
     final Map<String, int> maxSerialByPsu = {};
 
     for (final item in surveyBox.values) {
@@ -123,11 +114,8 @@ class _LoginPageState extends State<LoginPage> {
         final serialStr = item['serial']?.toString() ?? '';
         final serialNum = int.tryParse(serialStr) ?? 0;
 
-        if (psu.isNotEmpty) {
-          final currentMax = maxSerialByPsu[psu] ?? 0;
-          if (serialNum > currentMax) {
-            maxSerialByPsu[psu] = serialNum;
-          }
+        if (psu.isNotEmpty && serialNum > (maxSerialByPsu[psu] ?? 0)) {
+          maxSerialByPsu[psu] = serialNum;
         }
       }
     }
@@ -195,17 +183,6 @@ class _LoginPageState extends State<LoginPage> {
       await metaBox.put('psu', userData['psu']);
       await metaBox.put('is_logged_in', true);
 
-      try {
-        await downloadUserData();
-      } catch (e) {
-        debugPrint("Download error: $e");
-
-        ScaffoldMessenger.of(context).showSnackBar(
-          const SnackBar(content: Text("ডাটা ডাউনলোড করতে সমস্যা হয়েছে")),
-        );
-
-        return; // ❗ login stop
-      }
       await Supabase.instance.client
           .from('enumerators')
           .update({'login_status': 1})
@@ -217,6 +194,13 @@ class _LoginPageState extends State<LoginPage> {
         context,
         MaterialPageRoute(builder: (_) => const DashboardPage()),
       );
+      Future.microtask(() async {
+        try {
+          await downloadUserData();
+        } catch (e) {
+          debugPrint("Download error: $e");
+        }
+      });
     } catch (e) {
       if (!mounted) return;
 

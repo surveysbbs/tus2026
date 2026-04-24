@@ -39,9 +39,9 @@ dependencies:
   geolocator: ^10.1.0
   permission_handler: ^11.3.0
   workmanager: ^0.7.0
+  path_provider: any
 
-  
-  
+    
 
 dev_dependencies:
   flutter_test:
