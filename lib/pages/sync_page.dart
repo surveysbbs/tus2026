@@ -104,6 +104,17 @@ class _SyncPageState extends State<SyncPage> {
           'union_name': e['union_name'],
           'mouza': e['mouza'],
           'village': e['village'],
+          'division_code': e['division_code'],
+          'district_code': e['district_code'],
+          'ctc': e['ctc'],
+          'upazila_code': e['upazila_code'],
+          'psc': e['psc'],
+          'union_code': e['union_code'],
+          'mouza_code': e['mouza_code'],
+          'village_code': e['village_code'],
+          'rmo_tus': e['rmo_tus'],
+          'rmo_phc': e['rmo_phc'],
+          'ea_code': e['ea_code'],
           'head': e['head'] ?? '',
           'mother': e['mother'] ?? '',
           'father': e['father'] ?? '',
@@ -145,23 +156,23 @@ class _SyncPageState extends State<SyncPage> {
     if (!mounted) return;
     setState(() => syncing = false);
     ScaffoldMessenger.of(context).showSnackBar(
-  SnackBar(
-    content: Text(
-      success > 0
-          ? "সব তথ্য সফলভাবে সার্ভারে পাঠানো হয়েছে"
-          : "তথ্য পাঠানো সম্ভব হয়নি, আবার চেষ্টা করুন।",
-    ),
-    duration: const Duration(seconds: 2),
-  ),
-);
+      SnackBar(
+        content: Text(
+          success > 0
+              ? "সব তথ্য সফলভাবে সার্ভারে পাঠানো হয়েছে"
+              : "তথ্য পাঠানো সম্ভব হয়নি, আবার চেষ্টা করুন।",
+        ),
+        duration: const Duration(seconds: 2),
+      ),
+    );
 
-if (success > 0) {
-  await Future.delayed(const Duration(seconds: 2));
+    if (success > 0) {
+      await Future.delayed(const Duration(seconds: 2));
 
-  if (mounted) {
-    Navigator.pop(context);
-  }
-}
+      if (mounted) {
+        Navigator.pop(context);
+      }
+    }
   }
 
   @override
