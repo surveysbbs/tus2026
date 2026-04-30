@@ -66,6 +66,7 @@ flutter:
   uses-material-design: true
   assets:
     - flutter_assets/logo.jpeg
+    - flutter_assets/tus.jpeg
   fonts:
     - family: Nikosh
       fonts:

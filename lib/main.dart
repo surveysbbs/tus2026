@@ -160,11 +160,19 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     final metaBox = Hive.box('metaBox');
     final bool isLoggedIn = metaBox.get('is_logged_in', defaultValue: false);
+    final user = {
+      'username': metaBox.get('username'),
+      'name': metaBox.get('name'),
+      'mobile': metaBox.get('mobile'),
+      'psu': metaBox.get('psu'),
+    };
 
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.indigo, fontFamily: 'Nikosh'),
-      home: isLoggedIn ? const DashboardPage() : const LoginPage(),
+      home: isLoggedIn
+          ? DashboardPage(user: user) 
+          : const LoginPage(),
     );
   }
 }

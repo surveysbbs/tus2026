@@ -27,11 +27,21 @@ class SupabaseService {
 
   //login er por data load
   Future<List<dynamic>> getUserData(String username) async {
-  final data = await supabase
-      .from('surveys')
-      .select()
-      .eq('username', username);
+    final data = await supabase
+        .from('surveys')
+        .select()
+        .eq('username', username);
 
-  return data;
-}
+    return data;
+  }
+
+  Future<int> getLoginStatus(String username) async {
+    final data = await supabase
+        .from('enumerators')
+        .select('login_status')
+        .eq('username', username)
+        .maybeSingle();
+
+    return data?['login_status'] ?? 0;
+  }
 }

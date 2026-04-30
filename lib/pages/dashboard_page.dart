@@ -10,12 +10,16 @@ import 'partial_list_page.dart';
 import 'saved_list_page.dart';
 import 'sync_page.dart';
 import 'support_page.dart';
+import 'login_page.dart';
 
 import '../config/supabase_config.dart';
 
 // ===== DASHBOARD PAGE =====
 class DashboardPage extends StatefulWidget {
-  const DashboardPage({super.key});
+  final Map<String, dynamic> user;
+
+  const DashboardPage({super.key, required this.user});
+  // const DashboardPage({super.key});
 
   @override
   State<DashboardPage> createState() => _DashboardPageState();
@@ -25,6 +29,8 @@ class _DashboardPageState extends State<DashboardPage>
     with SingleTickerProviderStateMixin {
   final Box surveyBox = Hive.box('surveyBox'); // local survey data
   final Box metaBox = Hive.box('metaBox'); // meta info (username, psu etc.)
+  late String currentUserUsername;
+  final service = SupabaseService(url: supabaseUrl, anonKey: supabaseKey);
 
   final supabase = Supabase.instance.client;
 
@@ -98,6 +104,31 @@ class _DashboardPageState extends State<DashboardPage>
     }
   }
 
+  Future<void> checkForceLogout() async {
+    final username = currentUserUsername; // login time save করা
+
+    debugPrint('Current user: $currentUserUsername');
+
+    final status = await service.getLoginStatus(username);
+
+    debugPrint('Login status: $status');
+
+    if (!mounted) return;
+
+    if (status == 0) {
+      // 🔥 force logout
+      Navigator.pushAndRemoveUntil(
+        context,
+        MaterialPageRoute(builder: (_) => const LoginPage()),
+        (route) => false,
+      );
+
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text('You have been logged out by admin')),
+      );
+    }
+  }
+
   Future<void> loadDataInBackground() async {
     try {
       final metaBox = Hive.box('metaBox');
@@ -133,6 +164,13 @@ class _DashboardPageState extends State<DashboardPage>
   @override
   void initState() {
     super.initState();
+    currentUserUsername =
+        widget.user['username']?.toString() ??
+        metaBox.get('username')?.toString() ??
+        '';
+    Future.delayed(const Duration(seconds: 1), () {
+      checkForceLogout();
+    });
     loadAssignedPsus();
 
     WidgetsBinding.instance.addPostFrameCallback((_) {
@@ -367,7 +405,7 @@ class _DashboardPageState extends State<DashboardPage>
                     "আংশিক সংরক্ষিত",
                     partial,
                     Icons.pending,
-                    Colors.orange,
+                    Colors.brown,
                   ),
                   statCard(
                     "সার্ভারে প্রেরিত",

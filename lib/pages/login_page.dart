@@ -192,7 +192,10 @@ class _LoginPageState extends State<LoginPage> {
 
       Navigator.pushReplacement(
         context,
-        MaterialPageRoute(builder: (_) => const DashboardPage()),
+        MaterialPageRoute(
+          builder: (_) =>
+              DashboardPage(user: Map<String, dynamic>.from(userData)),
+        ),
       );
       Future.microtask(() async {
         try {
@@ -230,15 +233,43 @@ class _LoginPageState extends State<LoginPage> {
             children: [
               const SizedBox(height: 20),
 
-              Center(
-                child: Image.asset(
-                  'flutter_assets/logo.jpeg',
-                  height: 120,
-                  fit: BoxFit.contain,
-                ),
+              Row(
+                mainAxisAlignment: MainAxisAlignment.center,
+                children: [
+                  Image.asset(
+                    'flutter_assets/logo.jpeg',
+                    height: 100,
+                    fit: BoxFit.contain,
+                  ),
+                  const SizedBox(width: 20),
+                  Image.asset(
+                    'flutter_assets/tus.jpeg',
+                    height: 100,
+                    fit: BoxFit.contain,
+                  ),
+                ],
               ),
 
               const SizedBox(height: 20),
+              const Text(
+                "গণপ্রজাতন্ত্রী বাংলাদেশ সরকার",
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  fontSize: 30,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.black87,
+                ),
+              ),
+
+              const Text(
+                "বাংলাদেশ পরিসংখ্যান ব্যুরো",
+                textAlign: TextAlign.center,
+                style: TextStyle(
+                  fontSize: 28,
+                  fontWeight: FontWeight.bold,
+                  color: Colors.black87,
+                ),
+              ),
 
               const Text(
                 "টাইম ইউজ সার্ভে ২০২৬",

@@ -133,7 +133,9 @@ class _SyncPageState extends State<SyncPage> {
         };
       }).toList();
 
-      await widget.supabaseService.bulkUpsert(uploadData);
+      await widget.supabaseService
+          .bulkUpsert(uploadData)
+          .timeout(const Duration(seconds: 20));
 
       for (final i in syncingIndexes) {
         final raw = box.getAt(i);

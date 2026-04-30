@@ -1,12 +1,9 @@
 import 'package:flutter/material.dart';
-//import 'package:url_launcher/url_launcher.dart';
-
-//import 'login_page.dart';
 
 class HelpPage extends StatelessWidget {
   const HelpPage({super.key});
 
-   // Define instruction items with type
+  // Define instruction items with type
   final List<Map<String, dynamic>> instructions = const [
     {
       'text': "Ensure your device has a stable internet connection.",
@@ -17,13 +14,11 @@ class HelpPage extends StatelessWidget {
       'type': 'warning',
     },
     {
-      'text': "Fully filled surveys will be sent to the server; partial surveys remain on the device.",
+      'text':
+          "Fully filled surveys will be sent to the server; partial surveys remain on the device.",
       'type': 'info',
     },
-    {
-      'text': "If sync fails, try again after some time.",
-      'type': 'warning',
-    },
+    {'text': "If sync fails, try again after some time.", 'type': 'warning'},
     {
       'text': "Contact support if you encounter repeated server errors.",
       'type': 'tip',
@@ -51,7 +46,7 @@ class HelpPage extends StatelessWidget {
     }
   }
 
-   Color _getColor(String type) {
+  Color _getColor(String type) {
     switch (type) {
       case 'warning':
         return Colors.red.shade400;
@@ -77,10 +72,13 @@ class HelpPage extends StatelessWidget {
               elevation: 2,
               margin: const EdgeInsets.symmetric(vertical: 6),
               shape: RoundedRectangleBorder(
-                  borderRadius: BorderRadius.circular(12)),
+                borderRadius: BorderRadius.circular(12),
+              ),
               child: Padding(
-                padding:
-                    const EdgeInsets.symmetric(vertical: 12, horizontal: 16),
+                padding: const EdgeInsets.symmetric(
+                  vertical: 12,
+                  horizontal: 16,
+                ),
                 child: Row(
                   crossAxisAlignment: CrossAxisAlignment.start,
                   children: [
