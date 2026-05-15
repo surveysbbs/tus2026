@@ -7,12 +7,15 @@ import 'package:tus_listing_app/config/supabase_config.dart';
 
 class SavedListPage extends StatefulWidget {
   const SavedListPage({super.key});
-
   @override
   State<SavedListPage> createState() => _SavedListPageState();
 }
 
 class _SavedListPageState extends State<SavedListPage> {
+  Map<String, List<Map<String, dynamic>>> groupedData = {};
+  List<String> psuTabs = [];
+  String selectedPsu = '';
+
   // সিলেকশন ট্র্যাক করার জন্য সেট
   final Set<int> selectedIndexes = {};
 
@@ -45,6 +48,55 @@ class _SavedListPageState extends State<SavedListPage> {
         selectedIndexes.clear();
       });
     });
+  }
+
+  @override
+  void initState() {
+    super.initState();
+    loadGroupedData();
+  }
+
+  void loadGroupedData() {
+    final rawItems = box.values.toList().asMap().entries.map((e) {
+      final data = Map<String, dynamic>.from(e.value as Map);
+      data['_index'] = e.key;
+      return data;
+    }).toList();
+
+    groupedData.clear();
+
+    for (final item in rawItems) {
+      final psu = item['psu']?.toString() ?? 'Unknown';
+
+      groupedData.putIfAbsent(psu, () => []);
+      groupedData[psu]!.add(item);
+    }
+
+    // latest first
+    for (final psu in groupedData.keys) {
+      groupedData[psu]!.sort((a, b) {
+        final aIndex = a['_index'] ?? 0;
+        final bIndex = b['_index'] ?? 0;
+
+        return bIndex.compareTo(aIndex);
+      });
+    }
+
+    psuTabs = groupedData.keys.toList();
+
+    // latest PSU first
+    psuTabs.sort((a, b) {
+      final aLatest = groupedData[a]!.first['_index'] ?? 0;
+      final bLatest = groupedData[b]!.first['_index'] ?? 0;
+
+      return bLatest.compareTo(aLatest);
+    });
+
+    if (psuTabs.isNotEmpty) {
+      selectedPsu = psuTabs.first;
+    }
+
+    setState(() {});
   }
 
   @override

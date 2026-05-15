@@ -39,6 +39,22 @@ class _DashboardPageState extends State<DashboardPage>
 
   TabController? _tabController;
 
+  int getCollectedCount(String psu) {
+    final surveyBox = Hive.box('surveyBox');
+
+    int count = 0;
+
+    for (final item in surveyBox.values) {
+      if (item is Map) {
+        if ((item['psu']?.toString() ?? '') == psu) {
+          count++;
+        }
+      }
+    }
+
+    return count;
+  }
+
   // ===== LOAD PSU FROM DATABASE =====
   Future<void> loadAssignedPsus() async {
     try {
@@ -277,6 +293,11 @@ class _DashboardPageState extends State<DashboardPage>
   // ===== PSU GEO INFO UI =====
   Widget buildGeoInfo(String psu) {
     final geo = psuGeoMap[psu];
+    final target = int.tryParse('${geo?['target'] ?? 0}') ?? 0;
+
+    final collected = getCollectedCount(psu);
+
+    final progress = target == 0 ? 0.0 : collected / target;
     if (geo == null) return const Center(child: Text("তথ্য পাওয়া যায়নি"));
 
     TextStyle labelStyle = const TextStyle(
@@ -294,33 +315,96 @@ class _DashboardPageState extends State<DashboardPage>
         color: Colors.grey.shade100,
         borderRadius: BorderRadius.circular(8),
       ),
-      child: RichText(
-        text: TextSpan(
-          style: const TextStyle(fontSize: 14, color: Colors.black),
-          children: [
-            TextSpan(text: "বিভাগ: ", style: labelStyle),
-            TextSpan(text: "${geo['division'] ?? ''},   ", style: valueStyle),
-            TextSpan(text: "জেলা: ", style: labelStyle),
-            TextSpan(text: "${geo['district'] ?? ''},   ", style: valueStyle),
-            TextSpan(text: "সিটি কর্পোরেশন: ", style: labelStyle),
-            TextSpan(text: "${geo['ctn'] ?? ''}, \n", style: valueStyle),
-            TextSpan(text: "উপজেলা: ", style: labelStyle),
-            TextSpan(text: "${geo['upazila'] ?? ''},   ", style: valueStyle),
-            TextSpan(text: "পৌরসভা: ", style: labelStyle),
-            TextSpan(text: "${geo['psn'] ?? ''},   ", style: valueStyle),
-            TextSpan(text: "ইউনিয়ন: ", style: labelStyle),
-            TextSpan(
-              text: "${geo['union_name'] ?? ',  '}, \n",
-              style: valueStyle,
+      child: Column(
+        crossAxisAlignment: CrossAxisAlignment.start,
+        children: [
+          Expanded(
+            child: SingleChildScrollView(
+              child: RichText(
+                text: TextSpan(
+                  style: const TextStyle(fontSize: 14, color: Colors.black),
+                  children: [
+                    TextSpan(text: "বিভাগ: ", style: labelStyle),
+                    TextSpan(
+                      text: "${geo['division'] ?? ''},   ",
+                      style: valueStyle,
+                    ),
+
+                    TextSpan(text: "জেলা: ", style: labelStyle),
+                    TextSpan(
+                      text: "${geo['district'] ?? ''},   ",
+                      style: valueStyle,
+                    ),
+
+                    TextSpan(text: "সিটি কর্পোরেশন: ", style: labelStyle),
+                    TextSpan(
+                      text: "${geo['ctn'] ?? ''}, \n",
+                      style: valueStyle,
+                    ),
+
+                    TextSpan(text: "উপজেলা: ", style: labelStyle),
+                    TextSpan(
+                      text: "${geo['upazila'] ?? ''},   ",
+                      style: valueStyle,
+                    ),
+
+                    TextSpan(text: "পৌরসভা: ", style: labelStyle),
+                    TextSpan(
+                      text: "${geo['psn'] ?? ''},   ",
+                      style: valueStyle,
+                    ),
+
+                    TextSpan(text: "ইউনিয়ন: ", style: labelStyle),
+                    TextSpan(
+                      text: "${geo['union_name'] ?? ''}, \n",
+                      style: valueStyle,
+                    ),
+
+                    TextSpan(text: "মৌজা: ", style: labelStyle),
+                    TextSpan(
+                      text: "${geo['mouza'] ?? ''},   ",
+                      style: valueStyle,
+                    ),
+
+                    TextSpan(text: "গ্রাম: ", style: labelStyle),
+                    TextSpan(
+                      text: "${geo['village'] ?? ''},   ",
+                      style: valueStyle,
+                    ),
+
+                    TextSpan(
+                      text: "ইএ (জনশুমারি ও গৃহগণনা ২০২২): ",
+                      style: labelStyle,
+                    ),
+                    TextSpan(
+                      text: "${geo['ea_code'] ?? ''}.",
+                      style: valueStyle,
+                    ),
+                  ],
+                ),
+              ),
             ),
-            TextSpan(text: "মৌজা: ", style: labelStyle),
-            TextSpan(text: "${geo['mouza'] ?? ''},   ", style: valueStyle),
-            TextSpan(text: "গ্রাম: ", style: labelStyle),
-            TextSpan(text: "${geo['village'] ?? ''},   ", style: valueStyle),
-            TextSpan(text: "ইএ (জনশুমারি ও গৃহগণনা ২০২২): ", style: labelStyle),
-            TextSpan(text: "${geo['ea_code'] ?? ''}.", style: valueStyle),
-          ],
-        ),
+          ),
+
+          const SizedBox(height: 8),
+
+          Text(
+            "সংগৃহীত: $collected / $target",
+            style: const TextStyle(fontWeight: FontWeight.bold),
+          ),
+
+          const SizedBox(height: 6),
+
+          LinearProgressIndicator(
+            value: progress.clamp(0.0, 1.0),
+            minHeight: 10,
+            backgroundColor: Colors.grey.shade300,
+            valueColor: AlwaysStoppedAnimation<Color>(
+              progress >= 1 ? Colors.green : Colors.blue,
+            ),
+            borderRadius: BorderRadius.circular(8),
+          ),
+        ],
       ),
     );
   }
@@ -436,7 +520,7 @@ class _DashboardPageState extends State<DashboardPage>
                     const SizedBox(height: 10),
                     // Geo Info Box
                     SizedBox(
-                      height: 90, // উচ্চতা একটু বাড়ানো হয়েছে
+                      height: 170,
                       child: TabBarView(
                         controller: _tabController,
                         children: assignedPsus

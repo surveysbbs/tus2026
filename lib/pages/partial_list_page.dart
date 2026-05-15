@@ -4,11 +4,68 @@ import 'package:hive_flutter/hive_flutter.dart';
 import 'listing_form_page.dart';
 
 // ===== PARTIAL LIST PAGE =====
-class PartialListPage extends StatelessWidget {
+class PartialListPage extends StatefulWidget {
   const PartialListPage({super.key});
+   @override
+  State<PartialListPage> createState() => _PartialListPageState();
+}
 
+class _PartialListPageState extends State<PartialListPage> {
+  
   // get Hive box
   Box get box => Hive.box('surveyBox');
+  Map<String, List<Map<String, dynamic>>> groupedData = {};
+  List<String> psuTabs = [];
+  String selectedPsu = '';
+
+  @override
+  void initState() {
+    super.initState();
+    loadGroupedData();
+  }
+
+  void loadGroupedData() {
+    final rawItems = box.values.toList().asMap().entries.map((e) {
+      final data = Map<String, dynamic>.from(e.value as Map);
+      data['_index'] = e.key;
+      return data;
+    }).toList();
+
+    groupedData.clear();
+
+    for (final item in rawItems) {
+      final psu = item['psu']?.toString() ?? 'Unknown';
+
+      groupedData.putIfAbsent(psu, () => []);
+      groupedData[psu]!.add(item);
+    }
+
+    // latest first
+    for (final psu in groupedData.keys) {
+      groupedData[psu]!.sort((a, b) {
+        final aIndex = a['_index'] ?? 0;
+        final bIndex = b['_index'] ?? 0;
+
+        return bIndex.compareTo(aIndex);
+      });
+    }
+
+    psuTabs = groupedData.keys.toList();
+
+    // latest PSU first
+    psuTabs.sort((a, b) {
+      final aLatest = groupedData[a]!.first['_index'] ?? 0;
+      final bLatest = groupedData[b]!.first['_index'] ?? 0;
+
+      return bLatest.compareTo(aLatest);
+    });
+
+    if (psuTabs.isNotEmpty) {
+      selectedPsu = psuTabs.first;
+    }
+
+    setState(() {});
+  }
 
   @override
   Widget build(BuildContext context) {

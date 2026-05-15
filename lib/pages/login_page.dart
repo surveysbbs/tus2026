@@ -7,7 +7,8 @@ import 'package:supabase_flutter/supabase_flutter.dart';
 
 import '../services/supabase_service.dart';
 import '../config/supabase_config.dart';
-
+import 'first_login_page.dart';
+import 'forgot_password_page.dart';
 import 'dashboard_page.dart';
 
 class LoginPage extends StatefulWidget {
@@ -148,13 +149,13 @@ class _LoginPageState extends State<LoginPage> {
 
     try {
       final hashedPassword = hashPassword(passController.text.trim());
+
       final userData = await Supabase.instance.client
           .from('enumerators')
           .select()
           .eq('username', userController.text.trim())
           .eq('password_hash', hashedPassword)
           .maybeSingle();
-
       if (!mounted) return;
 
       if (userData == null) {
@@ -172,6 +173,17 @@ class _LoginPageState extends State<LoginPage> {
         );
         generateCaptcha(); // add
         captchaController.clear(); // add
+        return;
+      }
+
+      if ((userData['first_login'] ?? true) == true) {
+        if (!mounted) return;
+
+        Navigator.pushReplacement(
+          context,
+          MaterialPageRoute(builder: (_) => FirstLoginPage(userData: userData)),
+        );
+
         return;
       }
 
@@ -379,7 +391,7 @@ class _LoginPageState extends State<LoginPage> {
                 height: 50,
                 child: ElevatedButton(
                   style: ElevatedButton.styleFrom(
-                    backgroundColor: Colors.blue,
+                    backgroundColor: const Color.fromARGB(255, 9, 210, 113),
                     foregroundColor: Colors.white,
                     shape: RoundedRectangleBorder(
                       borderRadius: BorderRadius.circular(8),
@@ -389,6 +401,29 @@ class _LoginPageState extends State<LoginPage> {
                   child: isLoading
                       ? const CircularProgressIndicator(color: Colors.white)
                       : const Text("লগইন করুন", style: TextStyle(fontSize: 18)),
+                ),
+              ),
+              const SizedBox(height: 15),
+              SizedBox(
+                width: double.infinity,
+                height: 50,
+                child: ElevatedButton(
+                  style: ElevatedButton.styleFrom(
+                    backgroundColor: Colors.blue,
+                    foregroundColor: Colors.white,
+                    shape: RoundedRectangleBorder(
+                      borderRadius: BorderRadius.circular(8),
+                    ),
+                  ),
+                  onPressed: () {
+                    Navigator.push(
+                      context,
+                      MaterialPageRoute(
+                        builder: (_) => const ForgotPasswordPage(),
+                      ),
+                    );
+                  },
+                  child: const Text('Forgot Password?'),
                 ),
               ),
 

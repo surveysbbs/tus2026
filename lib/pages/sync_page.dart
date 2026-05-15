@@ -121,7 +121,7 @@ class _SyncPageState extends State<SyncPage> {
           'address': e['address'] ?? '',
           'mobile': e['mobile'] ?? '',
           'profession': e['profession'] ?? '',
-          'total_member': e['totalMember'],
+          'total_member': e['totalMember'] ?? e['total_member'],
           'female': e['female'],
           'male': e['male'],
           'comment': e['comment'] ?? '',

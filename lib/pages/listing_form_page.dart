@@ -26,7 +26,6 @@ class ListingFormPage extends StatefulWidget {
 }
 
 class _ListingFormPageState extends State<ListingFormPage> {
-  
   // local Hive boxes
   final box = Hive.box('surveyBox');
   final meta = Hive.box('metaBox');
@@ -107,7 +106,8 @@ class _ListingFormPageState extends State<ListingFormPage> {
       address.text = d['address']?.toString() ?? '';
       mobile.text = d['mobile']?.toString() ?? '';
       profession.text = d['profession']?.toString() ?? '';
-      totalMember.text = d['totalMember']?.toString() ?? '';
+      totalMember.text =
+          (d['totalMember'] ?? d['total_member'])?.toString() ?? '';
       female.text = d['female']?.toString() ?? '';
       male.text = d['male']?.toString() ?? '';
       comment.text = d['comment']?.toString() ?? '';
@@ -260,13 +260,18 @@ class _ListingFormPageState extends State<ListingFormPage> {
       child: TextField(
         controller: controller,
         keyboardType: TextInputType.number,
+        maxLength: 2,
         readOnly: widget.isViewOnly,
-        inputFormatters: [digitsOnlyFormatter],
+        inputFormatters: [
+          digitsOnlyFormatter,
+          LengthLimitingTextInputFormatter(2),
+        ],
         onChanged: (_) => setState(() {}),
         decoration: InputDecoration(
           labelText: "$label *",
           labelStyle: const TextStyle(color: Colors.blueGrey),
           border: const OutlineInputBorder(),
+          counterText: "",
           focusedBorder: const OutlineInputBorder(
             borderSide: BorderSide(color: Colors.blue, width: 2),
           ),
@@ -315,6 +320,10 @@ class _ListingFormPageState extends State<ListingFormPage> {
 
     if (totalMember.text.isEmpty && female.text.isEmpty && male.text.isEmpty) {
       return null;
+    }
+
+    if (total > 99) {
+      return "মোট সদস্য সংখ্যা ৯৯ এর চেয়ে বেশি দেয়া হয়েছে, পুনরায় চেক করুন";
     }
 
     if (total < (f + m)) {
@@ -484,7 +493,7 @@ class _ListingFormPageState extends State<ListingFormPage> {
 
       // স্ট্যাটাস নির্ধারণ (আংশিক = ০, পূর্ণাঙ্গ = ১)
       int status = partial ? 0 : 1;
-      // যদি এডিট মোড হয় এবং ডাটাটি আগে থেকেই সার্ভারে পাঠানো হয়ে থাকে (fromServer: true), তবে স্ট্যাটাস ২ (Updated)
+      // যদি এডিট মোড হয় এবং ডাটাটি আগে থেকেই সার্ভারে পাঠানো হয়ে থাকে
       if (widget.editData != null &&
           widget.editData!['fromServer'] == true &&
           !partial) {
@@ -524,7 +533,8 @@ class _ListingFormPageState extends State<ListingFormPage> {
         'mobile': mobile.text.trim(),
         'profession': profession.text.trim(),
         'totalMember': totalMember.text.trim().isEmpty
-            ? null
+            ? (widget.editData?['totalMember'] ??
+                  widget.editData?['total_member'])
             : int.tryParse(totalMember.text.trim()),
         'female': female.text.trim().isEmpty
             ? null
@@ -567,7 +577,6 @@ class _ListingFormPageState extends State<ListingFormPage> {
 
   ///data save kore server e preron
   Future<void> sendToServer() async {
-    
     if (_isSaving) return;
 
     setState(() => _isSaving = true);
@@ -624,7 +633,8 @@ class _ListingFormPageState extends State<ListingFormPage> {
         'mobile': mobile.text.trim(),
         'profession': profession.text.trim(),
         'totalMember': totalMember.text.trim().isEmpty
-            ? null
+            ? (widget.editData?['totalMember'] ??
+                  widget.editData?['total_member'])
             : int.tryParse(totalMember.text.trim()),
         'female': female.text.trim().isEmpty
             ? null
