@@ -46,18 +46,19 @@ class _FirstLoginPageState extends State<FirstLoginPage> {
             'mobile': mobileController.text.trim(),
             'password_hash': hashPassword(passwordController.text.trim()),
             'first_login': false,
-            'login_status': 1,
+            'login_status': 0,
+            'force_password_reset': false,
           })
           .eq('username', widget.userData['username']);
 
       final metaBox = Hive.box('metaBox');
 
+      await metaBox.put('is_logged_in', true);
       await metaBox.put('user_id', widget.userData['id']);
       await metaBox.put('username', widget.userData['username']);
       await metaBox.put('name', nameController.text.trim());
       await metaBox.put('mobile', mobileController.text.trim());
       await metaBox.put('psu', widget.userData['psu']);
-      await metaBox.put('is_logged_in', true);
 
       if (!mounted) return;
 

@@ -170,20 +170,21 @@ class _ListingFormPageState extends State<ListingFormPage> {
 
       if (psu.isEmpty) return;
 
-      final geo = await supabase
-          .from('geocode_master')
-          .select()
-          .eq('psu_code', psu.trim())
-          .maybeSingle();
+      final cachedGeo = meta.get('cached_psu_geo');
 
-      if (!mounted) return;
+      if (cachedGeo != null) {
+        final geoMap = Map<String, dynamic>.from(cachedGeo);
 
-      setState(() {
-        selectedPsu = psu;
-        selectedGeo = geo;
-      });
+        if (!mounted) return;
+
+        setState(() {
+          selectedPsu = psu;
+
+          selectedGeo = Map<String, dynamic>.from(geoMap[psu] ?? {});
+        });
+      }
     } catch (e) {
-      debugPrint('Geo load error: $e');
+      debugPrint("Local geo load error: $e");
     }
   }
 

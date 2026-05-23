@@ -111,12 +111,32 @@ class _DashboardPageState extends State<DashboardPage>
         }
       });
 
+      await metaBox.put('cached_psu_geo', tempGeo);
+
+      await metaBox.put('cached_assigned_psus', psuList);
+
       setState(() {
         assignedPsus = psuList;
         psuGeoMap = tempGeo;
       });
     } catch (e) {
       debugPrint("PSU load error: $e");
+
+      final cachedPsus = metaBox.get('cached_assigned_psus');
+
+      final cachedGeo = metaBox.get('cached_psu_geo');
+
+      if (cachedPsus != null && cachedGeo != null && mounted) {
+        _tabController?.dispose();
+
+        _tabController = TabController(length: cachedPsus.length, vsync: this);
+
+        setState(() {
+          assignedPsus = List<String>.from(cachedPsus);
+
+          psuGeoMap = Map<String, Map<String, dynamic>>.from(cachedGeo);
+        });
+      }
     }
   }
 

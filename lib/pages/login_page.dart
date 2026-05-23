@@ -8,7 +8,7 @@ import 'package:supabase_flutter/supabase_flutter.dart';
 import '../services/supabase_service.dart';
 import '../config/supabase_config.dart';
 import 'first_login_page.dart';
-import 'forgot_password_page.dart';
+//import 'forgot_password_page.dart';
 import 'dashboard_page.dart';
 
 class LoginPage extends StatefulWidget {
@@ -69,6 +69,12 @@ class _LoginPageState extends State<LoginPage> {
     );
 
     final serverData = await supabaseService.getUserData(username);
+
+    debugPrint("SERVER DATA COUNT = ${serverData.length}");
+
+    for (final item in serverData) {
+      debugPrint(item.toString());
+    }
 
     final existingMap = <String, int>{};
 
@@ -186,6 +192,15 @@ class _LoginPageState extends State<LoginPage> {
 
         return;
       }
+      // admin forced password reset
+      if ((userData['force_password_reset'] ?? false) == true) {
+        Navigator.pushReplacement(
+          context,
+          MaterialPageRoute(builder: (_) => FirstLoginPage(userData: userData)),
+        );
+
+        return;
+      }
 
       final metaBox = Hive.box('metaBox');
       await metaBox.put('user_id', userData['id']);
@@ -202,6 +217,14 @@ class _LoginPageState extends State<LoginPage> {
 
       if (!mounted) return;
 
+      try {
+        await downloadUserData();
+      } catch (e) {
+        debugPrint("Download error: $e");
+      }
+
+      if (!mounted) return;
+
       Navigator.pushReplacement(
         context,
         MaterialPageRoute(
@@ -209,13 +232,6 @@ class _LoginPageState extends State<LoginPage> {
               DashboardPage(user: Map<String, dynamic>.from(userData)),
         ),
       );
-      Future.microtask(() async {
-        try {
-          await downloadUserData();
-        } catch (e) {
-          debugPrint("Download error: $e");
-        }
-      });
     } catch (e) {
       if (!mounted) return;
 
@@ -403,7 +419,8 @@ class _LoginPageState extends State<LoginPage> {
                       : const Text("লগইন করুন", style: TextStyle(fontSize: 18)),
                 ),
               ),
-              const SizedBox(height: 15),
+
+              /*   const SizedBox(height: 15),
               SizedBox(
                 width: double.infinity,
                 height: 50,
@@ -423,10 +440,9 @@ class _LoginPageState extends State<LoginPage> {
                       ),
                     );
                   },
-                  child: const Text('Forgot Password?'),
+                //  child: const Text('Forgot Password?'),
                 ),
-              ),
-
+              ),*/
               const SizedBox(height: 50),
 
               const Text(
