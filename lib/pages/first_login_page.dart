@@ -3,7 +3,7 @@ import 'package:crypto/crypto.dart';
 import 'package:flutter/material.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import 'package:hive/hive.dart';
-import 'dashboard_page.dart';
+import 'login_page.dart';
 
 class FirstLoginPage extends StatefulWidget {
   final Map<String, dynamic> userData;
@@ -15,8 +15,8 @@ class FirstLoginPage extends StatefulWidget {
 }
 
 class _FirstLoginPageState extends State<FirstLoginPage> {
-  final nameController = TextEditingController();
-  final mobileController = TextEditingController();
+ // final nameController = TextEditingController();
+  //final mobileController = TextEditingController();
   final passwordController = TextEditingController();
   final confirmPasswordController = TextEditingController();
 
@@ -27,8 +27,8 @@ class _FirstLoginPageState extends State<FirstLoginPage> {
   }
 
   Future<void> saveInfo() async {
-    if (nameController.text.trim().isEmpty ||
-        mobileController.text.trim().isEmpty ||
+    if (//nameController.text.trim().isEmpty ||
+        //mobileController.text.trim().isEmpty ||
         passwordController.text.trim().isEmpty) {
       ScaffoldMessenger.of(
         context,
@@ -42,8 +42,8 @@ class _FirstLoginPageState extends State<FirstLoginPage> {
       await Supabase.instance.client
           .from('enumerators')
           .update({
-            'name': nameController.text.trim(),
-            'mobile': mobileController.text.trim(),
+           // 'name': nameController.text.trim(),
+           // 'mobile': mobileController.text.trim(),
             'password_hash': hashPassword(passwordController.text.trim()),
             'first_login': false,
             'login_status': 0,
@@ -56,17 +56,17 @@ class _FirstLoginPageState extends State<FirstLoginPage> {
       await metaBox.put('is_logged_in', true);
       await metaBox.put('user_id', widget.userData['id']);
       await metaBox.put('username', widget.userData['username']);
-      await metaBox.put('name', nameController.text.trim());
-      await metaBox.put('mobile', mobileController.text.trim());
+      await metaBox.put('name', widget.userData['name']);
+      await metaBox.put('mobile', widget.userData['mobile']);
       await metaBox.put('psu', widget.userData['psu']);
 
       if (!mounted) return;
 
-      Navigator.pushReplacement(
+       Navigator.pushReplacement(
         context,
         MaterialPageRoute(
           builder: (_) =>
-              DashboardPage(user: Map<String, dynamic>.from(widget.userData)),
+              LoginPage(),
         ),
       );
     } catch (e) {
@@ -95,7 +95,7 @@ class _FirstLoginPageState extends State<FirstLoginPage> {
         padding: const EdgeInsets.all(20),
         child: Column(
           children: [
-            TextField(
+           /* TextField(
               controller: nameController,
               decoration: const InputDecoration(labelText: "নাম"),
             ),
@@ -108,7 +108,7 @@ class _FirstLoginPageState extends State<FirstLoginPage> {
               decoration: const InputDecoration(labelText: "মোবাইল নম্বর"),
             ),
 
-            const SizedBox(height: 15),
+            const SizedBox(height: 15),*/
 
             TextField(
               controller: passwordController,

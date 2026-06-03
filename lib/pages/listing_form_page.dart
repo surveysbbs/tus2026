@@ -5,7 +5,7 @@ import 'package:supabase_flutter/supabase_flutter.dart';
 import '../services/supabase_service.dart';
 import 'package:geolocator/geolocator.dart';
 import '../config/supabase_config.dart';
-
+import '../config/app_config.dart';
 import 'sync_page.dart';
 
 class ListingFormPage extends StatefulWidget {
@@ -49,7 +49,10 @@ class _ListingFormPageState extends State<ListingFormPage> {
   // ১. শুধুমাত্র ইংরেজি ইনপুট নিশ্চিত করার জন্য ফিল্টার
   // এটি বাংলা বা অন্য কোনো ভাষা টাইপ করতে বাধা দেবে
   final englishOnlyFormatter = FilteringTextInputFormatter.allow(
-    RegExp(r'[a-zA-Z0-9\s!@#$%^&*(),.?":{}|<>]'),
+    RegExp(r'[a-zA-Z\s]'),
+  );
+  final addressFormatter = FilteringTextInputFormatter.allow(
+    RegExp(r'[a-zA-Z0-9\s!@#$%^&*(),.?":{}|<>/_-]'),
   );
   final digitsOnlyFormatter = FilteringTextInputFormatter.allow(
     RegExp(r'[0-9]'),
@@ -195,6 +198,7 @@ class _ListingFormPageState extends State<ListingFormPage> {
     TextInputType type = TextInputType.text,
     bool readOnly = false,
     bool required = true,
+    bool isAddress = false,
   }) {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 6),
@@ -206,6 +210,8 @@ class _ListingFormPageState extends State<ListingFormPage> {
         inputFormatters: [
           type == TextInputType.number
               ? digitsOnlyFormatter
+              : isAddress
+              ? addressFormatter
               : englishOnlyFormatter,
         ],
         //onChanged: (_) => setState(() {}),
@@ -502,6 +508,8 @@ class _ListingFormPageState extends State<ListingFormPage> {
       }
       final data = {
         'username': meta.get('username'),
+        'app_version': AppConfig.appVersion,
+        'survey_phase': AppConfig.surveyPhase,
         'house_id': "${selectedPsu}_${serial.text.trim()}", // Primary Key
         'latitude': pos?.latitude,
         'longitude': pos?.longitude,
@@ -602,6 +610,8 @@ class _ListingFormPageState extends State<ListingFormPage> {
       // ২. ডাটা লোকাল Hive-এ সেভ করার জন্য ম্যাপ তৈরি
       final localData = {
         'username': meta.get('username'),
+        'app_version': AppConfig.appVersion,
+        'survey_phase': AppConfig.surveyPhase,
         'house_id': "${selectedPsu}_${serial.text.trim()}",
         'latitude': pos?.latitude,
         'longitude': pos?.longitude,
@@ -724,7 +734,7 @@ class _ListingFormPageState extends State<ListingFormPage> {
             field("খানা প্রধানের নাম", head), // নামগুলো ইংরেজিতে দিতে হবে
             field("মাতার নাম", mother),
             field("পিতা/স্বামীর নাম", father),
-            field("ঠিকানা ও হোল্ডিং নম্বর", address),
+            field("ঠিকানা ও হোল্ডিং নম্বর", address, isAddress: true),
 
             // মোবাইল নম্বর ফিল্ড (আগের লজিক অনুযায়ী ইংরেজি ডিজিট লক করা)
             mobileField(),

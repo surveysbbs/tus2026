@@ -309,7 +309,7 @@ class _LoginPageState extends State<LoginPage> {
                 ),
               ),
               const Text(
-                "লিস্টিং অপারেশন",
+                "লিস্টিং অপারেশন (ট্রেনিং ভার্সন ১.০)",
                 textAlign: TextAlign.center,
                 style: TextStyle(
                   fontSize: 22,

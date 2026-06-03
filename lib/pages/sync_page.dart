@@ -1,6 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
-
+import '../config/app_config.dart';
 import '../services/supabase_service.dart';
 //import 'package:tus_listing_app/config/supabase_config.dart';
 
@@ -93,6 +93,8 @@ class _SyncPageState extends State<SyncPage> {
       final List<Map<String, dynamic>> uploadData = unsynced.map((e) {
         return {
           'username': e['username'],
+          'app_version': AppConfig.appVersion,
+          'survey_phase': AppConfig.surveyPhase,
           'house_id': e['house_id'] ?? "${e['psu']}_${e['serial']}",
           'serial': e['serial'] ?? '',
           'psu': e['psu'] ?? '',

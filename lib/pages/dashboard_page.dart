@@ -442,7 +442,7 @@ class _DashboardPageState extends State<DashboardPage>
           children: [
             const Center(
               child: Text(
-                "লিস্টিং ড্যাশবোর্ডে স্বাগতম",
+                "লিস্টিং ড্যাশবোর্ডে স্বাগতম (ট্রেনিং ভার্সন ১.০)",
                 style: TextStyle(fontSize: 20, fontWeight: FontWeight.bold),
               ),
             ),

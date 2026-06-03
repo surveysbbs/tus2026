@@ -5,7 +5,7 @@ import 'package:hive_flutter/hive_flutter.dart';
 import 'package:path_provider/path_provider.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
 import 'package:workmanager/workmanager.dart';
-
+import 'config/app_config.dart';
 import 'services/supabase_service.dart';
 import 'pages/login_page.dart';
 import 'pages/dashboard_page.dart';
@@ -45,6 +45,8 @@ void callbackDispatcher() {
         final uploadData = unsyncedData.map((e) {
           return {
             'username': e['username'],
+            'app_version': AppConfig.appVersion,
+            'survey_phase': AppConfig.surveyPhase,
             'house_id': e['house_id'] ?? "${e['psu']}_${e['serial']}",
             'serial': e['serial'] ?? '',
             'psu': e['psu'] ?? '',
@@ -124,6 +126,15 @@ Future<void> main() async {
     await Hive.initFlutter();
     await Hive.openBox('surveyBox');
     await Hive.openBox('metaBox');
+    final surveyBox = Hive.box('surveyBox');
+    final metaBox = Hive.box('metaBox');
+
+    if (AppConfig.surveyPhase == "final" &&
+        metaBox.get('final_clean_done') != true) {
+      await surveyBox.clear();
+
+      await metaBox.put('final_clean_done', true);
+    }
 
     // Supabase init
     await Supabase.initialize(
@@ -143,7 +154,7 @@ Future<void> main() async {
     await Workmanager().registerPeriodicTask(
       "unique_sync_task_id",
       "autoSyncTask",
-      frequency: const Duration(minutes: 15), //30 korte hobe
+      frequency: const Duration(minutes: 60), //30 korte hobe
       constraints: Constraints(networkType: NetworkType.connected),
     );
   } catch (e) {
@@ -170,9 +181,7 @@ class MyApp extends StatelessWidget {
     return MaterialApp(
       debugShowCheckedModeBanner: false,
       theme: ThemeData(primarySwatch: Colors.indigo, fontFamily: 'Nikosh'),
-      home: isLoggedIn
-          ? DashboardPage(user: user) 
-          : const LoginPage(),
+      home: isLoggedIn ? DashboardPage(user: user) : const LoginPage(),
     );
   }
 }
