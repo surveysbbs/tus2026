@@ -1,0 +1,1001 @@
+psu_code,id,division_code,division,district_code,district,ctc,ctn,upazila_code,upazila,psc,psn,union_code,union_name,mouza_code,mouza,village_code,village,rmo_tus,rmo_phc,ea_code,target
+0003,1004000900109785211008,10,Barishal,04,Barguna,00,,09,Amtali,00,,109,Amtali,785,Uttar Tiakhali,211,Uttar Tiakhali,1,1,008,100
+0001,1004000900250267043001,10,Barishal,04,Barguna,00,,09,Amtali,00,,250,Gulisakhali,267,Gojkhali,043,Debpur,1,1,001,110
+0002,1004000900444417160003,10,Barishal,04,Barguna,00,,09,Amtali,00,,444,Kukua,417,Krishnanagar,160,Pashchim Krishnanagar,1,1,003,95
+0004,1004000920002118111004,10,Barishal,04,Barguna,00,,09,Amtali,20,Amtali Pourasabha,002,Ward No. 02,118,Chaora (Part),111,Khontakata (Uttar),2,2,004,90
+0005,1004001900210311040001,10,Barishal,04,Barguna,00,,19,Bamna,00,,210,Douatala,311,Hogalpati,040,Dakkhin Hogalpati,1,1,001,105
+0011,1004002800143420112001,10,Barishal,04,Barguna,00,,28,Barguna Sadar,00,,143,Badarkhali,420,Kumrakhali,112,Kumrakhali,1,1,001,80
+0007,1004002800212120090002,10,Barishal,04,Barguna,00,,28,Barguna Sadar,00,,212,Dhalua,120,Charakgachhia,090,Islampur Bandargachhia,1,1,002,120
+0006,1004002800445415112002,10,Barishal,04,Barguna,00,,28,Barguna Sadar,00,,445,Keorabania,415,Keorabania,112,Keorabania,1,1,002,120
+0010,1004002800613121020001,10,Barishal,04,Barguna,00,,28,Barguna Sadar,00,,613,Phuljhuri,121,Chhota Gourichanna,020,Baroghar,1,1,001,100
+0009,1004002840001414162008,10,Barishal,04,Barguna,00,,28,Barguna Sadar,40,Barguna Pourasabha,001,Ward No. 01,414,Karaitala Maitha (Part),162,Pashchim Char Colony,2,2,008,120
+0008,1004002840008081070006,10,Barishal,04,Barguna,00,,28,Barguna Sadar,40,Barguna Pourasabha,008,Ward No. 08,081,Barguna(Part),070,Govt. Girls Schoolpara,2,2,006,100
+0012,1004004700343305161003,10,Barishal,04,Barguna,00,,47,Betagi,00,,343,Hosnabad,305,Hosnabad,161,Purba Hosnabad,1,1,003,100
+0013,1004008500175302040005,10,Barishal,04,Barguna,00,,85,Patharghata,00,,175,Char Duani,302,Hoglapasha,040,Dakkhin Hoglapasha,1,1,005,105
+0015,1004008500458412110001,10,Barishal,04,Barguna,00,,85,Patharghata,00,,458,Kanthaltali,412,Kanthaltali,110,Kanthaltali,1,1,001,100
+0014,1004008500676450071003,10,Barishal,04,Barguna,00,,85,Patharghata,00,,676,Rayhanpur,450,Lemua (Part),071,Golbunia,1,1,003,98
+0016,1004008580001598160002,10,Barishal,04,Barguna,00,,85,Patharghata,80,Patharghata Pourasabha,001,Ward No. 01,598,Patharghata (Part),160,Patharghata (Part),2,2,002,120
+0017,1004009000541074151001,10,Barishal,04,Barguna,00,,90,Taltali,00,,541,Nishanbaria,074,Bara Nishanbariachak (Part),151,Nameshepara,1,1,001,120
+0019,1006000200142410111007,10,Barishal,06,Barishal,00,,02,Agailjhara,00,,142,Bagdha,410,Kalirbari,111,Kalirbari,1,1,007,120
+0018,1006000200682076020011,10,Barishal,06,Barishal,00,,02,Agailjhara,00,,682,Ratnapur,076,Baropaika,020,Baropaika,1,1,011,104
+0020,1006000300408126210003,10,Barishal,06,Barishal,00,,03,Babuganj,00,,408,Jahangirnagar,126,Char Uttar Bhutardia,210,Uttar Char Bhutardia,1,1,003,118
+0024,1006000700142084021006,10,Barishal,06,Barishal,00,,07,Bakerganj,00,,142,Bharpasha,084,Bharpasha (Part),021,Bharpasha,2,3,006,120
+0025,1006000700176072020007,10,Barishal,06,Barishal,00,,07,Bakerganj,00,,176,Charadi,072,Balaikathi,020,Balaikathi,1,1,007,110
+0021,1006000700229126030003,10,Barishal,06,Barishal,00,,07,Bakerganj,00,,229,Durgapasha,126,Char Lakkhibardhan,030,Char Lakkhibardhan,1,1,003,120
+0022,1006000700456081020004,10,Barishal,06,Barishal,00,,07,Bakerganj,00,,456,Kalaskathi,081,Bebaz,020,Bebaz,1,1,004,120
+0023,1006000700616689180006,10,Barishal,06,Barishal,00,,07,Bakerganj,00,,616,Padree Shibpur,689,Raghunathpur,180,Raghunathpur,1,1,006,120
+0027,1006001000160800210003,10,Barishal,06,Barishal,00,,10,Banaripara,00,,160,Bisharkandi,800,Umarerpar,210,Umarerpar,1,1,003,110
+0026,1006001000776764200010,10,Barishal,06,Barishal,00,,10,Banaripara,00,,776,Udaykathi,764,Tetla,200,Tetla,1,1,010,110
+0028,1006003200509085020003,10,Barishal,06,Barishal,00,,32,Gaurnadi,00,,509,Mahilara,085,Bejahar,020,Bejahar,1,1,003,115
+0029,1006003267006793210004,10,Barishal,06,Barishal,00,,32,Gaurnadi,67,Gaurnadi Pourasabha,006,Ward No. 06,793,Uttar Bijoypur,210,Uttar Bijoypur,2,2,004,85
+0030,1006003600309428110005,10,Barishal,06,Barishal,00,,36,Hijla,00,,309,Guabaria,428,Kalikapur,110,Kalikapur,1,1,005,105
+0033,1006005100175316080003,10,Barishal,06,Barishal,00,,51,Barishal Sadar (Kotwali),00,,175,Chandpura,316,Hijaltala,080,Hijaltala,1,1,003,120
+0032,1006005100211139030005,10,Barishal,06,Barishal,00,,51,Barishal Sadar (Kotwali),00,,211,Charmonai,139,Chatua,030,Chatua,1,1,005,105
+0031,1006005100745074020004,10,Barishal,06,Barishal,00,,51,Barishal Sadar (Kotwali),00,,745,Tungibaria,074,Baraikandi,020,Baraikandi,1,1,004,95
+0037,1006006200153122131001,10,Barishal,06,Barishal,00,,62,Mehendiganj,00,,153,Bidyanandanpur,122,Char Madhabray,131,Madhabray,1,1,001,100
+0036,1006006200415380214004,10,Barishal,06,Barishal,00,,62,Mehendiganj,00,,415,Jangalia,380,Jangalia,214,Uttar Lengutia,1,1,004,120
+0035,1006006200783612160006,10,Barishal,06,Barishal,00,,62,Mehendiganj,00,,783,Ulania,612,Purba Shatta,160,Purba Shatta,1,1,006,130
+0034,1006006283008277070002,10,Barishal,06,Barishal,00,,62,Mehendiganj,83,Mehendiganj Pourasabha,008,Ward No. 08,277,Gobindapur,070,Gobindapur,2,2,002,110
+0039,1006006900442419042003,10,Barishal,06,Barishal,00,,69,Muladi,00,,442,Kazirchar,419,Kazirchar,042,Dakkhin Kazirchar,1,1,003,120
+0038,1006006900709717190008,10,Barishal,06,Barishal,00,,69,Muladi,00,,709,Safipur,717,Safipur,190,Safipur,1,1,008,120
+0041,1006009400309717190001,10,Barishal,06,Barishal,00,,94,Ujirpur,00,,309,Guthia,717,Shankarpur,190,Shankarpur,1,1,001,95
+0040,1006009400709678180011,10,Barishal,06,Barishal,00,,94,Ujirpur,00,,709,Satla,678,Rajapur,180,Rajapur,1,1,011,130
+0042,1006505100003279070002,10,Barishal,06,Barishal,50,Barishal City Corporation,51,Barishal Sadar (Kotwali),00,,003,Ward No. 03,279,Gauasar,070,Gauasar,2,9,002,100
+0045,1006505100007428165009,10,Barishal,06,Barishal,50,Barishal City Corporation,51,Barishal Sadar (Kotwali),00,,007,Ward No. 07,428,Kaunia (Part),165,Pashchim Bhatikhana Sarak,2,9,009,120
+0043,1006505100014714030004,10,Barishal,06,Barishal,50,Barishal City Corporation,51,Barishal Sadar (Kotwali),00,,014,Ward No. 14,714,Sagardee (Part),030,C & B Road Purba,2,9,004,120
+0044,1006505100022072219003,10,Barishal,06,Barishal,50,Barishal City Corporation,51,Barishal Sadar (Kotwali),00,,022,Ward No. 22,072,Bagura Alekanda (Part),219,Pashchim C&B Road,2,9,003,125
+0046,1006505100026384210004,10,Barishal,06,Barishal,50,Barishal City Corporation,51,Barishal Sadar (Kotwali),00,,026,Ward No. 26,384,Jagua,210,Uttar Jagua,2,9,004,100
+0051,1009001800143070133004,10,Barishal,09,Bhola,00,,18,Bhola Sadar,00,,143,Bapta,070,Bapta (Part),133,Madhya Bapta,2,3,004,108
+0047,1009001800152109030012,10,Barishal,09,Bhola,00,,18,Bhola Sadar,00,,152,Bheduria,109,Char Bheduria,030,Char Bhedaria,1,1,012,90
+0049,1009001800213180040001,10,Barishal,09,Bhola,00,,18,Bhola Sadar,00,,213,Dakkhin Dighaldi,180,Dakkhin Koralia,040,Dakkhin Koralia,1,1,001,98
+0048,1009001800613178040004,10,Barishal,09,Bhola,00,,18,Bhola Sadar,00,,613,Pashchim Ilisha,178,Dakkhin Char Pata,040,Dakkhin Char Pata,1,1,004,100
+0052,1009001800781470120001,10,Barishal,09,Bhola,00,,18,Bhola Sadar,00,,781,Uttar Dighaldi,470,Lamchhi Dighaldi,120,Lamchhi Dighaldi,1,1,001,105
+0050,1009001816002139154002,10,Barishal,09,Bhola,00,,18,Bhola Sadar,16,Bhola Pourasabha,002,Ward No. 02,139,Chhota Algi (Part),154,Officerpara,2,2,002,81
+0055,1009002100309377162010,10,Barishal,09,Bhola,00,,21,Borhanuddin,00,,309,Gangapur,377,Joya,162,Purba Joya,1,1,010,105
+0054,1009002100610590160018,10,Barishal,09,Bhola,00,,21,Borhanuddin,00,,610,Pakkhia,590,Pakkhia,160,Pakkhia,1,1,018,97
+0053,1009002133005415240001,10,Barishal,09,Bhola,00,,21,Borhanuddin,33,Borhanuddin Pourasabha,005,Ward No. 05,415,Kutba (Part),240,Wapda Colony,2,2,001,120
+0061,1009002500118035010014,10,Barishal,09,Bhola,00,,25,Charfasson,00,,118,Abu Bakarpur,035,Abu Bakarpur (Part),010,Abu Bakarpur,1,1,014,120
+0057,1009002500180177040007,10,Barishal,09,Bhola,00,,25,Charfasson,00,,180,Char Kalmi,177,Dakkhin Char Mangal,040,Dakkhin Char Mangal,1,1,007,100
+0059,1009002500251176040004,10,Barishal,09,Bhola,00,,25,Charfasson,00,,251,Ewajpur,176,Dakkhin Char Madraj,040,Dakkhin Char Madraj,1,1,004,100
+0058,1009002500553117145019,10,Barishal,09,Bhola,00,,25,Charfasson,00,,553,Nilkamal,117,Char Jamuna,145,Char Jamuna (1),1,1,019,93
+0056,1009002500588781210014,10,Barishal,09,Bhola,00,,25,Charfasson,00,,588,Osmanganj,781,Uttar Char Fasson,210,Uttar Char Fasson,1,1,014,120
+0060,1009002550004390032001,10,Barishal,09,Bhola,00,,25,Charfasson,50,Charfasson Pourasabha,004,Ward No. 04,390,Jinnagar (Part),032,Collegepara,2,2,001,80
+0063,1009002900185529140002,10,Barishal,09,Bhola,00,,29,Daulatkhan,00,,185,Char Pata,529,Nalgora,140,Nalgorachar,1,1,002,114
+0062,1009002900777784210034,10,Barishal,09,Bhola,00,,29,Daulatkhan,00,,777,Uttar Joynagar,784,Uttar Joynagar,210,Uttar Joynagar,1,1,034,97
+0064,1009002967008113021004,10,Barishal,09,Bhola,00,,29,Daulatkhan,67,Daulatkhan Pourasabha,008,Ward No. 08,113,Char Bara Lamchhidhali (Part),021,Batua,2,2,004,107
+0065,1009005400210419110001,10,Barishal,09,Bhola,00,,54,Lalmohan,00,,210,Dhali Gournagar,419,Karimganj,110,Karimganj,1,1,001,99
+0066,1009005400486122121003,10,Barishal,09,Bhola,00,,54,Lalmohan,00,,486,Lord Hardinge,122,Char Lord Hardinge,121,Lord Hardinge,1,1,003,100
+0067,1009006500341113030001,10,Barishal,09,Bhola,00,,65,Monpura,00,,341,Hajirhat,113,Char Faijuddin,030,Char Faijuddin,1,1,001,116
+0068,1009009100185113043003,10,Barishal,09,Bhola,00,,91,Tazumuddin,00,,185,Chandpur,113,Chandpur,043,Dewanpur,1,1,003,100
+0069,1009009100185118030017,10,Barishal,09,Bhola,00,,91,Tazumuddin,00,,185,Chandpur,118,Char Mozammel,030,Char Mozammel,2,3,017,86
+0071,1042004000151034010002,10,Barishal,42,Jhalokati,00,,40,Jhalokathi Sadar,00,,151,Binaykathi,034,Alokdia,010,Alokdia,1,1,002,120
+0074,1042004000318133030002,10,Barishal,42,Jhalokati,00,,40,Jhalokathi Sadar,00,,318,Gabkhan Dhansiri,133,Chhatrakanda,030,Chhatrakanda,1,1,002,120
+0075,1042004000544422110001,10,Barishal,42,Jhalokati,00,,40,Jhalokathi Sadar,00,,544,Nabagram,422,Khadaikkhira,110,Khadaikkhira,1,1,001,110
+0073,1042004000712726191002,10,Barishal,42,Jhalokati,00,,40,Jhalokathi Sadar,00,,712,Sheikherhat,726,Shirjug Pratappur,191,Shirjug,1,1,002,101
+0072,1042004033002088212001,10,Barishal,42,Jhalokati,00,,40,Jhalokathi Sadar,33,Jhalokathi Pourasabha,002,Ward No. 02,088,Bikna (Part),212,Uttar Chandkathi,2,2,001,120
+0070,1042004033006076141005,10,Barishal,42,Jhalokati,00,,40,Jhalokathi Sadar,33,Jhalokathi Pourasabha,006,Ward No. 06,076,Basanda (Part),141,Nesarabad,2,2,005,120
+0077,1042004300177077020002,10,Barishal,42,Jhalokati,00,,43,Kanthalia,00,,177,Chenchri Rampur,077,Banai,020,Banai,1,1,002,120
+0076,1042004300608484130003,10,Barishal,42,Jhalokati,00,,43,Kanthalia,00,,608,Patikhalghata,484,Marichbunia,130,Marichbunia,1,1,003,110
+0078,1042007300142616160003,10,Barishal,42,Jhalokati,00,,73,Nalchhity,00,,142,Bhairabpasha,616,Premhar,160,Premhar,1,1,003,90
+0083,1042007300450087020002,10,Barishal,42,Jhalokati,00,,73,Nalchhity,00,,450,Kushangal,087,Bindughosh,020,Bindughosh,1,1,002,120
+0080,1042007300544078020006,10,Barishal,42,Jhalokati,00,,73,Nalchhity,00,,544,Nachanmahal,078,Bhabanipur,020,Bhabanipur,1,1,006,100
+0081,1042007300720734190004,10,Barishal,42,Jhalokati,00,,73,Nalchhity,00,,720,Subidpur,734,Subidpur,190,Subidpur,1,1,004,110
+0082,1042007366001502130003,10,Barishal,42,Jhalokati,00,,73,Nalchhity,66,Nalchhity Pourasabha,001,Ward No. 01,502,Malipur,130,Malipur,2,2,003,115
+0079,1042007366009418110002,10,Barishal,42,Jhalokati,00,,73,Nalchhity,66,Nalchhity Pourasabha,009,Ward No. 09,418,Kandapasha,110,Kandapasha,2,2,002,110
+0084,1042008400308604160011,10,Barishal,42,Jhalokati,00,,84,Rajapur,00,,308,Galua,604,Putiakhali,160,Putiakhali,1,1,011,110
+0085,1042008400707163040010,10,Barishal,42,Jhalokati,00,,84,Rajapur,00,,707,Saturia,163,Dakkhin Tarabunia,040,Dakkhin Tarabunia,1,1,010,100
+0086,1078003800143439110003,10,Barishal,78,Patuakhali,00,,38,Bauphal,00,,143,Baga,439,Kaukhali,110,Kaukhali,1,1,003,106
+0087,1078003800445435113002,10,Barishal,78,Patuakhali,00,,38,Bauphal,00,,445,Kachhipara,435,Karkhana,113,Karkhana,1,1,002,82
+0088,1078003800481515130001,10,Barishal,78,Patuakhali,00,,38,Bauphal,00,,481,Keshabpur,515,Mallikduba,130,Mallikduba,1,1,001,103
+0089,1078003800717697180009,10,Barishal,78,Patuakhali,00,,38,Bauphal,00,,717,Surjamuni,697,Ramnagar,180,Ramnagar,1,1,009,106
+0090,1078003816004084022003,10,Barishal,78,Patuakhali,00,,38,Bauphal,16,Bauphal Pourasabha,004,Ward No. 04,084,Bauphal (Part),022,Bauphal,2,2,003,103
+0091,1078005200182380999001,10,Barishal,78,Patuakhali,00,,52,Dashmina,00,,182,Char Borhan,380,Char Sahaha Jalal,999,Char Sahaha Jalal,1,1,001,108
+0092,1078005500507702190001,10,Barishal,78,Patuakhali,00,,55,Dumki,00,,507,Muradia,702,Santoshdi,190,Santoshdi,1,1,001,121
+0093,1078005700177130030001,10,Barishal,78,Patuakhali,00,,57,Galachipa,00,,177,Char Bishwas,130,Char Mahiuddin,030,Char Mahiuddin,1,1,001,106
+0096,1078005700213610160004,10,Barishal,78,Patuakhali,00,,57,Galachipa,00,,213,Dakua,610,Phulkhali,160,Phulkhali,1,1,004,100
+0095,1078005700448425110008,10,Barishal,78,Patuakhali,00,,57,Galachipa,00,,448,Kalagachhia,425,Kalyankalas,110,Kalyankalas,1,1,008,121
+0094,1078005725005036010002,10,Barishal,78,Patuakhali,00,,57,Galachipa,25,Galachipa Pourasabha,005,Ward No. 05,036,Arambagh,010,Arambagh,2,2,002,112
+0100,1078006600176260081001,10,Barishal,78,Patuakhali,00,,66,Kalapara,00,,176,Chakamaiya,260,Gamuribunia,081,Hosnabad,1,1,001,90
+0098,1078006600487442011002,10,Barishal,78,Patuakhali,00,,66,Kalapara,00,,487,Latachapli,442,Latachapli (Part),011,Achhalatpara,1,1,002,90
+0097,1078006600548772219002,10,Barishal,78,Patuakhali,00,,66,Kalapara,00,,548,Nilganj,772,Umedpur,219,Umedpur,1,1,002,83
+0099,1078006650009070196002,10,Barishal,78,Patuakhali,00,,66,Kalapara,50,Kalapara Pourasabha,009,Ward No. 09,070,Badurtali (Part),196,Shantibag,2,2,002,109
+0101,1078007600508704190001,10,Barishal,78,Patuakhali,00,,76,Mirzaganj,00,,508,Madhabkhali,704,Samaddarkathi,190,Samaddarkathi,1,1,001,102
+0103,1078009500143422193004,10,Barishal,78,Patuakhali,00,,95,Patuakhali Sadar,00,,143,Badarpur,422,Khalishakhali,193,Shiali,1,1,004,115
+0104,1078009500411717000007,10,Barishal,78,Patuakhali,00,,95,Patuakhali Sadar,00,,411,Jainkathi,717,Sehakathi,000,Sehakathi,1,1,007,109
+0102,1078009500515533140004,10,Barishal,78,Patuakhali,00,,95,Patuakhali Sadar,00,,515,Madarbunia,533,Nandipara,140,Nandipara,1,1,004,99
+0105,1078009575001421206005,10,Barishal,78,Patuakhali,00,,95,Patuakhali Sadar,75,Patuakhali Pourasabha,001,Ward No. 01,421,Keshabpur (Part),206,Town Jainkathi,2,2,005,116
+0106,1078009575006608177002,10,Barishal,78,Patuakhali,00,,95,Patuakhali Sadar,75,Patuakhali Pourasabha,006,Ward No. 06,608,Patuakhali (Part),177,Pashchim Natun Bazar,2,2,002,102
+0107,1078009700194127030001,10,Barishal,78,Patuakhali,00,,97,Rangabali,00,,194,Chhota Baishdia,127,Char Nazir,030,Char Nazir,1,1,001,104
+0110,1079001400210151062003,10,Barishal,79,Pirojpur,00,,14,Bhandaria,00,,210,Dhaoa,151,Dhaoa,062,Fultala,1,1,003,127
+0108,1079001400543295080003,10,Barishal,79,Pirojpur,00,,14,Bhandaria,00,,543,Nadmula Shialkathi,295,Hetalia,080,Hetalia,1,1,003,105
+0109,1079001410004001001004,10,Barishal,79,Pirojpur,00,,14,Bhandaria,10,Bhandaria Pourasabha,004,Ward No. 04,001,Bhandaria (Part),001,Uttar Purba Bhandaria,2,2,004,110
+0111,1079004700441417110001,10,Barishal,79,Pirojpur,00,,47,Kawkhali,00,,441,Kaukhali,417,Kendua Madhurkati,110,Kendua,1,1,001,90
+0112,1079005800152079181008,10,Barishal,79,Pirojpur,00,,58,Mathbaria,00,,152,Betmore  Rajpara,079,Betmore Rajpara,181,Rajpara,1,1,008,110
+0116,1079005800312158080003,10,Barishal,79,Pirojpur,00,,58,Mathbaria,00,,312,Gulishakhali,158,Dakkhin Halta,080,Hotkhali,1,1,003,110
+0115,1079005800711118030005,10,Barishal,79,Pirojpur,00,,58,Mathbaria,00,,711,Sapleza,118,Charakgachia,030,Charakgachia,1,1,005,100
+0113,1079005800754745201007,10,Barishal,79,Pirojpur,00,,58,Mathbaria,00,,754,Tushkali,745,Tushkhali,201,Tushkhali,1,1,007,125
+0114,1079005825006489142002,10,Barishal,79,Pirojpur,00,,58,Mathbaria,25,Mathbaria Pourasabha,006,Ward No. 06,489,Mathbaria (Part),142,New Market & College Area,2,2,002,131
+0117,1079007600508374161002,10,Barishal,79,Pirojpur,00,,76,Nazirpur,00,,508,Malikhali,374,Jugia,161,Pashchim Jugia,1,1,002,100
+0118,1079007600718071131002,10,Barishal,79,Pirojpur,00,,76,Nazirpur,00,,718,Sheikhmatia,071,Baksi,131,Moukhali,1,1,002,120
+0120,1079008000440615040001,10,Barishal,79,Pirojpur,00,,80,Pirojpur Sadar,00,,440,Kadamtala,615,Porgola,040,Dakkhin Porgola,1,1,001,95
+0121,1079008000724798100001,10,Barishal,79,Pirojpur,00,,80,Pirojpur Sadar,00,,724,Shikdar Mallik,798,Uttar Gabtala,100,Jabaramala,1,1,001,36
+0119,1079008050005614138003,10,Barishal,79,Pirojpur,00,,80,Pirojpur Sadar,50,Pirojpur Pourasabha,005,Ward No. 05,614,Pirojpur,138,Madhyarasta,2,2,003,115
+0122,1079008700210158020001,10,Barishal,79,Pirojpur,00,,87,Nesarabad (Swarupkathi),00,,210,Daihari,158,Daihari,020,Banshtala,1,1,001,115
+0123,1079008700718266070001,10,Barishal,79,Pirojpur,00,,87,Nesarabad (Swarupkathi),00,,718,Sarengkathi,266,Gayeshkathi,070,Gayeshkathi,1,1,001,84
+0124,1079008700736728190003,10,Barishal,79,Pirojpur,00,,87,Nesarabad (Swarupkathi),00,,736,Sutiakati,728,Sutiakathi,190,Sutiakathi,2,3,003,100
+0125,1079009000176418131002,10,Barishal,79,Pirojpur,00,,90,Indurkani,00,,176,Chandipur,418,Kalaran,131,Madhya Kalaran,1,1,002,105
+0126,2003000400109038242003,20,Chattogram,03,Bandarban,00,,04,Alikadam,00,,109,Alikadam,038,Alikadam,242,Saber Miapara,2,3,003,50
+0127,2003000400542749165001,20,Chattogram,03,Bandarban,00,,04,Alikadam,00,,542,Nayapara,749,Tain (Part),165,Mongcha Marma Para,1,1,001,75
+0128,2003001450006074186001,20,Chattogram,03,Bandarban,00,,14,Bandarban Sadar,50,Bandarban Pourasabha,006,Ward No. 06,074,Bandarban (Part),186,Noapara,2,2,001,85
+0129,2003005100109110103001,20,Chattogram,03,Bandarban,00,,51,Lama,00,,109,Aziznagar,110,Chambi,103,Himchharipara,1,1,001,82
+0131,2003005100310073028002,20,Chattogram,03,Bandarban,00,,51,Lama,00,,310,Gajalia,073,Bara Bamu,028,Battalipara,1,1,002,65
+0130,2003005162006111705001,20,Chattogram,03,Bandarban,00,,51,Lama,62,Lama Pourasabha,006,Ward No. 06,111,Chhagal Khaiya (Part),705,Sabek Bilchhari Bangali Para,2,2,001,75
+0132,2003007300209149119001,20,Chattogram,03,Bandarban,00,,73,Naikkhongchhari,00,,209,Dochhari,149,Dochhari,119,Kalur Ghat,1,1,001,50
+0133,2003008900539528012001,20,Chattogram,03,Bandarban,00,,89,Rowangchhari,00,,539,Nowapatang,528,Noapatang,012,Antaha Tripurapara,1,1,001,60
+0134,2012000200516796210001,20,Chattogram,12,Brahmanbaria,00,,02,Akhaura,00,,516,Mogra,796,Umedpur,210,Umedpur,1,1,001,121
+0135,2012000415004079021002,20,Chattogram,12,Brahmanbaria,00,,04,Banchharampur,15,Banchharampur Pourasabha,004,Ward No. 04,079,Banchharampur (Part),021,Banchharampur Bazar,2,2,002,110
+0136,2012000415004079022001,20,Chattogram,12,Brahmanbaria,00,,04,Banchharampur,15,Banchharampur Pourasabha,004,Ward No. 04,079,Banchharampur (Part),022,Banchharampur Bhuiyanbari,2,2,001,121
+0137,2012000700142136030009,20,Chattogram,12,Brahmanbaria,00,,07,Bijoynagar,00,,142,Bishnupur,136,Chhatarpur,030,Chhatarpur,1,1,009,96
+0139,2012001300151377100001,20,Chattogram,12,Brahmanbaria,00,,13,Brahmanbaria Sadar,00,,151,Budhal,377,Jangalisar,100,Jangalisar,1,1,001,120
+0138,2012001366008091021003,20,Chattogram,12,Brahmanbaria,00,,13,Brahmanbaria Sadar,66,Brahmanbaria Pourasabha,008,Ward No. 08,091,Brahmanbaria (Part),021,Brahmanbaria,2,2,003,122
+0140,2012003300118526140005,20,Chattogram,12,Brahmanbaria,00,,33,Ashuganj,00,,118,Ashuganj,526,Naoghat,140,Naoghat,1,1,005,110
+0141,2012006300461071020006,20,Chattogram,12,Brahmanbaria,00,,63,Kasba,00,,461,Kharera,071,Bagair,020,Bagair,1,1,006,104
+0142,2012008500464277070001,20,Chattogram,12,Brahmanbaria,00,,85,Nabinagar,00,,464,Krishnanagar,277,Gazirkandi,070,Gazirkandi,1,1,001,100
+0143,2012009000151164040005,20,Chattogram,12,Brahmanbaria,00,,90,Nasirnagar,00,,151,Burishwar,164,Dakkhin Singgaon,040,Dakkhin Singhagram,1,1,005,120
+0144,2012009400176123180017,20,Chattogram,12,Brahmanbaria,00,,94,Sarail,00,,176,Chunta,123,Chhota Rasulpur,180,Rasulpur,1,1,017,100
+0146,2013002200161082020011,20,Chattogram,13,Chandpur,00,,22,Chandpur Sadar,00,,161,Bishnupur,082,Bishnupur,020,Bishnupur,1,1,011,102
+0145,2013002214005074212006,20,Chattogram,13,Chandpur,00,,22,Chandpur Sadar,14,Chandpur Pourasabha,005,Ward No. 05,074,Bara Raghunathpur (Part),212,Uttar Raghunathpur,2,2,006,108
+0149,2013004500226622160005,20,Chattogram,13,Chandpur,00,,45,Faridganj,00,,226,Dakkhin Paikpara,622,Purba Sahapur,160,Purba Sahapur,1,1,005,133
+0148,2013004500799080020002,20,Chattogram,13,Chandpur,00,,45,Faridganj,00,,799,Uttar Rupsa,080,Baropaika,020,Baropaika,1,1,002,92
+0147,2013004535007174040008,20,Chattogram,13,Chandpur,00,,45,Faridganj,35,Faridganj Pourasabha,007,Ward No. 07,174,Dakkhin Faridganj,040,Dakkhin Faridganj,2,2,008,105
+0150,2013004900355610161006,20,Chattogram,13,Chandpur,00,,49,Hajiganj,00,,355,Hatila Pashchim,610,Patanish,161,Patanish,1,1,006,110
+0151,2013005800452719190001,20,Chattogram,13,Chandpur,00,,58,Kachua,00,,452,Karaiya,719,Srirampur,190,Srirampur,1,1,001,110
+0152,2013007600782071020007,20,Chattogram,13,Chandpur,00,,76,Matlab Dakkhin,00,,782,Uttar Upadi,071,Bahari,020,Bahari,1,1,007,105
+0153,2013007671006161040001,20,Chattogram,13,Chandpur,00,,76,Matlab Dakkhin,71,Matlab Pourasabha,006,Ward No. 06,161,Dhakirgaon,040,Dhakirgaon,2,2,001,105
+0154,2013007900732365040001,20,Chattogram,13,Chandpur,00,,79,Matlab Uttar,00,,732,Sultanabad,365,Islamabad (Part),040,Dakkhin Islamabad,1,1,001,43
+0155,2015000400170528268003,20,Chattogram,15,Chattogram,00,,04,Anwara,00,,170,Barumchara,528,Naldia,268,Naldia,1,1,003,90
+0156,2015000800462604308003,20,Chattogram,15,Chattogram,00,,08,Banshkhali,00,,462,Khankhanabad,604,Premesia,308,Premashia,1,1,003,98
+0157,2015001210006595340010,20,Chattogram,15,Chattogram,00,,12,Boalkhali,10,Boalkhali Pourasabha,006,Ward No. 06,595,Purba Gomdandi (Part),340,Purba Gomdandi,2,2,010,125
+0158,2015001800142370188026,20,Chattogram,15,Chattogram,00,,18,Chandanaish,00,,142,Bailtali,370,Jafarabad,188,Jafarabad,1,1,026,97
+0159,2015003300347594308001,20,Chattogram,15,Chattogram,00,,33,Fatikchhari,00,,347,Harualchhari,594,Pashchim Fatikchhari,308,Pashchim Fatikchhari,1,1,001,100
+0160,2015003700220597308030,20,Chattogram,15,Chattogram,00,,37,Hathazari,00,,220,Dhalai,597,Pashchim Dhalai,308,Pashchim Dhalai-1,1,1,030,105
+0161,2015003900705721368066,20,Chattogram,15,Chattogram,00,,39,Karnaphuli,00,,705,Shikalbaha,721,Shikalbaha,368,Shikalbaha (Part),1,1,066,120
+0162,2015005300411401208005,20,Chattogram,15,Chattogram,00,,53,Mirsarai,00,,411,Jorarganj,401,Khilmurari,208,Khilmurari,1,1,005,125
+0164,2015006100351303148045,20,Chattogram,15,Chattogram,00,,61,Patiya,00,,351,Haidgaon,303,Haidgaon,148,Haidgaon,1,1,045,101
+0163,2015006133001577288001,20,Chattogram,15,Chattogram,00,,61,Patiya,33,Patiya Pourasabha,001,Ward No. 01,577,Okhara,288,Okhara,2,2,001,120
+0165,2015007000621333308003,20,Chattogram,15,Chattogram,00,,70,Rangunia,00,,621,Parua,333,Ichhamati,308,Purba Sahabdinagar,1,1,003,100
+0166,2015007400782293148006,20,Chattogram,15,Chattogram,00,,74,Raozan,00,,782,Urkirchar,293,Harpara,148,Harpara,1,1,006,100
+0167,2015008200445412208008,20,Chattogram,15,Chattogram,00,,82,Satkania,00,,445,Kaliaish,412,Katgar,208,Katgar,1,1,008,110
+0169,2015008600444496248007,20,Chattogram,15,Chattogram,00,,86,Sitakunda,00,,444,Kumira,496,Masjidda,248,Masjidda,1,1,007,120
+0168,2015008683004708348001,20,Chattogram,15,Chattogram,00,,86,Sitakunda,83,Sitakunda Pourasabha,004,Ward No. 04,708,Sitakunda (Part),348,Nij Talukpara,2,2,001,97
+0170,2015160600002412028026,20,Chattogram,15,Chattogram,16,Chattogram City Corporation,06,Bayejid Bostami,00,,002,Ward No. 02,412,Kulgaon,028,Baluchara(Part),2,9,026,120
+0171,2015161000019075028018,20,Chattogram,15,Chattogram,16,Chattogram City Corporation,10,Bakalia,00,,019,Ward No. 19,075,Bakalia (Part),028,Bau Bazar Area,2,9,018,120
+0172,2015161900005113048006,20,Chattogram,15,Chattogram,16,Chattogram City Corporation,19,Chandgaon,00,,005,Ward No. 05,113,Char Rangamatia,048,Char Mohara,2,9,006,123
+0173,2015162000038483070062,20,Chattogram,15,Chattogram,16,Chattogram City Corporation,20,Chattogram Port,00,,038,Ward No. 38,483,Madhya Halishahar (Part),070,Dakkhin Madhya Halishahar (Part-3),2,9,062,100
+0174,2015163100039149069019,20,Chattogram,15,Chattogram,16,Chattogram City Corporation,31,Epz,00,,039,Ward No. 39,149,Dakkihin Halishahar,069,Dakkihin Halishahar (Part-2),2,9,019,115
+0175,2015163500025781148001,20,Chattogram,15,Chattogram,16,Chattogram City Corporation,35,Halishahar,00,,025,Ward No. 25,781,Uttar Halishahar (Part),148,Halishahar Housing Estate,2,9,001,112
+0176,2015164300008600508020,20,Chattogram,15,Chattogram,16,Chattogram City Corporation,43,Khulshi,00,,008,Ward No. 08 (Part),600,Purba Nasirabad (Part),508,Zakir Hossain Road,2,9,020,105
+0177,2015165500012595308050,20,Chattogram,15,Chattogram,16,Chattogram City Corporation,55,Pahartali,00,,012,Ward No. 12,595,Pashchim Nachhirabad (Part),308,Pashchim Nachhhirabad,2,9,050,110
+0178,2015166500040780408098,20,Chattogram,15,Chattogram,16,Chattogram City Corporation,65,Patenga,00,,040,Ward No. 40,780,Uttar Patenga,408,Uttar Patenga (Part-1),2,9,098,120
+0190,2019000900154515031001,20,Chattogram,19,Cumilla,00,,09,Barura,00,,154,Bhauksar,515,Moggaon,031,Chhorta Pukuria,1,1,001,120
+0191,2019001500517037010002,20,Chattogram,19,Cumilla,00,,15,Brahmanpara,00,,517,Malapara,037,Asadnagar,010,Asadnagar,1,1,002,113
+0192,2019001800169073020019,20,Chattogram,19,Cumilla,00,,18,Burichang,00,,169,Burichang,073,Bara Bijoypur,020,Burichang,2,3,019,110
+0193,2019001800711086020003,20,Chattogram,19,Cumilla,00,,18,Burichang,00,,711,Sholanal,086,Bhurbhuria,020,Bhurbhuria,1,1,003,100
+0194,2019002700715727192006,20,Chattogram,19,Cumilla,00,,27,Chandina,00,,715,Suhilpur,727,Suhilpur,192,Suhilpur,1,1,006,90
+0195,2019003100722105020002,20,Chattogram,19,Cumilla,00,,31,Chauddagram,00,,722,Sreepur,105,Bhitarchar,020,Bhitarchar,1,1,002,110
+0196,2019003600322297070010,20,Chattogram,19,Cumilla,00,,36,Daudkandi,00,,322,Gouripur,297,Gopchar,070,Gauripur Bazar,1,1,010,100
+0197,2019004000413130030002,20,Chattogram,19,Cumilla,00,,40,Debidwar,00,,413,Jafarganj,130,Chandina,030,Chandina,1,1,002,103
+0198,2019004070008135030016,20,Chattogram,19,Cumilla,00,,40,Debidwar,70,Debidwar Pourasabha,008,Ward No. 08,135,Chhota Alampur,030,Chhota Alampur,2,2,016,120
+0199,2019006700109606160003,20,Chattogram,19,Cumilla,00,,67,Adarsha Sadar,00,,109,Amratali,606,Purba Krishnapur,160,Purba Khishnapur,1,1,003,110
+0200,2019007200309601160002,20,Chattogram,19,Cumilla,00,,72,Laksam,00,,309,Gobindapur,601,Palkat,160,Palkat,1,1,002,92
+0201,2019007400142745190002,20,Chattogram,19,Cumilla,00,,74,Manoharganj,00,,142,Baishgaon,745,Shaktala,190,Shaktala,1,1,002,105
+0203,2019008100118165252001,20,Chattogram,19,Cumilla,00,,81,Muradnagar,00,,118,Andikot,165,Dalpa,252,Fulghar,1,1,001,90
+0202,2019008100671306080001,20,Chattogram,19,Cumilla,00,,81,Muradnagar,00,,671,Ramchandrapur (Dakkhin),306,Harpakna,080,Harpakna,1,1,001,100
+0204,2019008700613496130002,20,Chattogram,19,Cumilla,00,,87,Nangalkot,00,,613,Peria,496,Madhabpur,130,Madhabpur,1,1,002,105
+0205,2019503300019678180005,20,Chattogram,19,Cumilla,50,Cumilla City Corporation,33,Sadar Dakkhin,00,,019,Ward No. 19,678,Rajapara,180,Rajapara,2,9,005,105
+0206,2019506700009169040004,20,Chattogram,19,Cumilla,50,Cumilla City Corporation,67,Adarsha Sadar,00,,009,Ward No. 09,169,Dharmapur (Part),040,Dharmapur Pashchim,2,9,004,90
+0180,2022001600169077165002,20,Chattogram,22,Cox's Bazar,00,,16,Chakaria,00,,169,Bheola Manikchar,077,Bheola Manikchar,165,Pahariapara,1,1,002,115
+0181,2022001600627600056006,20,Chattogram,22,Cox's Bazar,00,,16,Chakaria,00,,627,Purba Bara Bheola,600,Purba Bara Bheola,056,Eidmanighona,1,1,006,120
+0179,2022001633005406110004,20,Chattogram,22,Cox's Bazar,00,,16,Chakaria,33,Chakaria Pourasabha,005,Ward No. 05,406,Kariaghona,110,Kariaghona (Part),2,2,004,95
+0182,2022002466004113241001,20,Chattogram,22,Cox's Bazar,00,,24,Coxs Bazar Sadar,66,Coxs Bazar Pourasabha,004,Ward No. 04,113,Coxsbazar (Part),241,Sujau Sawdagarpara,2,2,001,126
+0184,2022003200376187021001,20,Chattogram,22,Cox's Bazar,00,,32,Eidgaon,00,,376,Islamabad,187,Eidgaon (Part),021,Berpara,2,3,001,80
+0183,2022003200621261162003,20,Chattogram,22,Cox's Bazar,00,,32,Eidgaon,00,,621,Pokkhali,261,Gomatali,162,Pashchim Gomatali,1,1,003,100
+0185,2022004900443412148003,20,Chattogram,22,Cox's Bazar,00,,49,Maheshkhali,00,,443,Kalarmarchhara,412,Kalarmarchhara,148,Nayapara,1,1,003,100
+0186,2022005600741712081004,20,Chattogram,22,Cox's Bazar,00,,56,Pekua,00,,741,Taitang,712,Sonaichhari,081,Hirabania,1,1,004,105
+0188,2022006600277227223002,20,Chattogram,22,Cox's Bazar,00,,66,Ramu,00,,277,Fatekharkul,227,Fatekharkul,223,Uttar Fatekharkul,2,3,002,100
+0187,2022006600688151020002,20,Chattogram,22,Cox's Bazar,00,,66,Ramu,00,,688,Rashidnagar,151,Dhalirchhara,020,Bara Dhalirchhara,1,1,002,100
+0189,2022009400340485131003,20,Chattogram,22,Cox's Bazar,00,,94,Ukhia,00,,340,Haldia Palang,485,Marichya Palang,131,Marichya Palang,1,1,003,110
+0207,2030001400606300212003,20,Chattogram,30,Feni,00,,14,Chhagalnaiya,00,,606,Pathannagar,300,Haripur,212,Uttar Haripur,1,1,003,124
+0208,2030001415008487130003,20,Chattogram,30,Feni,00,,14,Chhagalnaiya,15,Chhagalnaiya Pourasabha,008,Ward No. 08,487,Matua,130,Matua,2,2,003,120
+0209,2030002500674382100011,20,Chattogram,30,Feni,00,,25,Daganbhuiyan,00,,674,Rajapur,382,Joynarayanpur,100,Joynarayanpur,1,1,011,120
+0210,2030002900219167040012,20,Chattogram,30,Feni,00,,29,Feni Sadar,00,,219,Dharmapur,167,Dharmapur,040,Dharmapur,1,1,012,120
+0211,2030002900614166040001,20,Chattogram,30,Feni,00,,29,Feni Sadar,00,,614,Panchgachhia,166,Dhalia,040,Dhalia,1,1,001,110
+0212,2030002950007084022002,20,Chattogram,30,Feni,00,,29,Feni Sadar,50,Feni Pourasabha,007,Ward No. 07,084,Birinchi (Part),022,Birinchi,2,2,002,120
+0213,2030002950017671184003,20,Chattogram,30,Feni,00,,29,Feni Sadar,50,Feni Pourasabha,017,Ward No. 17,671,Rampur (Part),184,Rampur (Part-3),2,2,003,110
+0214,2030005100142489130004,20,Chattogram,30,Feni,00,,51,Parashuram,00,,142,Box Mahmud,489,Mohammadpur,130,Mohammadpur,1,1,004,120
+0215,2030009400186716190005,20,Chattogram,30,Feni,00,,94,Sonagazi,00,,186,Char Darbesh,716,Senerkhil,190,Senerkhil,1,1,005,110
+0216,2046004300210154166001,20,Chattogram,46,Khagrachhari,00,,43,Dighinala,00,,210,Dighinala,154,Dighinala,166,No.2 Noapara,1,1,001,40
+0217,2046004700341074167001,20,Chattogram,46,Khagrachhari,00,,47,Guimara,00,,341,Hafchhari,074,Bara Pilak,167,Pashchim Bara Pilak,1,1,001,80
+0218,2046004900608589019001,20,Chattogram,46,Khagrachhari,00,,49,Khagrachhari Sadar,00,,608,Perachhara,589,Perachhara (Part),019,12 No. Prokalpa Gram,2,3,001,92
+0219,2046006100474149033001,20,Chattogram,46,Khagrachhari,00,,61,Lakkhichhari,00,,474,Lakkhichhari,149,Bara Dhurung,033,Chengi Mukhpara,1,1,001,68
+0220,2046006700507490275002,20,Chattogram,46,Khagrachhari,00,,67,Manikchhari,00,,507,Manikchhari,490,Manikchhari (Part),275,Uttar Fakirnalapara,1,1,002,55
+0222,2046007000750746136004,20,Chattogram,46,Khagrachhari,00,,70,Matiranga,00,,750,Taindang,746,Taindang,136,Majhpara,1,1,004,65
+0221,2046007062007489087001,20,Chattogram,46,Khagrachhari,00,,70,Matiranga,62,Matiranga Pourasabha,007,Ward No. 07,489,Matiranga (Part),087,Haspatalpara,2,2,001,80
+0224,2051003300202787210001,20,Chattogram,51,Lakshmipur,00,,33,Kamalnagar,00,,202,Char Lawrence,787,Uttar Char Lawrence,210,Uttar Char Lawrence,1,1,001,110
+0223,2051003300345112100060,20,Chattogram,51,Lakshmipur,00,,33,Kamalnagar,00,,345,Hajirhat,112,Char Jangalia,100,Jangalia,2,3,060,87
+0227,2051004300187808210009,20,Chattogram,51,Lakshmipur,00,,43,Lakshmipur Sadar,00,,187,Char Ramani,808,Uttar Char Ramanimohan,210,Uttar Char Ramanimohan,1,1,009,112
+0225,2051004300451621160002,20,Chattogram,51,Lakshmipur,00,,43,Lakshmipur Sadar,00,,451,Kushakhali,621,Pukurdia,160,Pukurdia,1,1,002,116
+0226,2051004325010503131009,20,Chattogram,51,Lakshmipur,00,,43,Lakshmipur Sadar,25,Lakshmipur Pourasabha,010,Ward No. 10,503,Majupur (Part),131,Madhya Majupur,2,2,009,120
+0228,2051005800176683180015,20,Chattogram,51,Lakshmipur,00,,58,Raipur,00,,176,Char Mohana,683,Raypur,180,Raypur,1,1,015,110
+0229,2051006500151423110002,20,Chattogram,51,Lakshmipur,00,,65,Ramganj,00,,151,Bhatra,423,Komartala,110,Komartala,1,1,002,106
+0230,2051006575003678180004,20,Chattogram,51,Lakshmipur,00,,65,Ramganj,75,Ramganj Pourasabha,003,Ward No. 03,678,Ratanpur,180,Ratanpur,2,2,004,108
+0231,2051007300194116030005,20,Chattogram,51,Lakshmipur,00,,73,Ramgati,00,,194,Char Algi,116,Char Algi,030,Char Algi,1,1,005,120
+0234,2075000700178200040003,20,Chattogram,75,Noakhali,00,,07,Begumganj,00,,178,Chhayani,200,Doalia,040,Doalia,1,1,003,82
+0233,2075000700718085020013,20,Chattogram,75,Noakhali,00,,07,Begumganj,00,,718,Sharifpur,085,Bara Khanpur,020,Bara Khanpur,1,1,013,110
+0232,2075000733002569131003,20,Chattogram,75,Noakhali,00,,07,Begumganj,33,Choumuhani Pourasabha,002,Ward No. 02,569,Nazirpur (Part),131,Madhya Nazirpur ( Part),2,2,003,120
+0235,2075002100193119163009,20,Chattogram,75,Noakhali,00,,21,Companiganj,00,,193,Char Hajari,119,Char Hazari (Part),163,Purba Char Hazari,1,1,009,125
+0237,2075003600194122020015,20,Chattogram,75,Noakhali,00,,36,Hatiya,00,,194,Char King,122,Char Ishwar Ray (2Nd Khanda),020,Bowalia,1,1,015,115
+0236,2075003660001121031002,20,Chattogram,75,Noakhali,00,,36,Hatiya,60,Hatiya Pourasabha,001,Ward No. 01,121,Char Ishwar Ray (1St Khanda),031,Char Kailas (Part),2,2,002,85
+0238,2075004700142073020003,20,Chattogram,75,Noakhali,00,,47,Kabirhat,00,,142,Bataiya,073,Bataiya,020,Bataiya,1,1,003,105
+0239,2075008000443792210001,20,Chattogram,75,Noakhali,00,,80,Senbag,00,,443,Kabilpur,792,Uttar Iarpur,210,Uttar Iarpur,1,1,001,100
+0240,2075008300412165040002,20,Chattogram,75,Noakhali,00,,83,Sonaimuri,00,,412,Jayag,165,Daiara,040,Daiara,1,1,002,111
+0241,2075008500220121030003,20,Chattogram,75,Noakhali,00,,85,Subarnachar,00,,220,Char Wapda,121,Char Kazi Mukhles,030,Char Kazi Mukhles,1,1,003,110
+0243,2075008700222118030016,20,Chattogram,75,Noakhali,00,,87,Noakhali Sadar,00,,222,Dharmapur,118,Char Purba Shullukia,030,Char Purba Shullukia,1,1,016,100
+0242,2075008783001485130009,20,Chattogram,75,Noakhali,00,,87,Noakhali Sadar,83,Noakhali Pourasabha,001,Ward No. 01,485,Maijdee (Part),130,Maijdee,2,2,009,108
+0244,2084000700152738105001,20,Chattogram,84,Rangamati,00,,07,Baghaichhari,00,,152,Bangaltali,738,Tintila,105,Jhagrabil,1,1,001,108
+0245,2084002100707075113001,20,Chattogram,84,Rangamati,00,,21,Barkal,00,,707,Subalong,075,Baghachhola,113,Kadamtalipara,1,1,001,45
+0246,2084002900442410022001,20,Chattogram,84,Rangamati,00,,29,Belaichhari,00,,442,Kengrachhari,410,Kengrachhari,022,Bharattachhara,1,1,001,70
+0247,2084004700408377111001,20,Chattogram,84,Rangamati,00,,47,Jurachhari,00,,408,Jurachhari,377,Jurachhari,111,Jakkha Bazar Elaka,2,3,001,95
+0248,2084005800310263010002,20,Chattogram,84,Rangamati,00,,58,Langadu,00,,310,Gulshakhali,263,Gulshakhali,010,Ahsanpur,1,1,002,85
+0249,2084007500706411082001,20,Chattogram,84,Rangamati,00,,75,Naniarchar,00,,706,Sabekkhyong,411,Kengalchhari,082,Hajachhari,1,1,001,46
+0250,2084008750007076021002,20,Chattogram,84,Rangamati,00,,87,Rangamati Sadar,50,Rangamati Pourasabha,007,Ward No. 07,076,Banarupa Bazar Elaka,021,Ban Office Elaka,2,2,002,118
+0251,3026001400413712348001,30,Dhaka,26,Dhaka,00,,14,Dhamrai,00,,413,Jadabpur,712,Rambhadrapara,348,Rambhadrapara,1,1,001,110
+0253,3026003800342132216003,30,Dhaka,26,Dhaka,00,,38,Keraniganj,00,,342,Hajratpur,132,Char Algi,216,Kanarchar,1,1,003,100
+0252,3026003800720320148044,30,Dhaka,26,Dhaka,00,,38,Keraniganj,00,,720,Shubhadhya,320,Hasnabad (Naiyatola),148,Hasnabad,1,1,044,101
+0254,3026006200422099028001,30,Dhaka,26,Dhaka,00,,62,Nawabganj,00,,422,Joykrishnapur,099,Brahmangram,028,Brahmangram,1,1,001,120
+0257,3026007200118308128034,30,Dhaka,26,Dhaka,00,,72,Savar,00,,118,Ashulia,308,Gouripur,128,Gouripur,1,1,034,110
+0259,3026007200213297028083,30,Dhaka,26,Dhaka,00,,72,Savar,00,,213,Dhamsona,297,Ganakbari,028,Bhadail Part-1,1,1,083,120
+0256,3026007200711437068047,30,Dhaka,26,Dhaka,00,,72,Savar,00,,711,Savar,437,Kalma,068,Dakkhin Kalma,1,1,047,113
+0255,3026007200913204068018,30,Dhaka,26,Dhaka,00,,72,Savar,00,,913,Yearpur,204,Dhanaid,068,Dhanaid,1,1,018,115
+0258,3026007280001183028001,30,Dhaka,26,Dhaka,00,,72,Savar,80,Savar Pourasabha,001,Ward No. 01,183,Dakkhin Baktarpur (Part),028,Baktarpur Uttar-B,2,2,001,103
+0260,3026200900029447416049,30,Dhaka,26,Dhaka,20,Dhaka South City Corporation,09,Chakbazar,00,,029,Ward No. 29 (65),447,Lalbag (Part),416,Pashchim Islambag,2,9,049,100
+0261,3026202800014707248010,30,Dhaka,26,Dhaka,20,Dhaka South City Corporation,28,Hazaribag,00,,014,Ward No. 14 (48) (Part),707,Shibpur,248,Maneshwar,2,9,010,104
+0262,3026202900065488304010,30,Dhaka,26,Dhaka,20,Dhaka South City Corporation,29,Jatrabari,00,,065,Ward No. 65,488,Matuail (Part),304,Matuail Rayerbag,2,9,010,95
+0263,3026203400055112148044,30,Dhaka,26,Dhaka,20,Dhaka South City Corporation,34,Kamrangichar,00,,055,Ward No. 55 (91),112,Char Kamrangi (Part),148,Hasannagar,2,9,044,115
+0264,3026203600003485248059,30,Dhaka,26,Dhaka,20,Dhaka South City Corporation,36,Khilgaon,00,,003,Ward No. 03 (26) (Part),485,Meradia,248,Meradia Bhuiyanpara,2,9,059,100
+0265,3026205700007409208002,30,Dhaka,26,Dhaka,20,Dhaka South City Corporation,57,Mugda,00,,007,Ward No. 07 (30),409,Kazirbag,208,Kazirbag,2,9,002,109
+0266,3026207500020668368008,30,Dhaka,26,Dhaka,20,Dhaka South City Corporation,75,Shahbag,00,,020,Ward No. 20 (56) (Part),668,Ramna (Part),368,Segunbagicha,2,9,008,102
+0267,3026250200030780048023,30,Dhaka,26,Dhaka,25,Dhaka North City Corporation,02,Adabar,00,,030,Ward No. 30 (43),780,Uttar Adabar,048,Comfort Housing,2,9,023,105
+0268,3026250700019484187002,30,Dhaka,26,Dhaka,25,Dhaka North City Corporation,07,Banani,00,,019,Ward No. 19 (Part),484,Mahakhali,187,Ershad Nagar,2,9,002,113
+0269,3026251000050152210003,30,Dhaka,26,Dhaka,25,Dhaka North City Corporation,10,Dakkhinkhan,00,,050,Ward No. 50,152,Dakkhinkhan (Part),210,Faedabad Part,2,9,003,110
+0270,3026252200017075005022,30,Dhaka,26,Dhaka,25,Dhaka North City Corporation,22,Bhatara,00,,017,Ward No. 17 (Part),075,Bhatara (Part),005,Basundhara Block-F,2,9,022,128
+0271,3026253000014709308069,30,Dhaka,26,Dhaka,25,Dhaka North City Corporation,30,Kafrul,00,,014,Ward No. 14 (Part),709,Senpara Parbata (Part),308,Purba Kazipara,2,9,069,94
+0272,3026254800011595248033,30,Dhaka,26,Dhaka,25,Dhaka North City Corporation,48,Mirpur,00,,011,Ward No. 11,595,Paikpara (Part),248,Madhya Paikpara,2,9,033,105
+0273,3026255000032486555003,30,Dhaka,26,Dhaka,25,Dhaka North City Corporation,50,Mohammadpur,00,,032,Ward No. 32 (45),486,Mohammadpur (Part),555,Pisiculture Housing Society,2,9,003,144
+0274,3026256400002784480005,30,Dhaka,26,Dhaka,25,Dhaka North City Corporation,64,Pallabi,00,,002,Ward No. 02,784,Uttar Senpara (Part),480,Section-12 Block-Dha,2,9,005,100
+0275,3026256600036711264002,30,Dhaka,26,Dhaka,25,Dhaka North City Corporation,66,Ramna,00,,036,Ward No. 36 (55),711,Siddheshwary (Part),264,Wirless,2,9,002,110
+0276,3026258000027706368015,30,Dhaka,26,Dhaka,25,Dhaka North City Corporation,80,Shere Bangla Nagar,00,,027,Ward No. 27 (40) (Part),706,Shere Bangla Nagar (Part),368,Shere Bangla Nagar,2,9,015,100
+0277,3026259300054154068037,30,Dhaka,26,Dhaka,25,Dhaka North City Corporation,93,Turag,00,,054,Ward No. 54,154,Dhour (Part),068,Dhour,2,9,037,108
+0278,3029001000109122197001,30,Dhaka,29,Faridpur,00,,10,Bhanga,00,,109,Algi,122,Chandidasdi (Part),197,Shahmallikdi,1,1,001,105
+0279,3029001020004313020002,30,Dhaka,29,Faridpur,00,,10,Bhanga,20,Bhanga Pourasabha,004,Ward No. 04,313,Hasamdia (Part),020,Bhanga Town,2,2,002,100
+0280,3029001800320187040004,30,Dhaka,29,Faridpur,00,,18,Boalmari,00,,320,Guhabaha,187,Dhopapara,040,Dhopapara,1,1,004,115
+0282,3029004700445355043001,30,Dhaka,29,Faridpur,00,,47,Faridpur Sadar,00,,445,Kaijuri,355,Ichhail,043,Dashhazar,1,1,001,90
+0281,3029004760008280316003,30,Dhaka,29,Faridpur,00,,47,Faridpur Sadar,60,Faridpur Pourasabha,008,Ward No. 08,280,Goalchamat (Part),316,Purba Goalchamat,2,2,003,90
+0283,3029004760023319128009,30,Dhaka,29,Faridpur,00,,47,Faridpur Sadar,60,Faridpur Pourasabha,023,Ward No. 23,319,Habeli Gopalpur (Part),128,Gopalpur-1,2,2,009,92
+0284,3029005600680166040003,30,Dhaka,29,Faridpur,00,,56,Madhukhali,00,,680,Raypur,166,Damodardi,040,Damodardi,1,1,003,91
+0285,3029008400445388100010,30,Dhaka,29,Faridpur,00,,84,Sadarpur,00,,445,Krishnapur,388,Jatrabari,100,Jatrabari,1,1,010,80
+0286,3033003000151085248036,30,Dhaka,33,Gazipur,00,,30,Gazipur Sadar,00,,151,Bhawalgar,085,Bokran Manipur,248,Manipur,1,1,036,140
+0287,3033003200278502161002,30,Dhaka,33,Gazipur,00,,32,Kaliakair,00,,278,Fulbaria,502,Mantala,161,Paburiachala,1,1,002,120
+0288,3033003244008617594024,30,Dhaka,33,Gazipur,00,,32,Kaliakair,44,Kaliakair Pourasabha,008,Ward No. 08,617,Purba Chandara,594,Pasha Gate,2,2,024,117
+0289,3033003400417081020003,30,Dhaka,33,Gazipur,00,,34,Kaliganj,00,,417,Jangalia,081,Baraya,020,Baraya,1,1,003,128
+0290,3033003600719738119003,30,Dhaka,33,Gazipur,00,,36,Kapasia,00,,719,Singhasree,738,Singhasree,119,Kuriadi,1,1,003,140
+0291,3033008600509075201008,30,Dhaka,33,Gazipur,00,,86,Sreepur,00,,509,Maona,075,Bara Rathura,201,Singdighi,1,1,008,120
+0292,3033331500016034008011,30,Dhaka,33,Gazipur,33,Gazipur City Corporation,15,Basan,00,,016,Ward No. 16,034,Autpara,008,Autpara,2,9,011,125
+0293,3033334000001716368007,30,Dhaka,33,Gazipur,33,Gazipur City Corporation,40,Kashimpur,00,,001,Ward No. 01,716,Shibrampur,368,Shibrampur,2,9,007,115
+0294,3033334500009500208041,30,Dhaka,33,Gazipur,33,Gazipur City Corporation,45,Konabari,00,,009,Ward No. 09,500,Mirpur (Part),208,Konabari,2,9,041,105
+0295,3033339000054041412009,30,Dhaka,33,Gazipur,33,Gazipur City Corporation,90,Tongi Pashchim,00,,054,Ward No. 54,041,Auchpara,412,Shukkur Mahmud Road,2,9,009,125
+0296,3033339900021079020019,30,Dhaka,33,Gazipur,33,Gazipur City Corporation,99,Joydebpur,00,,021,Ward No. 21,079,Baupara,020,Baupara,2,9,019,115
+0298,3035003200413490130003,30,Dhaka,35,Gopalganj,00,,32,Gopalganj Sadar,00,,413,Jalalabad,490,Mathla,130,Mathla,1,1,003,110
+0297,3035003225003080161004,30,Dhaka,35,Gopalganj,00,,32,Gopalganj Sadar,25,Gopalganj Pourasabha,003,Ward No. 03,080,Betgram (Part),161,Pashchim Betgram (Part),2,2,004,100
+0299,3035003225011417086007,30,Dhaka,35,Gopalganj,00,,32,Gopalganj Sadar,25,Gopalganj Pourasabha,011,Ward No. 11,417,Khatra (Part),086,Gopalganj High School Area,2,2,007,100
+0300,3035004300509174040002,30,Dhaka,35,Gopalganj,00,,43,Kashiani,00,,509,Maheshpur,174,Dola,040,Dola,1,1,002,105
+0301,3035005100611602160004,30,Dhaka,35,Gopalganj,00,,51,Kotalipara,00,,611,Pinjuri,602,Purnabati,160,Purnabati,1,1,004,105
+0302,3035005150009266070003,30,Dhaka,35,Gopalganj,00,,51,Kotalipara,50,Kotalipara Pourasabha,009,Ward No. 09,266,Ghaghar (Part),070,Ghaghar,2,2,003,115
+0303,3035005800515511130005,30,Dhaka,35,Gopalganj,00,,58,Muksudpur,00,,515,Maharajpur,511,Madhya Banagram,130,Madhya Banagram,1,1,005,110
+0304,3048000600142406110001,30,Dhaka,48,Kishoreganj,00,,06,Bajitpur,00,,142,Baliardi,406,Kaimar Bauli,110,Kaimar Bauli,1,1,001,100
+0305,3048001150001074020011,30,Dhaka,48,Kishoreganj,00,,11,Bhairab,50,Bhairab Pourasabha,001,Ward No. 01,074,Bhairabpur (Part),020,Bhairab Bazar,2,2,011,120
+0306,3048002700308275132004,30,Dhaka,48,Kishoreganj,00,,27,Hossainpur,00,,308,Gobindapur,275,Gobindapur,132,Madhya Gobindapur,1,1,004,111
+0307,3048003300378344090009,30,Dhaka,48,Kishoreganj,00,,33,Itna,00,,378,Itna,344,Itna,090,Itna,2,3,009,101
+0308,3048004200419404115002,30,Dhaka,48,Kishoreganj,00,,42,Karimganj,00,,419,Joyka,404,Kandail,115,Kukimadal,1,1,002,85
+0309,3048004500711721190007,30,Dhaka,48,Kishoreganj,00,,45,Katiadi,00,,711,Sahashram Dhuldia,721,Sahashram Dhuldia,190,Sahashram Dhuldia,1,1,007,100
+0310,3048004975009420156005,30,Dhaka,48,Kishoreganj,00,,49,Kishoreganj Sadar,75,Kishoreganj Pourasabha,009,Ward No. 09,420,Kishoreganj (Part),156,Monipurghat,2,2,005,100
+0311,3048005400309266126009,30,Dhaka,48,Kishoreganj,00,,54,Kuliarchar,00,,309,Gobaria Abdullahpur,266,Gobaria Abdullahpur,126,Lakkhipur,1,1,009,100
+0312,3048007900244494131004,30,Dhaka,48,Kishoreganj,00,,79,Pakundia,00,,244,Egarasindur,494,Majitpur,131,Majitpur,1,1,004,110
+0314,3054004000109439110007,30,Dhaka,54,Madaripur,00,,40,Kalkini,00,,109,Alinagar,439,Kolchari Swasthal,110,Kolchari Swasthal,1,1,007,106
+0313,3054004025004127030001,30,Dhaka,54,Madaripur,00,,40,Kalkini,25,Kalkini Pourasabha,004,Ward No. 04,127,Char Jhautala,030,Char Jhautala,2,2,001,114
+0316,3054005400411378100005,30,Dhaka,54,Madaripur,00,,54,Madaripur Sadar,00,,411,Jhaudi,378,Jhaudi,100,Jhaudi,1,1,005,91
+0315,3054005450005603161008,30,Dhaka,54,Madaripur,00,,54,Madaripur Sadar,50,Madaripur Pourasabha,005,Ward No. 05,603,Panichhatra (Part),161,Panichhatra (Part),2,2,008,120
+0318,3054008000152404112002,30,Dhaka,54,Madaripur,00,,80,Rajoir,00,,152,Bajitpur,404,Kakair Thopa,112,Karaibari,1,1,002,118
+0317,3054008068006666010004,30,Dhaka,54,Madaripur,00,,80,Rajoir,68,Rajoir Pourasabha,006,Ward No. 06,666,Rajoir (Part),010,Alamdastar,2,2,004,104
+0319,3054008700456066196002,30,Dhaka,54,Madaripur,00,,87,Shibchar,00,,456,Kanthalbari,066,Baghia,196,Saijuddin Hajirkandi,1,1,002,48
+0320,3056001000411282070001,30,Dhaka,56,Manikganj,00,,10,Daulatpur,00,,411,Jianpur,282,Gangaprasad,070,Gangaprasad,1,1,001,94
+0321,3056002800448281114003,30,Dhaka,56,Manikganj,00,,28,Harirampur,00,,448,Kanchanpur,281,Gouribardia,114,Kushiarchar,1,1,003,110
+0322,3056004600546470111001,30,Dhaka,56,Manikganj,00,,46,Manikganj Sadar,00,,546,Nabagram,470,Kusherchar (Part),111,Kusherchar (Part),2,3,001,103
+0323,3056004650005217161017,30,Dhaka,56,Manikganj,00,,46,Manikganj Sadar,50,Manikganj Pourasabha,005,Ward No. 05,217,Dashara (Part),161,Purba Dashara,2,2,017,100
+0325,3056007000219183191001,30,Dhaka,56,Manikganj,00,,70,Saturia,00,,219,Dhankora,183,Decree Narottampur,191,Sahebpara(Part),1,1,001,120
+0324,3056007000710434214004,30,Dhaka,56,Manikganj,00,,70,Saturia,00,,710,Saturia,434,Kaonnara,214,Uttar Kaonnara,2,3,004,120
+0326,3056008200151381030002,30,Dhaka,56,Manikganj,00,,82,Singair,00,,151,Bayra,381,Jamalpur,030,Char Jamalpur,1,1,002,100
+0327,3059002400345119031001,30,Dhaka,59,Munshiganj,00,,24,Gazaria,00,,345,Hossaindi,119,Char Betaki,031,Char Balaki,1,1,001,120
+0331,3059005600518037010002,30,Dhaka,59,Munshiganj,00,,56,Munshiganj Sadar,00,,518,Mollakandi,037,Anandapur,010,Anandapur,1,1,002,90
+0329,3059005600610604031004,30,Dhaka,59,Munshiganj,00,,56,Munshiganj Sadar,00,,610,Panchasar,604,Pashchim Muktarpur,031,Char Santoshpur,2,3,004,106
+0328,3059005666001495136005,30,Dhaka,59,Munshiganj,00,,56,Munshiganj Sadar,66,Munshiganj Pourasabha,001,Ward No. 01,495,Munshiganj (Part),136,Mathpara,2,2,005,125
+0330,3059005666008716594001,30,Dhaka,59,Munshiganj,00,,56,Munshiganj Sadar,66,Munshiganj Pourasabha,008,Ward No. 08,716,Shilmandi (Part),594,Paschim Shilmondi(Diara),2,2,001,115
+0332,3059007400480465141002,30,Dhaka,59,Munshiganj,00,,74,Sirajdikhan,00,,480,Latabdi,465,Latabdi,141,Nimtala,1,1,002,120
+0333,3059008400731162040001,30,Dhaka,59,Munshiganj,00,,84,Sreenagar,00,,731,Sreenagar,162,Dayhatta,040,Dayhatta,1,1,001,126
+0334,3067000200210187149001,30,Dhaka,67,Narayanganj,00,,02,Araihazar,00,,210,Duptara,187,Duptara,149,Natun Banti,1,1,001,90
+0335,3067000400442090192026,30,Dhaka,67,Narayanganj,00,,04,Sonargaon,00,,442,Kanchpur,090,Behakair,192,Sonapur,1,1,026,99
+0336,3067000466007174030001,30,Dhaka,67,Narayanganj,00,,04,Sonargaon,66,Sonargaon Pourasabha,007,Ward No. 07,174,Chilarbag,030,Chilarbag,2,2,001,103
+0337,3067000600142491130001,30,Dhaka,67,Narayanganj,00,,06,Bandar,00,,142,Bandar,491,Mirkundirchar Balurchar,130,Mirkundirchar Balurchar,1,1,001,100
+0338,3067005800277157040064,30,Dhaka,67,Narayanganj,00,,58,Narayanganj Sadar,00,,277,Fatullah,157,Dapa Idrakpur,040,Dapa Idrakpur,1,1,064,106
+0339,3067005800453078020076,30,Dhaka,67,Narayanganj,00,,58,Narayanganj Sadar,00,,453,Kutubpur,078,Bhuingar,020,Bhuingar,1,1,076,101
+0341,3067006800210078112002,30,Dhaka,67,Narayanganj,00,,68,Rupganj,00,,210,Daudpur,078,Bara Amdia,112,Kazirtek,1,1,002,88
+0340,3067006877009373100016,30,Dhaka,67,Narayanganj,00,,68,Rupganj,77,Taraba Pourasabha,009,Ward No. 09,373,Jatramura,100,Jatramura,2,2,016,133
+0343,3067445800003039141020,30,Dhaka,67,Narayanganj,44,Narayanganj City Corporation,58,Narayanganj Sadar,00,,003,Ward No. 03,039,Ati (Part),141,Naya Ati,2,9,020,110
+0342,3067445800012120094007,30,Dhaka,67,Narayanganj,44,Narayanganj City Corporation,58,Narayanganj Sadar,00,,012,Ward No. 12,120,Chashara Madhya (Part),094,Isdair,2,9,007,120
+0344,3068000700543385125007,30,Dhaka,68,Narsingdi,00,,07,Belabo,00,,543,Narayanpur,385,Joar Lakkhipur,125,Lakkhipur,1,1,007,120
+0348,3068006000118080032005,30,Dhaka,68,Narsingdi,00,,60,Narsingdi Sadar,00,,118,Amdia,080,Banabhag,032,Changaon,1,1,005,120
+0345,3068006000512510040003,30,Dhaka,68,Narsingdi,00,,60,Narsingdi Sadar,00,,512,Mahishashura,510,Mahishashura,040,Damer Bhaola,2,3,003,107
+0347,3068006000624095020001,30,Dhaka,68,Narsingdi,00,,60,Narsingdi Sadar,00,,624,Panchdona,095,Bhatpara,020,Badhubari,1,1,001,90
+0346,3068006050003723020017,30,Dhaka,68,Narsingdi,00,,60,Narsingdi Sadar,50,Narsingdi Pourasabha,003,Ward No. 03,723,Satirpara,020,Baniachhal,2,2,017,97
+0349,3068006315004113030005,30,Dhaka,68,Narsingdi,00,,63,Palash,15,Ghorashal Pourasabha,004,Ward No. 04,113,Char Palash,030,Char Palash,2,2,005,122
+0350,3068006400214169040004,30,Dhaka,68,Narsingdi,00,,64,Raipura,00,,214,Doukarchar,169,Doukarchar,040,Doukarchar,1,1,004,100
+0351,3068007600143416110001,30,Dhaka,68,Narsingdi,00,,76,Shibpur,00,,143,Baghaba,416,Khainkut,110,Khainkut,1,1,001,105
+0352,3082000700375433110002,30,Dhaka,82,Rajbari,00,,07,Baliakandi,00,,375,Islampur,433,Kaunnair,110,Kaunnair,1,1,002,100
+0353,3082002900772181041001,30,Dhaka,82,Rajbari,00,,29,Goalanda,00,,772,Ujanchar,181,Dakkhin Ujanchar (Part),041,Dirajtulla Mridhapara,2,3,001,100
+0354,3082004700142632160002,30,Dhaka,82,Rajbari,00,,47,Kalukhali,00,,142,Boalia,632,Patbaria,160,Patbaria,1,1,002,110
+0356,3082007300443737030002,30,Dhaka,82,Rajbari,00,,73,Pangsha,00,,443,Kalimahar,737,Sajuria,030,Char Sajuria,1,1,002,114
+0355,3082007333005437110004,30,Dhaka,82,Rajbari,00,,73,Pangsha,33,Pangsha Pourasabha,005,Ward No. 05,437,Kurapara,110,Kurapara,2,2,004,99
+0357,3082007600213451110001,30,Dhaka,82,Rajbari,00,,76,Rajbari Sadar,00,,213,Dadshi,451,Kamalpur,110,Kamalpur,1,1,001,95
+0358,3082007666005750131006,30,Dhaka,82,Rajbari,00,,76,Rajbari Sadar,66,Rajbari Pourasabha,005,Ward No. 05,750,Sajjankanda (Part),131,Madhya Sajjanbkanda,2,2,006,100
+0359,3086001400203034010001,30,Dhaka,86,Shariatpur,00,,14,Bhedarganj,00,,203,Chhaygaon,034,Aijhara,010,Aijhara,1,1,001,75
+0360,3086002500708121030001,30,Dhaka,86,Shariatpur,00,,25,Damudya,00,,708,Sidhalkura,121,Chhota Sidhalkura,030,Chhota Sidhalkura,1,1,001,115
+0361,3086002533003076022001,30,Dhaka,86,Shariatpur,00,,25,Damudya,33,Damudya Pourasabha,003,Ward No. 03,076,Bisakuri (Part),022,Bisakuri (Part),2,2,001,100
+0363,3086006500280429110002,30,Dhaka,86,Shariatpur,00,,65,Naria,00,,280,Fatejangapur,429,Koarag,110,Koarag,1,1,002,92
+0362,3086006550007464141002,30,Dhaka,86,Shariatpur,00,,65,Naria,50,Naria Pourasabha,007,Ward No. 07,464,Lonsingha (Part),141,Mullickpara,2,2,002,106
+0365,3086006900746073020001,30,Dhaka,86,Shariatpur,00,,69,Shariatpur Sadar,00,,746,Tulasar,073,Bagdi Guripara,020,Baghdi Guripara,1,1,001,82
+0364,3086006966007184040009,30,Dhaka,86,Shariatpur,00,,69,Shariatpur Sadar,66,Shariatpur Pourasabha,007,Ward No. 07,184,Dhanuka (Part),040,Dhanuka (Part),2,2,009,103
+0366,3093000900460422111004,30,Dhaka,93,Tangail,00,,09,Basail,00,,460,Kauljani,422,Kauljani,111,Kauljani,1,1,004,110
+0367,3093002300209170041012,30,Dhaka,93,Tangail,00,,23,Delduar,00,,209,Delduar,170,Delduar,041,Delduar,2,3,012,99
+0368,3093002500410087020003,30,Dhaka,93,Tangail,00,,25,Dhanbari,00,,410,Jadunathpur,087,Belutia,020,Belutia,1,1,003,100
+0369,3093002800765066113007,30,Dhaka,93,Tangail,00,,28,Ghatail,00,,765,Sangrampur,066,Baga,113,Khagrata,1,1,007,110
+0371,3093004700554524203001,30,Dhaka,93,Tangail,00,,47,Kalihati,00,,554,Narandia,524,Maista Terabari,203,Tarabari Maista,1,1,001,125
+0370,3093004762004095162001,30,Dhaka,93,Tangail,00,,47,Kalihati,62,Kalihati Pourasabha,004,Ward No. 04,095,Betdoba,162,Purba Betdoba,2,2,001,117
+0372,3093006600144299070002,30,Dhaka,93,Tangail,00,,66,Mirzapur,00,,144,Bahuria,299,Geramara,070,Geramara,1,1,002,106
+0373,3093007600312707180004,30,Dhaka,93,Tangail,00,,76,Nagarpur,00,,312,Gaihata,707,Rasulpur Banagram,180,Rasulpur Banagram,1,1,004,101
+0375,3093009500142488110002,30,Dhaka,93,Tangail,00,,95,Tangail Sadar,00,,142,Baghil,488,Krishnapur,110,Krishnapur,1,1,002,85
+0374,3093009587003456040009,30,Dhaka,93,Tangail,00,,95,Tangail Sadar,87,Tangail Pourasabha,003,Ward No. 03,456,Kagmara,040,Dakkhin Kagmara,2,2,009,103
+0376,4001000800151453216002,40,Khulna,01,Bagerhat,00,,08,Bagerhat Sadar,00,,151,Bemarta,453,Kondala,216,Kondala,1,1,002,115
+0378,4001000800678753368004,40,Khulna,01,Bagerhat,00,,08,Bagerhat Sadar,00,,678,Rakhalgachhi,753,Syedpur,368,Syedpur,1,1,004,95
+0377,4001000825004738452007,40,Khulna,01,Bagerhat,00,,08,Bagerhat Sadar,25,Bagerhat Pourasabha,004,Ward No. 04,738,Sarui (Part),452,Uttar Sarui,2,2,007,100
+0379,4001001400717411268003,40,Khulna,01,Bagerhat,00,,14,Chitalmari,00,,717,Shibpur,411,Kaliganti,268,Naluya,1,1,003,102
+0380,4001003800209082028001,40,Khulna,01,Bagerhat,00,,38,Kachua,00,,209,Dhopakhali,082,Bhasha,028,Bhasha,1,1,001,120
+0381,4001003800443758048002,40,Khulna,01,Bagerhat,00,,38,Kachua,00,,443,Kachua,758,Tengrakhali,048,Char Tengrakhali,2,3,002,120
+0382,4001005600443494368005,40,Khulna,01,Bagerhat,00,,56,Mollahat,00,,443,Kodalia,494,Munizila,368,Saraspur,1,1,005,108
+0383,4001005800717409128001,40,Khulna,01,Bagerhat,00,,58,Mongla,00,,717,Sundarban,409,Kharma,128,Gora Burburia,1,1,001,100
+0385,4001006000414181068004,40,Khulna,01,Bagerhat,00,,60,Morelganj,00,,414,Jiudhara,181,Deuatala,068,Deuatala,1,1,004,100
+0384,4001006075003724408003,40,Khulna,01,Bagerhat,00,,60,Morelganj,75,Morelganj Pourasabha,003,Ward No. 03,724,Saralia (Part),408,Uttar Saralia,2,2,003,109
+0386,4001007300142035008002,40,Khulna,01,Bagerhat,00,,73,Rampal,00,,142,Baintala,035,Alipur,008,Alipur,1,1,002,80
+0387,4001007300778319148003,40,Khulna,01,Bagerhat,00,,73,Rampal,00,,778,Ujalkur,319,Hogaldanga,148,Hogaldanga,1,1,003,125
+0391,4018000700143625308007,40,Khulna,18,Chuadanga,00,,07,Alamdanga,00,,143,Baradi,625,Poltadanga,308,Poltadanga,1,1,007,90
+0388,4018000700347321148006,40,Khulna,18,Chuadanga,00,,07,Alamdanga,00,,347,Hardi,321,Hardi,148,Hardi,1,1,006,110
+0389,4018000700467434348001,40,Khulna,18,Chuadanga,00,,07,Alamdanga,00,,467,Khaskarra,434,Khaskarra,348,Raysa,1,1,001,113
+0390,4018000720006279176001,40,Khulna,18,Chuadanga,00,,07,Alamdanga,20,Alamdanga Pourasabha,006,Ward No. 06,279,Gobindapur (Part-6),176,Gobindapur Palpara,2,2,001,98
+0394,4018002300309758208001,40,Khulna,18,Chuadanga,00,,23,Chuadanga Sadar,00,,309,Garaitupi,758,Teghari Kalagachhi,208,Kalagachhi,1,1,001,90
+0393,4018002300711080208002,40,Khulna,18,Chuadanga,00,,23,Chuadanga Sadar,00,,711,Shankarchandra,080,Bhandardaha,208,Kali Bhandardaha,1,1,002,93
+0392,4018002340007432208002,40,Khulna,18,Chuadanga,00,,23,Chuadanga Sadar,40,Chuadanga Pourasabha,007,Ward No. 07,432,Kulchara,208,Kulchara,2,2,002,120
+0397,4018003100408393188005,40,Khulna,18,Chuadanga,00,,31,Damurhuda,00,,408,Juranpur,393,Juranpur,188,Juranpur,1,1,005,95
+0395,4018003100552121048001,40,Khulna,18,Chuadanga,00,,31,Damurhuda,00,,552,Natudaha,121,Charulia,048,Charulia,1,1,001,100
+0396,4018003160004160388002,40,Khulna,18,Chuadanga,00,,31,Damurhuda,60,Darshana Pourasabha,004,Ward No. 04,160,Dakkhin Chandpur (Part),388,Shantipara,2,2,002,115
+0398,4018005500442406272001,40,Khulna,18,Chuadanga,00,,55,Jibannagar,00,,442,Kdk,406,Khayerhuda,272,Khyerhuda Munsipara,1,1,001,111
+0399,4041000400606709208003,40,Khulna,41,Jashore,00,,04,Abhaynagar,00,,606,Payra,709,Samaspur,208,Kadirpara,1,1,003,102
+0400,4041000483005089028005,40,Khulna,41,Jashore,00,,04,Abhaynagar,83,Noapara Pourasabha,005,Ward No.05,089,Buinkara (Part),028,Bhuinkara Jagobabur Mor,2,2,005,95
+0401,4041000900210503256003,40,Khulna,41,Jashore,00,,09,Bagharpara,00,,210,Darajhat,503,Mahiram (Part),256,Mahiran,1,1,003,120
+0402,4041001100342384068002,40,Khulna,41,Jashore,00,,11,Chaugachha,00,,342,Hakimpur,384,Jatrapur,068,Dulalpur,1,1,002,103
+0403,4041001100729723368003,40,Khulna,41,Jashore,00,,11,Chaugachha,00,,729,Swarupdaha,723,Swarupdaha,368,Swarupdaha,1,1,003,100
+0404,4041002300544694208001,40,Khulna,41,Jashore,00,,23,Jhikargachha,00,,544,Nabharan,694,Raghunathpur,208,Kundipur,1,1,001,95
+0405,4041003800442033024008,40,Khulna,41,Jashore,00,,38,Keshabpur,00,,442,Keshabpur,033,Altapol (Part),024,Altapol,2,3,008,102
+0406,4041003800509069028004,40,Khulna,41,Jashore,00,,38,Keshabpur,00,,509,Majidpur,069,Bagdaha,028,Bagdaha,1,1,004,106
+0407,4041004700109451208011,40,Khulna,41,Jashore,00,,47,Jashore Sadar,00,,109,Arabpur,451,Kholadanga,208,Kholadanga,1,1,011,122
+0408,4041004700279077028014,40,Khulna,41,Jashore,00,,47,Jashore Sadar,00,,279,Fatepur,077,Baliadanga,028,Baliadanga,1,1,014,115
+0411,4041004700550141048005,40,Khulna,41,Jashore,00,,47,Jashore Sadar,00,,550,Narendrapur,141,Chaulia,048,Chaulia,1,1,005,120
+0410,4041004716003289368008,40,Khulna,41,Jashore,00,,47,Jashore Sadar,16,Jashore Pourasabha,003,Ward No. 03,289,Ghop (Part),368,Pilukhan Road,2,2,008,111
+0409,4041004716009572300005,40,Khulna,41,Jashore,00,,47,Jashore Sadar,16,Jashore Pourasabha,009,Ward No. 09,572,Nilganj (Part),300,Nilganj Tantipara,2,2,005,100
+0412,4041006100210131048002,40,Khulna,41,Jashore,00,,61,Manirampur,00,,210,Dhakuria,131,Champakona,048,Chanpakona,1,1,002,124
+0413,4041006100464434208001,40,Khulna,41,Jashore,00,,61,Manirampur,00,,464,Khedapara,434,Kashipur,208,Kashipur,1,1,001,100
+0415,4041009000142068028001,40,Khulna,41,Jashore,00,,90,Sharsha,00,,142,Bag Anchra,068,Bagadanga,028,Bagadanga,1,1,001,125
+0414,4041009000545077048002,40,Khulna,41,Jashore,00,,90,Sharsha,00,,545,Nizampur,077,Basantapur,048,Chhota Basantapur,1,1,002,100
+0416,4044001400176598308004,40,Khulna,44,Jhenaidah,00,,14,Harinakundu,00,,176,Chandpur,598,Par Mathurapur,308,Par Mathurapur,1,1,004,113
+0417,4044001900275075028005,40,Khulna,44,Jhenaidah,00,,19,Jhenaidah Sadar,00,,275,Fursandi,075,Bamanail,028,Bamanail,1,1,005,99
+0418,4044001900513456208001,40,Khulna,44,Jhenaidah,00,,19,Jhenaidah Sadar,00,,513,Madhuhati,456,Kubirkhali,208,Kubirkhali,1,1,001,91
+0421,4044001900726067028008,40,Khulna,44,Jhenaidah,00,,19,Jhenaidah Sadar,00,,726,Saganna,067,Badpukuria,028,Badpukuria,1,1,008,105
+0419,4044001916001447208003,40,Khulna,44,Jhenaidah,00,,19,Jhenaidah Sadar,16,Jhenaidah Pourasabha,001,Ward No. 01,447,Khudrapara,208,Khudrapara,2,2,003,91
+0420,4044001916009032024004,40,Khulna,44,Jhenaidah,00,,19,Jhenaidah Sadar,16,Jhenaidah Pourasabha,009,Ward No. 09,032,Arappur (Part),024,Arappur Sheikhpara,2,2,004,117
+0422,4044003300543076308004,40,Khulna,44,Jhenaidah,00,,33,Kaliganj,00,,543,Niamatpur,076,Balarampur,308,Pashchim Balarampur,1,1,004,93
+0423,4044004200209123268004,40,Khulna,44,Jhenaidah,00,,42,Kotchandpur,00,,209,Dora,123,Chhaykhada,268,Nawda Chhaykhada,1,1,004,93
+0424,4044004250009422268004,40,Khulna,44,Jhenaidah,00,,42,Kotchandpur,50,Kotchandpur Pourasabha,009,Ward No. 09,422,Kashipur,268,Nawdagram,2,2,004,104
+0425,4044007100276546108008,40,Khulna,44,Jhenaidah,00,,71,Maheshpur,00,,276,Fatepur,546,Nimtala Fatepur,108,Fatepur,1,1,008,90
+0426,4044007100553500248005,40,Khulna,44,Jhenaidah,00,,71,Maheshpur,00,,553,Nepa,500,Mailbaria,248,Mailbaria,1,1,005,120
+0427,4044008000210175068007,40,Khulna,44,Jhenaidah,00,,80,Shailkupa,00,,210,Dhalharachandra,175,Dhaora,068,Dhaora,1,1,007,117
+0428,4044008000522516248002,40,Khulna,44,Jhenaidah,00,,80,Shailkupa,00,,522,Mirzapur,516,Mohammadpur,248,Mohammadpur,1,1,002,90
+0429,4047001200161085028007,40,Khulna,47,Khulna,00,,12,Batiaghata,00,,161,Bhandarkot,085,Bhandarkot,028,Bhandarkot,1,1,007,120
+0430,4047001700151074468003,40,Khulna,47,Khulna,00,,17,Dacope,00,,151,Banishanta,074,Banishanta,468,Uttar Banishanta,1,1,003,110
+0431,4047003000143775388001,40,Khulna,47,Khulna,00,,30,Dumuria,00,,143,Bhandarpara,775,Telikhali,388,Telikhali,1,1,001,115
+0432,4047003000219185068018,40,Khulna,47,Khulna,00,,30,Dumuria,00,,219,Dumuria,185,Dumuria,068,Dumuria,2,3,018,100
+0433,4047003000687697348003,40,Khulna,47,Khulna,00,,30,Dumuria,00,,687,Rangpur,697,Rangpur,348,Rangpur,1,1,003,105
+0434,4047004000410376108007,40,Khulna,47,Khulna,00,,40,Dighalia,00,,410,Jogipol,376,Jogipol,108,Fulbari,1,1,007,111
+0435,4047005300210159248002,40,Khulna,47,Khulna,00,,53,Koyra,00,,210,Dakkhin Bedkashi,159,Dakkhin Bedkashi,248,Matiabhanga,1,1,002,100
+0436,4047006400209506248002,40,Khulna,47,Khulna,00,,64,Paikgachha,00,,209,Deluti,506,Magura Deluti,248,Magura Deluti,1,1,002,120
+0437,4047006400678440208013,40,Khulna,47,Khulna,00,,64,Paikgachha,00,,678,Raruli,440,Kule Sreekanthapur,208,Kule Sreekanthapur,1,1,013,100
+0438,4047007500109162068006,40,Khulna,47,Khulna,00,,75,Rupsa,00,,109,Aichganti,162,Durjani Mahal,068,Durjani Mahal,1,1,006,110
+0439,4047007500740763388001,40,Khulna,47,Khulna,00,,75,Rupsa,00,,740,Tilak Swalpa Bahirdia,763,Tilak,388,Tilak,1,1,001,112
+0440,4047332100004150068032,40,Khulna,47,Khulna,33,Khulna City Corporation,21,Daulatpur,00,,004,Ward No. 04,150,Deyana (Part),068,Deyana,2,9,032,95
+0441,4047334500012262248023,40,Khulna,47,Khulna,33,Khulna City Corporation,45,Khalishpur,00,,012,Ward No. 12,262,Goalpara (Part),248,Khalishpur Housing Estate (Old Colony),2,9,023,101
+0442,4047335100024075264007,40,Khulna,47,Khulna,33,Khulna City Corporation,51,Khulna Sadar,00,,024,Ward No. 24,075,Baniakhamar (Part),264,Musalmanpara,2,9,007,92
+0443,4047335100031447188008,40,Khulna,47,Khulna,33,Khulna City Corporation,51,Khulna Sadar,00,,031,Ward No. 31,447,Labanchara,188,Jinnapara,2,9,008,110
+0444,4047338500018076468004,40,Khulna,47,Khulna,33,Khulna City Corporation,85,Sonadanga,00,,018,Ward No. 18,076,Baniakhamar (Part),468,Uttar Gobarchaka Main Road,2,9,004,108
+0445,4050001500151159048003,40,Khulna,50,Kushtia,00,,15,Bheramara,00,,151,Bahirchar,159,Damukdia (Part),048,Char Damukdia,1,1,003,110
+0448,4050003900109764388011,40,Khulna,50,Kushtia,00,,39,Daulatpur,00,,109,Adabaria,764,Tekala,388,Tekala,1,1,011,108
+0447,4050003900345715368005,40,Khulna,50,Kushtia,00,,39,Daulatpur,00,,345,Hogalbaria,715,Sadipur (Part),368,Sadipur,1,1,005,93
+0446,4050003900622309248002,40,Khulna,50,Kushtia,00,,39,Daulatpur,00,,622,Piarpur,309,Haludbaria,248,Mirpur,1,1,002,101
+0450,4050006300309262128003,40,Khulna,50,Kushtia,00,,63,Khoksa,00,,309,Gopgram,262,Gopagram,128,Gopagram,1,1,003,104
+0449,4050006330003412224001,40,Khulna,50,Kushtia,00,,63,Khoksa,30,Khoksa Pourasabha,003,Ward No. 03,412,Khoksa (Part),224,Khoksa Charpara,2,2,001,113
+0452,4050007100185132072004,40,Khulna,50,Kushtia,00,,71,Kumarkhali,00,,185,Chapra,132,Chheuria,072,Chheuria Mollapara,1,1,004,84
+0451,4050007100611447208002,40,Khulna,50,Kushtia,00,,71,Kumarkhali,00,,611,Panti,447,Khurda Bhaluka,208,Khurda Bhaluka,1,1,002,105
+0454,4050007900127707068009,40,Khulna,50,Kushtia,00,,79,Kushtia Sadar,00,,127,Alampur,707,Shimulia,068,Dahakulagram,1,1,009,91
+0456,4050007900423298148007,40,Khulna,50,Kushtia,00,,79,Kushtia Sadar,00,,423,Jiarkhi,298,Harara (Part),148,Harara,1,1,007,111
+0455,4050007960008409308003,40,Khulna,50,Kushtia,00,,79,Kushtia Sadar,60,Kushtia Pourasabha,008,Ward No. 08,409,Kalishankarpur (Part),308,Pashchim Aruapara,2,2,003,104
+0453,4050007960018487332006,40,Khulna,50,Kushtia,00,,79,Kushtia Sadar,60,Kushtia Pourasabha,018,Ward No. 18,487,Majampur (Part),332,Purba Majampur,2,2,006,115
+0458,4050009400144418048001,40,Khulna,50,Kushtia,00,,94,Mirpur,00,,144,Bahalbaria,418,Khadimpur,048,Char Khadimpur,1,1,001,127
+0457,4050009400514307148002,40,Khulna,50,Kushtia,00,,94,Mirpur,00,,514,Malihad,307,Hardirchak,148,Hardirchak,1,1,002,120
+0459,4055005700143094028006,40,Khulna,55,Magura,00,,57,Magura Sadar,00,,143,Bagia,094,Barasia,028,Barasia,1,1,006,90
+0460,4055005700354358168001,40,Khulna,55,Magura,00,,57,Magura Sadar,00,,354,Hajrapur,358,Ichhakhada,168,Ichhakhada,1,1,001,101
+0462,4055005700515550028001,40,Khulna,55,Magura,00,,57,Magura Sadar,00,,515,Maghi,550,Nidhipur,028,Bishnupur,1,1,001,53
+0463,4055005750002505424006,40,Khulna,55,Magura,00,,57,Magura Sadar,50,Magura Pourasabha,002,Ward No. 02,505,Magura (Part),424,Stadiumpara,2,2,006,104
+0461,4055005750008100028002,40,Khulna,55,Magura,00,,57,Magura Sadar,50,Magura Pourasabha,008,Ward No. 08,100,Batikadanga,028,Batikadanga,2,2,002,95
+0464,4055006600151498248002,40,Khulna,55,Magura,00,,66,Mohammadpur,00,,151,Balidia,498,Maijpara,248,Maijpara,1,1,002,109
+0465,4055006600543546028003,40,Khulna,55,Magura,00,,66,Mohammadpur,00,,543,Nahata,546,Narandia,028,Bejora,1,1,003,102
+0467,4055008500210602308003,40,Khulna,55,Magura,00,,85,Shalikha,00,,210,Dhaneshwargati,602,Piprul,308,Piprul,1,1,003,92
+0466,4055008500742717028002,40,Khulna,55,Magura,00,,85,Shalikha,00,,742,Talkhari,717,Shatakhali (Part),028,Bahir Mallika,1,1,002,103
+0468,4055009500542717368001,40,Khulna,55,Magura,00,,95,Sreepur,00,,542,Nakol,717,Saphalgachha,368,Saphalgachha,1,1,001,107
+0469,4057004700142769388012,40,Khulna,57,Meherpur,00,,47,Gangni,00,,142,Bamandi,769,Terail,388,Terail,1,1,012,110
+0471,4057004700450083028009,40,Khulna,57,Meherpur,00,,47,Gangni,00,,450,Kazipur,083,Bhabanipur,028,Bhabanipur,1,1,009,100
+0473,4057004700675692148001,40,Khulna,57,Meherpur,00,,47,Gangni,00,,675,Raypur,692,Raypur,148,Hemayetpur,1,1,001,100
+0470,4057004700744768388002,40,Khulna,57,Meherpur,00,,47,Gangni,00,,744,Tentulbaria,768,Tentulbaria,388,Tentulbaria,1,1,002,105
+0472,4057004722004134080003,40,Khulna,57,Meherpur,00,,47,Gangni,22,Gangni Pourasabha,004,Ward No. 04,134,Chougachha (Part),080,Chougachha Haspatalpara,2,2,003,90
+0474,4057006000516674348002,40,Khulna,57,Meherpur,00,,60,Mujibnagar,00,,516,Monakhali,674,Rasikpur,348,Rasikpur,1,1,002,105
+0475,4057008700131600308001,40,Khulna,57,Meherpur,00,,87,Meherpur Sadar,00,,131,Baradi,600,Puratan Darbeshpur,308,Puratan Darbeshpur,1,1,001,90
+0477,4057008700442750388002,40,Khulna,57,Meherpur,00,,87,Meherpur Sadar,00,,442,Kutubpur,750,Terogharia,388,Terogharia,1,1,002,95
+0476,4057008733004125428002,40,Khulna,57,Meherpur,00,,87,Meherpur Sadar,33,Meherpur Pourasabha,004,Ward No. 04,125,Chandpur (Part),428,Uttar Berpara,2,2,002,67
+0479,4065002800151711368003,40,Khulna,65,Narail,00,,28,Kalia,00,,151,Babra Hachla,711,Shuktagram,368,Shuktagram,1,1,003,120
+0480,4065002800513494048003,40,Khulna,65,Narail,00,,28,Kalia,00,,513,Mauli,494,Mauli,048,Chanderchar,1,1,003,105
+0478,4065002833003126048005,40,Khulna,65,Narail,00,,28,Kalia,33,Kalia Pourasabha,003,Ward No. 03,126,Chandpur,048,Chandpur,2,2,005,100
+0483,4065005200208722368005,40,Khulna,65,Narail,00,,52,Lohagara,00,,208,Dighalia,722,Sarol,368,Sarol,1,1,005,115
+0482,4065005200477723368002,40,Khulna,65,Narail,00,,52,Lohagara,00,,477,Lahuria,723,Sarsuna,368,Sarsuna,1,1,002,125
+0481,4065005200714729368002,40,Khulna,65,Narail,00,,52,Lohagara,00,,714,Shalnagar,729,Shiarbar,368,Shiarbar,1,1,002,112
+0485,4065007600179139048003,40,Khulna,65,Narail,00,,76,Narail Sadar,00,,179,Chandibarpur,139,Chandibarpur,048,Chandibarpur,1,1,003,105
+0484,4065007600712182068004,40,Khulna,65,Narail,00,,76,Narail Sadar,00,,712,Shahabad,182,Daljitpur,068,Daljitpur,1,1,004,110
+0486,4065007666003504248012,40,Khulna,65,Narail,00,,76,Narail Sadar,66,Narail Pourasabha,003,Ward No. 03,504,Mahishkhola,248,Mahishkhola,2,2,012,110
+0487,4087000400144136128002,40,Khulna,87,Satkhira,00,,04,Ashashuni,00,,144,Baradal,136,Chanpakhali,128,Goaldanga,1,1,002,112
+0488,4087000400712429028004,40,Khulna,87,Satkhira,00,,04,Ashashuni,00,,712,Shovnali,429,Kamalkati,028,Basukhali,1,1,004,106
+0490,4087004300175154068003,40,Khulna,87,Satkhira,00,,43,Kalaroa,00,,175,Chandanpur,154,Dakkhin Gayra,068,Dakkhin Gayra,1,1,003,120
+0489,4087004300463738368004,40,Khulna,87,Satkhira,00,,43,Kalaroa,00,,463,Keralkata,738,Singa,368,Singa,1,1,004,80
+0491,4087004333002780316008,40,Khulna,87,Satkhira,00,,43,Kalaroa,33,Kalaroa Pourasabha,002,Ward No. 02,780,Tulshidanga (Part),316,Purba Tulshidanga,2,2,008,101
+0492,4087004700444521248003,40,Khulna,87,Satkhira,00,,47,Kaliganj,00,,444,Krishnanagar,521,Manpur,248,Manpur,1,1,003,100
+0495,4087008200109128048005,40,Khulna,87,Satkhira,00,,82,Satkhira Sadar,00,,109,Agardari,128,Chubria,048,Chupria,1,1,005,107
+0494,4087008200215165008001,40,Khulna,87,Satkhira,00,,82,Satkhira Sadar,00,,215,Dhulihar,165,Dhulihar,008,Asandanga,1,1,001,70
+0497,4087008200716417208008,40,Khulna,87,Satkhira,00,,82,Satkhira Sadar,00,,716,Shibpur,417,Khanpur,208,Khanpur,1,1,008,102
+0496,4087008266003721128001,40,Khulna,87,Satkhira,00,,82,Satkhira Sadar,66,Satkhira Pourasabha,003,Ward No. 03,721,Satkhira (Part),128,Ghoshpara Colony,2,2,001,101
+0493,4087008266008604432002,40,Khulna,87,Satkhira,00,,82,Satkhira Sadar,66,Satkhira Pourasabha,008,Ward No. 08,604,Palashpole (Part),432,Polashpole Sabujbag,2,2,002,100
+0498,4087008600444414368001,40,Khulna,87,Satkhira,00,,86,Shyamnagar,00,,444,Kaikhali,414,Kaikhali,368,Sapkhali,1,1,001,92
+0499,4087009000208501248002,40,Khulna,87,Satkhira,00,,90,Tala,00,,208,Dhandia,501,Manikhar,248,Manikhar,1,1,002,120
+0500,4087009000512121048001,40,Khulna,87,Satkhira,00,,90,Tala,00,,512,Magura,121,Chargram,048,Chargram,1,1,001,115
+0501,4539000700142670116004,45,Mymensingh,39,Jamalpur,00,,07,Bakshiganj,00,,142,Bagarchar,670,Ramrampur,116,Khasergaon,1,1,004,110
+0502,4539000700509668119005,45,Mymensingh,39,Jamalpur,00,,07,Bakshiganj,00,,509,Merurchar,668,Rabiarchar,119,Khewarchar Uzan,1,1,005,115
+0503,4539000711007113224003,45,Mymensingh,39,Jamalpur,00,,07,Bakshiganj,11,Bakshiganj Pourasabha,007,Ward No. 07,113,Char Kauria (Part),224,Uttar Simarpar,2,3,003,95
+0507,4539001500142074121007,45,Mymensingh,39,Jamalpur,00,,15,Dewanganj,00,,142,Bahadurabad,074,Bahadurabad,121,Kalakanda,1,1,007,100
+0505,4539001500212073167003,45,Mymensingh,39,Jamalpur,00,,15,Dewanganj,00,,212,Dangdhara,073,Bagharchar,167,Patharerchar,1,1,003,119
+0506,4539001500611601178003,45,Mymensingh,39,Jamalpur,00,,15,Dewanganj,00,,611,Par Ramrampur,601,Par Ramrampur,178,Porabhita,1,1,003,120
+0504,4539001516009116037001,45,Mymensingh,39,Jamalpur,00,,15,Dewanganj,16,Dewanganj Pourasabha,009,Ward No. 09,116,Char Bhabasur (Part),037,Char Bhabasur Purbapara (Part),2,2,001,120
+0509,4539002900194130165003,45,Mymensingh,39,Jamalpur,00,,29,Islampur,00,,194,Chinaduli,130,Chinaduli,165,Purba Chinaduli,1,1,003,105
+0508,4539002900446428010003,45,Mymensingh,39,Jamalpur,00,,29,Islampur,00,,446,Kulkandi,428,Kulkandi,010,Athiamari,1,1,003,100
+0516,4539003600142077020010,45,Mymensingh,39,Jamalpur,00,,36,Jamalpur Sadar,00,,142,Banshchara,077,Banshchara,020,Banshchara,1,1,010,125
+0514,4539003600376380031001,45,Mymensingh,39,Jamalpur,00,,36,Jamalpur Sadar,00,,376,Itail,380,Itail,031,Chariapara,1,1,001,110
+0515,4539003600511105020001,45,Mymensingh,39,Jamalpur,00,,36,Jamalpur Sadar,00,,511,Meshta,105,Bukhunja,020,Bukhunja,1,1,001,100
+0518,4539003600687711180004,45,Mymensingh,39,Jamalpur,00,,36,Jamalpur Sadar,00,,687,Rashidpur,711,Ramdebbari,180,Ramdebbari,1,1,004,100
+0512,4539003600722718180013,45,Mymensingh,39,Jamalpur,00,,36,Jamalpur Sadar,00,,722,Sharifpur,718,Ranarampur,180,Ranarampur,1,1,013,100
+0511,4539003600758819042009,45,Mymensingh,39,Jamalpur,00,,36,Jamalpur Sadar,00,,758,Tulsirchar,819,Tulsirchar,042,Duatala,1,1,009,100
+0517,4539003650001646161008,45,Mymensingh,39,Jamalpur,00,,36,Jamalpur Sadar,50,Jamalpur Pourasabha,001,Ward No. 01,646,Pathalia,161,Pathalia,2,2,008,104
+0510,4539003650006755020004,45,Mymensingh,39,Jamalpur,00,,36,Jamalpur Sadar,50,Jamalpur Pourasabha,006,Ward No. 06,755,Satpaikha (Part),020,Baniabazar,2,2,004,97
+0513,4539003650011528020009,45,Mymensingh,39,Jamalpur,00,,36,Jamalpur Sadar,50,Jamalpur Pourasabha,011,Ward No. 11,528,Mainpur (Part),020,Bagabaid,2,2,009,100
+0520,4539005800177325080005,45,Mymensingh,39,Jamalpur,00,,58,Madarganj,00,,177,Char Pakerdaha,325,Hidagari,080,Hidagari,1,1,005,100
+0519,4539005800410625160002,45,Mymensingh,39,Jamalpur,00,,58,Madarganj,00,,410,Jorekhali,625,Phularpara,160,Phularpara,1,1,002,95
+0522,4539006100176094020002,45,Mymensingh,39,Jamalpur,00,,61,Melandaha,00,,176,Char Banipakuria,094,Bhangunidanga,020,Bhangunidanga,1,1,002,102
+0524,4539006100311279031007,45,Mymensingh,39,Jamalpur,00,,61,Melandaha,00,,311,Ghosherpara,279,Ghosherpara,031,Char Ghosherpara,1,1,007,120
+0523,4539006100512612010003,45,Mymensingh,39,Jamalpur,00,,61,Melandaha,00,,512,Mahmudpur,612,Payla,010,Ag Payla,1,1,003,108
+0521,4539006100546283020003,45,Mymensingh,39,Jamalpur,00,,61,Melandaha,00,,546,Nangla,283,Gobindapur 2Nd Khanda,020,Bagurpara,2,3,003,100
+0526,4539008500109779200012,45,Mymensingh,39,Jamalpur,00,,85,Sarishabari,00,,109,Aona,779,Thalulla,200,Thalulla,1,1,012,104
+0527,4539008500509070020001,45,Mymensingh,39,Jamalpur,00,,85,Sarishabari,00,,509,Mahadan,070,Banagram,020,Banagram,1,1,001,120
+0525,4539008500618621041003,45,Mymensingh,39,Jamalpur,00,,85,Sarishabari,00,,618,Pogaldigha,621,Pogaldigha,041,Duriarbhita,1,1,003,110
+0528,4539008583002724191006,45,Mymensingh,39,Jamalpur,00,,85,Sarishabari,83,Sarishabari Pourasabha,002,Ward No. 02,724,Samarthabari,191,Samarthabari,2,2,006,100
+0530,4561001300151531140001,45,Mymensingh,61,Mymensingh,00,,13,Bhaluka,00,,151,Bharadoba,531,Nishinda,140,Nishinda,1,1,001,105
+0532,4561001300345298080015,45,Mymensingh,61,Mymensingh,00,,13,Bhaluka,00,,345,Habirbari,298,Habirbari,080,Habirbari Part-2,1,1,015,110
+0531,4561001300345369100061,45,Mymensingh,61,Mymensingh,00,,13,Bhaluka,00,,345,Habirbari,369,Jamirdia,100,Jamirdia Part-02,1,1,061,120
+0529,4561001300512160133010,45,Mymensingh,61,Mymensingh,00,,13,Bhaluka,00,,512,Mallikbari,160,Dhamshur,133,Mamarishpur,2,3,010,105
+0533,4561001300512485141001,45,Mymensingh,61,Mymensingh,00,,13,Bhaluka,00,,512,Mallikbari,485,Mallikbari,141,Nayanpur,1,1,001,102
+0534,4561001600142497101002,45,Mymensingh,61,Mymensingh,00,,16,Dhobaura,00,,142,Baghber,497,Munsirhat,101,Jigagachhia,1,1,002,100
+0535,4561001600328269074003,45,Mymensingh,61,Mymensingh,00,,16,Dhobaura,00,,328,Goatala,269,Goatala,074,Goatala Bandar,1,1,003,100
+0537,4561002000152076193005,45,Mymensingh,61,Mymensingh,00,,20,Fulbaria,00,,152,Balian,076,Balian (Part),193,Shurerpar,1,1,005,100
+0539,4561002000446086020007,45,Mymensingh,61,Mymensingh,00,,20,Fulbaria,00,,446,Kaladaha,086,Bidyananda,020,Bidyananda,1,1,007,98
+0538,4561002000614614160001,45,Mymensingh,61,Mymensingh,00,,20,Fulbaria,00,,614,Putijana,614,Puntijana,160,Puntijana,1,1,001,90
+0536,4561002018002240067002,45,Mymensingh,61,Mymensingh,00,,20,Fulbaria,18,Fulbaria Pourasabha,002,Ward No. 02,240,Fulbaria (Part),067,Fulbaria Pashchimpara,2,2,002,132
+0542,4561002200210080020004,45,Mymensingh,61,Mymensingh,00,,22,Gafargaon,00,,210,Datter Bazar,080,Balipara,020,Balipara,1,1,004,99
+0541,4561002200479186040004,45,Mymensingh,61,Mymensingh,00,,22,Gafargaon,00,,479,Tangab,186,Daoadair,040,Daoadair,1,1,004,120
+0540,4561002200621445110005,45,Mymensingh,61,Mymensingh,00,,22,Gafargaon,00,,621,Panchbag,445,Khurshimul,110,Khurshimul,1,1,005,104
+0545,4561002300109441110001,45,Mymensingh,61,Mymensingh,00,,23,Gouripur,00,,109,Achintyapur,441,Khalijuri,110,Khalijuri,1,1,001,112
+0544,4561002300311448160002,45,Mymensingh,61,Mymensingh,00,,23,Gouripur,00,,311,Gouripur,448,Konapara,160,Pashchim Konapara,1,1,002,105
+0546,4561002300711629160004,45,Mymensingh,61,Mymensingh,00,,23,Gouripur,00,,711,Sahanati,629,Paltipara,160,Paltipara,1,1,004,95
+0543,4561002333007295137002,45,Mymensingh,61,Mymensingh,00,,23,Gouripur,33,Gouripur Pourasabha,007,Ward No. 07,295,Gouripur (Part),137,Machhuakanda,2,2,002,126
+0547,4561002400211423110005,45,Mymensingh,61,Mymensingh,00,,24,Haluaghat,00,,211,Dhara,423,Kayrahati,110,Kayrahati,1,1,005,98
+0548,4561002400447414229001,45,Mymensingh,61,Mymensingh,00,,24,Haluaghat,00,,447,Kaichapur,414,Kaichapur (Part),229,Vekipara,1,1,001,115
+0549,4561003100143187040001,45,Mymensingh,61,Mymensingh,00,,31,Ishwarganj,00,,143,Barahit,187,Datter Danguri,040,Datter Danguri,1,1,001,40
+0551,4561003100518509196003,45,Mymensingh,61,Mymensingh,00,,31,Ishwarganj,00,,518,Maijbag,509,Maijbag,196,Satihari,1,1,003,120
+0550,4561003100745746190001,45,Mymensingh,61,Mymensingh,00,,31,Ishwarganj,00,,745,Tarundia,746,Sartaj Bayra,190,Sartaj Bayra,1,1,001,135
+0552,4561005200162754160003,45,Mymensingh,61,Mymensingh,00,,52,Mymensingh Sadar,00,,162,Borarchar,754,Tarapur,160,Payesti Tarapur,1,1,003,115
+0553,4561005200315274219014,45,Mymensingh,61,Mymensingh,00,,52,Mymensingh Sadar,00,,315,Ghagra,274,Ghagra,219,Ujan Ghagra,1,1,014,98
+0554,4561005200715415110001,45,Mymensingh,61,Mymensingh,00,,52,Mymensingh Sadar,00,,715,Sirta,415,Kandarpapur,110,Kandarpapur,1,1,001,117
+0556,4561006500210521130007,45,Mymensingh,61,Mymensingh,00,,65,Muktagachha,00,,210,Daogaon,521,Maheshpur,130,Maheshpur,1,1,007,90
+0557,4561006500453078020008,45,Mymensingh,61,Mymensingh,00,,65,Muktagachha,00,,453,Kheruajani,078,Banda Goalia,020,Banda Goalia,1,1,008,98
+0555,4561006500745755010001,45,Mymensingh,61,Mymensingh,00,,65,Muktagachha,00,,745,Tarati,755,Shasha,010,Anuakanda,1,1,001,118
+0558,4561006566004633160007,45,Mymensingh,61,Mymensingh,00,,65,Muktagachha,66,Muktagachha Pourasabha,004,Ward No. 04,633,Paratangi (Part),160,Paratangi (Part),2,2,007,110
+0559,4561007200310281070001,45,Mymensingh,61,Mymensingh,00,,72,Nandail,00,,310,Gangail,281,Gayeshpur,070,Gayeshpur,1,1,001,125
+0560,4561007200520352090001,45,Mymensingh,61,Mymensingh,00,,72,Nandail,00,,520,Mushuli,352,Indarganti,090,Indarganti,1,1,001,120
+0561,4561007200722736148001,45,Mymensingh,61,Mymensingh,00,,72,Nandail,00,,722,Singrail,736,Singrail,148,Nadirpar,1,1,001,150
+0562,4561008100278265060004,45,Mymensingh,61,Mymensingh,00,,81,Fulpur,00,,278,Fulpur,265,Fatepur,060,Fatepur,1,1,004,100
+0563,4561008100694439110004,45,Mymensingh,61,Mymensingh,00,,81,Fulpur,00,,694,Rupsi,439,Katuli,110,Katuli,1,1,004,101
+0564,4561008183006399100004,45,Mymensingh,61,Mymensingh,00,,81,Fulpur,83,Fulpur Pourasabha,006,Ward No. 06,399,Jagir Kaziakanda,100,Jagir Kaziakanda,2,2,004,110
+0566,4561008800160427110001,45,Mymensingh,61,Mymensingh,00,,88,Tarakanda,00,,160,Biska,427,Kankanikona,110,Kankanikona,1,1,001,90
+0565,4561008800453824210001,45,Mymensingh,61,Mymensingh,00,,88,Tarakanda,00,,453,Kamargaon,824,Ulmakandi,210,Ulmakandi,1,1,001,102
+0568,4561009400143077034002,45,Mymensingh,61,Mymensingh,00,,94,Trishal,00,,143,Bailar,077,Bailar,034,Charpara,1,1,002,115
+0567,4561009400344307080005,45,Mymensingh,61,Mymensingh,00,,94,Trishal,00,,344,Harirampur,307,Harirampur,080,Harirampur,1,1,005,100
+0569,4561009400521495130001,45,Mymensingh,61,Mymensingh,00,,94,Trishal,00,,521,Mokkhapur,495,Mokkhapur,130,Mokkhapur,1,1,001,100
+0575,4561405200001422160011,45,Mymensingh,61,Mymensingh,40,Mymensingh City Corporation,52,Mymensingh Sadar,00,,001,Ward No. 01,422,Khagdahar (Part),160,Purba Khagdahar,2,9,011,120
+0570,4561405200007505194001,45,Mymensingh,61,Mymensingh,40,Mymensingh City Corporation,52,Mymensingh Sadar,00,,007,Ward No. 07,505,Mymensingh Town (Part),194,Panditpara,2,9,001,125
+0571,4561405200014713289005,45,Mymensingh,61,Mymensingh,40,Mymensingh City Corporation,52,Mymensingh Sadar,00,,014,Ward No. 14,713,Sehra (Part),289,"Noyapara, Charpara",2,9,005,110
+0574,4561405200019076033001,45,Mymensingh,61,Mymensingh,40,Mymensingh City Corporation,52,Mymensingh Sadar,00,,019,Ward No. 19,076,Balashpur,033,Bolashpur Shimultali,2,9,001,110
+0573,4561405200026080029001,45,Mymensingh,61,Mymensingh,40,Mymensingh City Corporation,52,Mymensingh Sadar,00,,026,Ward No. 26,080,Barera,029,Bhatibarera,2,9,001,100
+0572,4561405200031130048002,45,Mymensingh,61,Mymensingh,40,Mymensingh City Corporation,52,Mymensingh Sadar,00,,031,Ward No. 31,130,Charishwardia,048,Charishwardia,2,9,002,130
+0576,4572000400209738191003,45,Mymensingh,72,Netrakona,00,,04,Atpara,00,,209,Duaz,738,Sreepur Chargatia,191,Sreepur Chargatia,1,1,003,105
+0577,4572000400742616160001,45,Mymensingh,72,Netrakona,00,,04,Atpara,00,,742,Teliganti,616,Pashchim Hatiar,160,Pashchim Hatiar,1,1,001,110
+0578,4572000900178135020001,45,Mymensingh,72,Netrakona,00,,09,Barhatta,00,,178,Chiram,135,Chhiram,020,Bade Chiram,1,1,001,125
+0580,4572001800142072162001,45,Mymensingh,72,Netrakona,00,,18,Durgapur,00,,142,Bakaljora,072,Bakaljora,162,Pashchim Bakaljora,1,1,001,80
+0581,4572001800211169041001,45,Mymensingh,72,Netrakona,00,,18,Durgapur,00,,211,Durgapur,169,Dashal (Part),041,Dashal,1,1,001,95
+0582,4572001800453034010001,45,Mymensingh,72,Netrakona,00,,18,Durgapur,00,,453,Kullagara,034,Amratala,010,Amratala,1,1,001,40
+0579,4572001820002175022003,45,Mymensingh,72,Netrakona,00,,18,Durgapur,20,Durgapur Pourasabha,002,Ward No. 02,175,Durgapur (Part),022,Burunga,2,2,003,94
+0583,4572003800509413111001,45,Mymensingh,72,Netrakona,00,,38,Khaliajuri,00,,509,Mendipur,413,Khalapara,111,Khalapara,1,1,001,91
+0584,4572004000449144010001,45,Mymensingh,72,Netrakona,00,,40,Kalmakanda,00,,449,Kalmakanda,144,Chinahala,010,Anandapur,1,1,001,88
+0585,4572004000543550140001,45,Mymensingh,72,Netrakona,00,,40,Kalmakanda,00,,543,Nazirpur,550,Nalchapra,140,Nalchapra,1,1,001,91
+0590,4572004700109460110002,45,Mymensingh,72,Netrakona,00,,47,Kendua,00,,109,Ashujia,460,Krishnarampur,110,Krishnarampur,1,1,002,100
+0588,4572004700311302070002,45,Mymensingh,72,Netrakona,00,,47,Kendua,00,,311,Ganda,302,Garadia,070,Garadia,1,1,002,100
+0587,4572004700521530130007,45,Mymensingh,72,Netrakona,00,,47,Kendua,00,,521,Mozafarpur,530,Mozafarpur,130,Mozafarpur,1,1,007,100
+0589,4572004700715710180001,45,Mymensingh,72,Netrakona,00,,47,Kendua,00,,715,Sandikona,710,Ramaigati Pubati,180,Ramaigati Pubati,1,1,001,101
+0586,4572004740004801080001,45,Mymensingh,72,Netrakona,00,,47,Kendua,40,Kendua Pourasabha,004,Ward No. 04,801,Tenguri,080,Hariamala,2,2,001,65
+0591,4572005600518676180001,45,Mymensingh,72,Netrakona,00,,56,Madan,00,,518,Maghan,676,Ruhili,180,Ruhili,1,1,001,120
+0593,4572006300508071020001,45,Mymensingh,72,Netrakona,00,,63,Mohanganj,00,,508,Maghan Shiadhar,071,Bakharpur,020,Bakharpur,1,1,001,80
+0592,4572006360005501130006,45,Mymensingh,72,Netrakona,00,,63,Mohanganj,60,Mohanganj Pourasabha,005,Ward No. 05,501,Mairora,130,Mailora,2,2,006,111
+0597,4572007400109185041002,45,Mymensingh,72,Netrakona,00,,74,Netrakona Sadar,00,,109,Amtala,185,Debpur,041,Deopur,1,1,002,116
+0596,4572007400451147030003,45,Mymensingh,72,Netrakona,00,,74,Netrakona Sadar,00,,451,Kaliara Gabraganti,147,Chheopur,030,Chheopur,1,1,003,98
+0595,4572007400529098021001,45,Mymensingh,72,Netrakona,00,,74,Netrakona Sadar,00,,529,Medni,098,Bhatlibhita,021,Bhorkhila,1,1,001,94
+0598,4572007400747806020001,45,Mymensingh,72,Netrakona,00,,74,Netrakona Sadar,00,,747,Thakurakona,806,Tatiar,020,Baraidahar,1,1,001,95
+0594,4572007480003756184002,45,Mymensingh,72,Netrakona,00,,74,Netrakona Sadar,80,Netrakona Pourasabha,003,Ward No. 03,756,Satpai (Part),184,Purba Chakpara,2,2,002,100
+0599,4572007480008573212011,45,Mymensingh,72,Netrakona,00,,74,Netrakona Sadar,80,Netrakona Pourasabha,008,Ward No. 08,573,Nagra,212,Uttar Nagra,2,2,011,95
+0602,4572008300152720180004,45,Mymensingh,72,Netrakona,00,,83,Purbadhala,00,,152,Bishkakuni,720,Rampur Kachhiakanda,180,Rampur Kachhiakanda,1,1,004,100
+0600,4572008300320448110002,45,Mymensingh,72,Netrakona,00,,83,Purbadhala,00,,320,Gohalanda,448,Khagaria,110,Khagaria,1,1,002,110
+0601,4572008300447495120001,45,Mymensingh,72,Netrakona,00,,83,Purbadhala,00,,447,Khalishaur,495,Langaljora,120,Langaljora,1,1,001,85
+0603,4589003700208423111014,45,Mymensingh,89,Sherpur,00,,37,Jhenaigati,00,,208,Dhanshail,423,Kanduli,111,Kanduli,1,1,014,100
+0604,4589003700443035010002,45,Mymensingh,89,Sherpur,00,,37,Jhenaigati,00,,443,Kangsha,035,Aynapur,010,Aynapur,1,1,002,120
+0605,4589003700544428110001,45,Mymensingh,89,Sherpur,00,,37,Jhenaigati,00,,544,Nalkura,428,Kushaikura,110,Kushaikura,1,1,001,125
+0607,4589006700310080020002,45,Mymensingh,89,Sherpur,00,,67,Nakla,00,,310,Ganapaddi,080,Biharirpar,020,Baraitar,1,1,002,125
+0606,4589006700743532140001,45,Mymensingh,89,Sherpur,00,,67,Nakla,00,,743,Talki,532,Nayabari,140,Nayabari,1,1,001,110
+0608,4589006722003455120001,45,Mymensingh,89,Sherpur,00,,67,Nakla,22,Nakla Pourasabha,003,Ward No. 03,455,Lava (Part),120,Labha (Part),2,2,001,100
+0612,4589007000407417111002,45,Mymensingh,89,Sherpur,00,,70,Nalitabari,00,,407,Jogania,417,Kapashia (Part),111,Kapasia,1,1,002,105
+0609,4589007000543086020001,45,Mymensingh,89,Sherpur,00,,70,Nalitabari,00,,543,Nalitabari,086,Bhedikura,020,Bhedikura,1,1,001,100
+0611,4589007000612723190003,45,Mymensingh,89,Sherpur,00,,70,Nalitabari,00,,612,Poragaon,723,Samaschura,190,Samaschura,1,1,003,95
+0610,4589007033004730040002,45,Mymensingh,89,Sherpur,00,,70,Nalitabari,33,Nalitabari Pourasabha,004,Ward No. 04,730,Sitpara (Part),040,Dakkhin Taraganj Bazar,2,2,002,110
+0620,4589008800142075020004,45,Mymensingh,89,Sherpur,00,,88,Sherpur Sadar,00,,142,Bajitkhila,075,Balia,020,Balia,1,1,004,100
+0621,4589008800160133030011,45,Mymensingh,89,Sherpur,00,,88,Sherpur Sadar,00,,160,Betmari Ghughurakandi,133,Charkharchar,030,Charkharchar,1,1,011,115
+0614,4589008800179316202002,45,Mymensingh,89,Sherpur,00,,88,Sherpur Sadar,00,,179,Char Mocharia,316,Harindhara,202,Tankachhar,1,1,002,100
+0615,4589008800197317085001,45,Mymensingh,89,Sherpur,00,,88,Sherpur Sadar,00,,197,Char Sherpur,317,Herua,085,Herua Bazaripara,1,1,001,115
+0613,4589008800448426046006,45,Mymensingh,89,Sherpur,00,,88,Sherpur Sadar,00,,448,Kamarerchar,426,Kamarerchar,046,6 No. Char,1,1,006,120
+0618,4589008800483432112001,45,Mymensingh,89,Sherpur,00,,88,Sherpur Sadar,00,,483,Lachhmanpur,432,Krishnapur,112,Krishnapur Daripara,1,1,001,100
+0617,4589008800683686144003,45,Mymensingh,89,Sherpur,00,,88,Sherpur Sadar,00,,683,Rouha,686,Rouha,144,Naobhanga,1,1,003,110
+0622,4589008866002544142001,45,Mymensingh,89,Sherpur,00,,88,Sherpur Sadar,66,Sherpur Pourasabha,002,Ward No. 02,544,Narayanpur (Part),142,Narayanpur,2,2,001,120
+0619,4589008866006722121002,45,Mymensingh,89,Sherpur,00,,88,Sherpur Sadar,66,Sherpur Pourasabha,006,Ward No. 06,722,Sherpur (Part),121,Kasba Kacharipara,2,2,002,120
+0616,4589008866009722046011,45,Mymensingh,89,Sherpur,00,,88,Sherpur Sadar,66,Sherpur Pourasabha,009,Ward No. 09,722,Sherpur (Part),046,Digharpar,2,2,011,120
+0623,4589009000317167040004,45,Mymensingh,89,Sherpur,00,,90,Sreebardi,00,,317,Gosaipur,167,Dhatua,040,Dhatua,1,1,004,110
+0625,4589009000451609160003,45,Mymensingh,89,Sherpur,00,,90,Sreebardi,00,,451,Kharia Kazirchar,609,Poragar,160,Poragar,1,1,003,118
+0624,4589009000710424110005,45,Mymensingh,89,Sherpur,00,,90,Sreebardi,00,,710,Singabaruna,424,Karnajhora,110,Karnajhora,1,1,005,103
+0626,5010000600185413048001,50,Rajshahi,10,Bogura,00,,06,Adamdighi,00,,185,Chhatiangram,413,Kaikuri,048,Chak Sonar,1,1,001,110
+0627,5010000650009765388004,50,Rajshahi,10,Bogura,00,,06,Adamdighi,50,Santahar Pourasabha,009,Ward No. 09,765,Tarapur,388,Tarapur,2,2,004,51
+0629,5010002000542532268001,50,Rajshahi,10,Bogura,00,,20,Bogura Sadar,00,,542,Namuja,532,Namuja,268,Nathpara,1,1,001,104
+0630,5010002020010273384006,50,Rajshahi,10,Bogura,00,,20,Bogura Sadar,20,Bogura Pourasabha,010,Ward No. 10,273,Garamara (Part),384,Rahmannagar Kazikhana,2,2,006,104
+0628,5010002020019163068004,50,Rajshahi,10,Bogura,00,,20,Bogura Sadar,20,Bogura Pourasabha,019,Ward No. 19,163,Dakurchak,068,Dakurchak,2,2,004,110
+0631,5010002700245203096001,50,Rajshahi,10,Bogura,00,,27,Dhunat,00,,245,Elangi,203,Elangi,096,Elangi Pashchimpara,1,1,001,95
+0632,5010003300175711368001,50,Rajshahi,10,Bogura,00,,33,Dupchachia,00,,175,Chamrul,711,Sarabdipur,368,Sarabdipur,1,1,001,135
+0634,5010004000310590308001,50,Rajshahi,10,Bogura,00,,40,Gabtali,00,,310,Gabtali,590,Padmapara,308,Padmapara,1,1,001,100
+0633,5010004000713482368001,50,Rajshahi,10,Bogura,00,,40,Gabtali,00,,713,Sonaray,482,Masundi,368,Shahapara,1,1,001,90
+0635,5010004040002366196001,50,Rajshahi,10,Bogura,00,,40,Gabtali,40,Gabtali Pourasabha,002,Ward No. 02,366,Joybhoga (Part),196,Joybhoga,2,2,001,110
+0636,5010005400545564048001,50,Rajshahi,10,Bogura,00,,54,Kahaloo,00,,545,Narahatta,564,Nishchinta Chhandani,048,Chhandani,1,1,001,100
+0638,5010008100142177068010,50,Rajshahi,10,Bogura,00,,81,Sariakandi,00,,142,Bhelabari,177,Dakkhin Jorgachha,068,Dakkhin Jorgachha,1,1,010,100
+0637,5010008100472180248002,50,Rajshahi,10,Bogura,00,,81,Sariakandi,00,,472,Kutubpur,180,Debdanga,248,Machhirpara,1,1,002,95
+0639,5010008500312774108003,50,Rajshahi,10,Bogura,00,,85,Shajahanpur,00,,312,Gohail,774,Tarol,108,Fakirpara,1,1,003,95
+0640,5010008800442435208004,50,Rajshahi,10,Bogura,00,,88,Sherpur,00,,442,Khamarkandi,435,Khamarkandi,208,Khamarkandi,1,1,004,105
+0641,5010008800710727008001,50,Rajshahi,10,Bogura,00,,88,Sherpur,00,,710,Shahbandagi,727,Sherua,008,Andikumra,2,3,001,100
+0642,5010009400109138048002,50,Rajshahi,10,Bogura,00,,94,Shibganj,00,,109,Atmul,138,Chak Kanu,048,Chak Kanu,1,1,002,87
+0643,5010009400528035008002,50,Rajshahi,10,Bogura,00,,94,Shibganj,00,,528,Mokamtala,035,Amjani,008,Amjani,1,1,002,85
+0644,5010009500209075028001,50,Rajshahi,10,Bogura,00,,95,Sonatala,00,,209,Digdair,075,Baragharia,028,Baragharia,1,1,001,100
+0660,5038001300671078148001,50,Rajshahi,38,Joypurhat,00,,13,Akkelpur,00,,671,Raykali,078,Bagirbaria,148,Harinatara,1,1,001,50
+0658,5038001300740731368001,50,Rajshahi,38,Joypurhat,00,,13,Akkelpur,00,,740,Tilakpur,731,Shyampur,368,Shyampur,1,1,001,100
+0659,5038001325006312316003,50,Rajshahi,38,Joypurhat,00,,13,Akkelpur,25,Akkelpur Pourasabha,006,Ward No. 06,312,Hastabasantapur (Part),316,Purba Hastabasantapur,2,2,003,100
+0661,5038004700152629308002,50,Rajshahi,38,Joypurhat,00,,47,Joypurhat Sadar,00,,152,Bhadsa,629,Palibari,308,Palibari,1,1,002,120
+0662,5038004700412176248001,50,Rajshahi,38,Joypurhat,00,,47,Joypurhat Sadar,00,,412,Jamalpur,176,Dadra Jantigram,248,Madhya Dadra Jantigram,1,1,001,117
+0663,5038004750006398048001,50,Rajshahi,38,Joypurhat,00,,47,Joypurhat Sadar,50,Joypurhat Pourasabha,006,Ward No. 06,398,Joypurhat (Part),048,Biharipara,2,2,001,120
+0665,5038005800407278128003,50,Rajshahi,38,Joypurhat,00,,58,Kalai,00,,407,Jindarpur,278,Ghaturia,128,Ghaturia,1,1,003,135
+0664,5038005800773275128001,50,Rajshahi,38,Joypurhat,00,,58,Kalai,00,,773,Udaypur,275,Gangadaspur,128,Gangadaspur,1,1,001,100
+0667,5038006100508478248005,50,Rajshahi,38,Joypurhat,00,,61,Khetlal,00,,508,Mamudpur,478,Mahabatpur,248,Mahabatpur,1,1,005,125
+0666,5038006167003409328002,50,Rajshahi,38,Joypurhat,00,,61,Khetlal,67,Khetlal Pourasabha,003,Ward No.03,409,Khetlal (Part),328,Paikpara,2,2,002,100
+0669,5038007400127430208001,50,Rajshahi,38,Joypurhat,00,,74,Panchbibi,00,,127,Ayma Rasulpur,430,Karia,208,Kadubari,1,1,001,106
+0668,5038007400213713348004,50,Rajshahi,38,Joypurhat,00,,74,Panchbibi,00,,213,Dharanji,713,Raypur,348,Raypur,1,1,004,110
+0670,5064000300152543208002,50,Rajshahi,64,Naogaon,00,,03,Atrai,00,,152,Bisha,543,Nandigram,208,Kharsuti,1,1,002,81
+0671,5064000600152185068003,50,Rajshahi,64,Naogaon,00,,06,Badalgachhi,00,,152,Balubhara,185,Dhekra,068,Dhekra,1,1,003,86
+0672,5064002800118718068001,50,Rajshahi,64,Naogaon,00,,28,Dhamoirhat,00,,118,Alampur,718,Rasulbil,068,Dhandupara,1,1,001,120
+0673,5064002830006145416003,50,Rajshahi,64,Naogaon,00,,28,Dhamoirhat,30,Dhamoirhat Pourasabha,006,Ward No. 06,145,Chak Jadu (Part),416,Uttar Purba Chak Jadu,2,2,003,110
+0675,5064004700151454208003,50,Rajshahi,64,Naogaon,00,,47,Manda,00,,151,Bharsho,454,Kabulpur,208,Kabulpur,1,1,003,50
+0674,5064004700513552248001,50,Rajshahi,64,Naogaon,00,,47,Manda,00,,513,Mainam,552,Mangalapara,248,Mangalapara,1,1,001,130
+0677,5064005000184582268001,50,Rajshahi,64,Naogaon,00,,50,Mahadebpur,00,,184,Cheragpur,582,Nalobalo,268,Nalobalo,1,1,001,110
+0676,5064005000710651308003,50,Rajshahi,64,Naogaon,00,,50,Mahadebpur,00,,710,Safapur,651,Panthakata,308,Panthakata,1,1,003,115
+0680,5064006000346084028009,50,Rajshahi,64,Naogaon,00,,60,Naogaon Sadar,00,,346,Hansaigari,084,Bhimpur,028,Bhimpur,1,1,009,100
+0679,5064006050004035408016,50,Rajshahi,64,Naogaon,00,,60,Naogaon Sadar,50,Naogaon Pourasabha,004,Ward No. 04,035,Araji Naogaon (Part),408,Uttar Araji Naogaon,2,2,016,110
+0678,5064006050009757368003,50,Rajshahi,64,Naogaon,00,,60,Naogaon Sadar,50,Naogaon Pourasabha,009,Ward No. 09,757,Sheikhpura,368,Sheikhpura,2,2,003,130
+0682,5064006900151219068003,50,Rajshahi,64,Naogaon,00,,69,Niamatpur,00,,151,Bhabicha,219,Dima,068,Dima,1,1,003,80
+0681,5064006900710715068001,50,Rajshahi,64,Naogaon,00,,69,Niamatpur,00,,710,Sreemantapur,715,Rajapur,068,Dargapara,1,1,001,110
+0683,5064007500612549248003,50,Rajshahi,64,Naogaon,00,,75,Patnitala,00,,612,Patichara,549,Mobarakpur,248,Mobarakpur,1,1,003,45
+0684,5064008500142453208001,50,Rajshahi,64,Naogaon,00,,85,Raninagar,00,,142,Baragachha,453,Kumuria,208,Kumuria,1,1,001,98
+0685,5064008600308075308001,50,Rajshahi,64,Naogaon,00,,86,Sapahar,00,,308,Goala,075,Bad Nishchintapur,308,Palpara,1,1,001,120
+0686,5069000900209498248008,50,Rajshahi,69,Natore,00,,09,Bagatipara,00,,209,Dayarampur,498,Mishripara,248,Mishripara,1,1,008,100
+0687,5069001500176273128004,50,Rajshahi,69,Natore,00,,15,Baraigram,00,,176,Chandai,273,Garfa,128,Garfa,1,1,004,100
+0689,5069001500510559268001,50,Rajshahi,69,Natore,00,,15,Baraigram,00,,510,Majhgaon,559,Nij Gunai (Part),268,Nij Gunihati,1,1,001,86
+0688,5069001525005511308003,50,Rajshahi,69,Natore,00,,15,Baraigram,25,Banpara Pourasabha,005,Ward No. 05,511,Malipara Gunaihati (Part),308,Purba Malipara Gunaihati,2,2,003,111
+0690,5069004100210611188006,50,Rajshahi,69,Natore,00,,41,Gurudaspur,00,,210,Dharabarisha,611,Palshura,188,Jhaupara,1,1,006,120
+0691,5069004400118078028002,50,Rajshahi,69,Natore,00,,44,Lalpur,00,,118,Arjunpur Baramhati,078,Bamangram,028,Bamangram,1,1,002,100
+0692,5069004400379561268006,50,Rajshahi,69,Natore,00,,44,Lalpur,00,,379,Ishwardi,561,Nangla,268,Nangla,1,1,006,130
+0693,5069004435003750068002,50,Rajshahi,69,Natore,00,,44,Lalpur,35,Gopalpur (Lalpur) Pourasabha,003,Ward No. 03,750,Shibpur (Part),068,Dakkhin Pashchim Shibpur,2,2,002,120
+0694,5069005500151308148001,50,Rajshahi,69,Natore,00,,55,Naldanga,00,,151,Brahmapur,308,Haludghar (Part),148,Haludghar Madhyapara,1,1,001,124
+0695,5069006300176093028002,50,Rajshahi,69,Natore,00,,63,Natore Sadar,00,,176,Chhatni,093,Bil Chandrabati,028,Bil Chandrabati,1,1,002,130
+0697,5069006300477362168002,50,Rajshahi,69,Natore,00,,63,Natore Sadar,00,,477,Lakkhipur Kholabaria,362,Ibrahimpur,168,Ibrahimpur,1,1,002,105
+0696,5069006350007083408015,50,Rajshahi,69,Natore,00,,63,Natore Sadar,50,Natore Pourasabha,007,Ward No. 07,083,Baragachha (Part),408,Uttar Baragachha,2,2,015,125
+0698,5069009100211313128001,50,Rajshahi,69,Natore,00,,91,Singra,00,,211,Dahia,313,Garabari,128,Garabari,1,1,001,120
+0699,5069009100678229068001,50,Rajshahi,69,Natore,00,,91,Singra,00,,678,Ramananda Khajura,229,Damdighi,068,Damdighi,1,1,001,42
+0645,5070001800209527368001,50,Rajshahi,70,Chapainababganj,00,,18,Bholahat,00,,209,Daldali,527,Nimgachhi,368,Schoolpara,1,1,001,61
+0647,5070003700178083028002,50,Rajshahi,70,Chapainababganj,00,,37,Gomastapur,00,,178,Choudala,083,Benichak,028,Benichak,1,1,002,110
+0648,5070003700676752028001,50,Rajshahi,70,Chapainababganj,00,,37,Gomastapur,00,,676,Radhanagar,752,Siddhigram,028,Battali,1,1,001,99
+0646,5070003744003704068001,50,Rajshahi,70,Chapainababganj,00,,37,Gomastapur,44,Rahanpur Pourasabha,003,Ward No. 03,704,Rahanpur (Part),068,Dakkhin Rahamatpara,2,2,001,86
+0649,5070005600549080028001,50,Rajshahi,70,Chapainababganj,00,,56,Nachole,00,,549,Nezampur,080,Bakail,028,Banshbaria Bakail,1,1,001,84
+0650,5070006600213037148001,50,Rajshahi,70,Chapainababganj,00,,66,Chapainawabganj Sadar,00,,213,Debinagar,037,Anupnagar (Part),148,Harma,1,1,001,110
+0651,5070006600514395388001,50,Rajshahi,70,Chapainababganj,00,,66,Chapainawabganj Sadar,00,,514,Maharajpur,395,Ranihati (Part),388,Shalim Dolpara,1,1,001,105
+0652,5070006633005314068001,50,Rajshahi,70,Chapainababganj,00,,66,Chapainawabganj Sadar,33,Chapainawabganj Pourasabha,005,Ward No. 05,314,Haripur (Part),068,Durgapur,2,2,001,100
+0653,5070006633014132016011,50,Rajshahi,70,Chapainababganj,00,,66,Chapainawabganj Sadar,33,Chapainawabganj Pourasabha,014,Ward No. 14,132,Char Jotpratap (Part),016,Azaipur,2,2,011,100
+0656,5070008800142685068002,50,Rajshahi,70,Chapainababganj,00,,88,Shibganj,00,,142,Binodpur,685,Rasunchak,068,Dafadartola,1,1,002,75
+0655,5070008800228177068002,50,Rajshahi,70,Chapainababganj,00,,88,Shibganj,00,,228,Durlabhpur,177,Durlabhpur,068,Dadanchak,1,1,002,120
+0657,5070008800512719368002,50,Rajshahi,70,Chapainababganj,00,,88,Shibganj,00,,512,Manakasha,719,Sahapara,368,Sahapara,1,1,002,100
+0654,5070008800723035268004,50,Rajshahi,70,Chapainababganj,00,,88,Shibganj,00,,723,Shahabajpur,035,Azmatpur,268,Namo Chakpara,1,1,004,125
+0700,5076000500243116048003,50,Rajshahi,76,Pabna,00,,05,Atgharia,00,,243,Ekdanta,116,Chachkia,048,Chachkia,1,1,003,100
+0702,5076001600409176056002,50,Rajshahi,76,Pabna,00,,16,Bera,00,,409,Jatsakhini,176,Dantia,056,Charkandi,1,1,002,100
+0701,5076001612005623308001,50,Rajshahi,76,Pabna,00,,16,Bera,12,Bera Pourasabha,005,Ward No. 05,623,Payna Teghari,308,Payna,2,2,001,105
+0703,5076001900210035008003,50,Rajshahi,76,Pabna,00,,19,Bhangura,00,,210,Dilpashar,035,Adabaria,008,Adabaria,1,1,003,125
+0704,5076002200277507224007,50,Rajshahi,76,Pabna,00,,22,Chatmohar,00,,277,Failjana,507,Marambalpur,224,Kuabashi,1,1,007,100
+0705,5076002200547803408001,50,Rajshahi,76,Pabna,00,,22,Chatmohar,00,,547,Nimaichara,803,Uttar Shibrampur,408,Uttar Shibrampur,1,1,001,125
+0707,5076003900208551268004,50,Rajshahi,76,Pabna,00,,39,Ishwardi,00,,208,Dashuria,551,Nowdapara,268,Nowdapara,1,1,004,130
+0708,5076003900716094028012,50,Rajshahi,76,Pabna,00,,39,Ishwardi,00,,716,Salimpur,094,Bharaimari,028,Bharaimari,1,1,012,100
+0706,5076003950003728248001,50,Rajshahi,76,Pabna,00,,39,Ishwardi,50,Ishwardi Pourasabha,003,Ward No. 03,728,Sara Gopalpur (Part),248,Moulvipara,2,2,001,60
+0709,5076005500143509248001,50,Rajshahi,76,Pabna,00,,55,Pabna Sadar,00,,143,Bharara,509,Mahadebpur,248,Mahadebpur,1,1,001,80
+0713,5076005500312282128001,50,Rajshahi,76,Pabna,00,,55,Pabna Sadar,00,,312,Gayeshpur,282,Gayeshpur,128,Gayeshpur,1,1,001,110
+0711,5076005500521687380002,50,Rajshahi,76,Pabna,00,,55,Pabna Sadar,00,,521,Maligachha,687,Radhanagar (Part),380,Ramanandapur,1,1,002,105
+0710,5076005562006031008005,50,Rajshahi,76,Pabna,00,,55,Pabna Sadar,62,Pabna Pourasabha,006,Ward No. 06,031,Arifpur,008,Arifpur,2,2,005,95
+0712,5076005562015321308004,50,Rajshahi,76,Pabna,00,,55,Pabna Sadar,62,Pabna Pourasabha,015,Ward No. 15,321,Hemayetpur (Part),308,Pashchim Hemayetpur,2,2,004,100
+0714,5076007200443414316008,50,Rajshahi,76,Pabna,00,,72,Santhia,00,,443,Karanja,414,Karanja,316,Pashchim Karanja,1,1,008,90
+0715,5076007200554730368002,50,Rajshahi,76,Pabna,00,,72,Santhia,00,,554,Nandanpur,730,Siddhinagar,368,Siddhinagar,1,1,002,115
+0716,5076008300543077028007,50,Rajshahi,76,Pabna,00,,83,Sujanagar,00,,543,Nazirganj,077,Barkhanpur,028,Barkhanpur,1,1,007,100
+0718,5081001000152425208004,50,Rajshahi,81,Rajshahi,00,,10,Bagha,00,,152,Bausa,425,Khagarbaria,208,Khagarbaria,1,1,004,87
+0717,5081001016009382188001,50,Rajshahi,81,Rajshahi,00,,10,Bagha,16,Bagha Pourasabha,009,Ward No.09,382,Jot Sayesta,188,Jot Sayesta,2,2,001,103
+0720,5081001200211570268002,50,Rajshahi,81,Rajshahi,00,,12,Bagmara,00,,211,Dwippur,570,Nansar,268,Nansar,1,1,002,120
+0719,5081001200449515248001,50,Rajshahi,81,Rajshahi,00,,12,Bagmara,00,,449,Kachari Koalipara,515,Madhupur,248,Madhupur,1,1,001,102
+0721,5081002500540309148005,50,Rajshahi,81,Rajshahi,00,,25,Charghat,00,,540,Nimpara,309,Habibpur,148,Habibpur,1,1,005,100
+0722,5081003100416124048002,50,Rajshahi,81,Rajshahi,00,,31,Durgapur,00,,416,Joynagar,124,Chuniapara,048,Chuniapara,1,1,002,125
+0725,5081003400210204208001,50,Rajshahi,81,Rajshahi,00,,34,Godagari,00,,210,Deopara,204,Deopara,208,Jamdaha,1,1,001,120
+0723,5081003400611660308004,50,Rajshahi,81,Rajshahi,00,,34,Godagari,00,,611,Pakri,660,Pakri,308,Pakri,1,1,004,100
+0724,5081003455007447240003,50,Rajshahi,81,Rajshahi,00,,34,Godagari,55,Kakanhat Pourasabha,007,Ward No. 07,447,Kakan (Part),240,Kakanpara,2,2,003,105
+0726,5081005300509517248005,50,Rajshahi,81,Rajshahi,00,,53,Mohanpur,00,,509,Mougachhi,517,Matikata,248,Matikata,1,1,005,95
+0727,5081007200361317036006,50,Rajshahi,81,Rajshahi,00,,72,Paba,00,,361,Haripur,317,Haripur,036,Berpara,1,1,006,98
+0728,5081008200151502248006,50,Rajshahi,81,Rajshahi,00,,82,Puthia,00,,151,Belpukuria,502,Mahendra,248,Mahendra,1,1,006,120
+0730,5081009400441075028001,50,Rajshahi,81,Rajshahi,00,,94,Tanore,00,,441,Kalma,075,Bangpur,028,Bangpur,1,1,001,110
+0729,5081009470008453208002,50,Rajshahi,81,Rajshahi,00,,94,Tanore,70,Mundumala Pourasabha,008,Ward No. 08,453,Karimpur,208,Karimpur,2,2,002,100
+0731,5081662200024661316015,50,Rajshahi,81,Rajshahi,66,Rajshahi City Corporation,22,Boalia,00,,024,Ward No. 24,661,Ramchandrapur (Part),316,Purba Ramchandrapur,2,9,015,100
+0732,5081668500003073028001,50,Rajshahi,81,Rajshahi,66,Rajshahi City Corporation,85,Rajpara,00,,003,Ward No. 03,073,Baharampur (Part),028,Baharampur Uttar,2,9,001,104
+0735,5088001100160276128006,50,Rajshahi,88,Sirajganj,00,,11,Belkuchi,00,,160,Bhangabari,276,Gabgachhi,128,Gabgachhi,1,1,006,105
+0734,5088001100675085036004,50,Rajshahi,88,Sirajganj,00,,11,Belkuchi,00,,675,Rajapur,085,Bhaturia,036,Bhaturia,1,1,004,100
+0733,5088001116003125308020,50,Rajshahi,88,Sirajganj,00,,11,Belkuchi,16,Belkuchi Pourasabha,003,Ward No. 03,125,Chala (Part),308,Purba Chala Badh,2,2,020,106
+0736,5088004400407754028001,50,Rajshahi,88,Sirajganj,00,,44,Kamarkhanda,00,,407,Jamtail,754,Tengrail,028,Bhayarchar,1,1,001,90
+0737,5088005000451681208003,50,Rajshahi,88,Sirajganj,00,,50,Kazipur,00,,451,Khas Rajbari,681,Rajbari,208,Khas Rajbari,1,1,003,97
+0739,5088006100142441208003,50,Rajshahi,88,Sirajganj,00,,61,Rayganj,00,,142,Brahmagachha,441,Kutharganti,208,Kutarganti,1,1,003,108
+0738,5088006100544216088007,50,Rajshahi,88,Sirajganj,00,,61,Rayganj,00,,544,Nalka,216,Erandaha,088,Erandaha,1,1,007,120
+0742,5088006700308194308005,50,Rajshahi,88,Sirajganj,00,,67,Shahjadpur,00,,308,Gala,194,Dorta Mehi,308,Pashchim Bherakola,2,3,005,115
+0741,5088006700343089028002,50,Rajshahi,88,Sirajganj,00,,67,Shahjadpur,00,,343,Habibullahnagar,089,Bera Kuchutia,028,Bera Kuchutia,1,1,002,100
+0740,5088006700546083188001,50,Rajshahi,88,Sirajganj,00,,67,Shahjadpur,00,,546,Narina,083,Batia,188,Joyrampur,1,1,001,94
+0746,5088007800142355168001,50,Rajshahi,88,Sirajganj,00,,78,Sirajganj Sadar,00,,142,Bagbati,355,Ichhamati,168,Ichhamati,1,1,001,120
+0745,5088007800460549268005,50,Rajshahi,88,Sirajganj,00,,78,Sirajganj Sadar,00,,460,Khoksabari,549,Naoda Telkupi,268,Naoda Telkupi,1,1,005,107
+0744,5088007850004735408004,50,Rajshahi,88,Sirajganj,00,,78,Sirajganj Sadar,50,Sirajganj Pourasabha,004,Ward No. 04,735,Saya Dhangara (Part),408,Uttar Saya Dhangara,2,2,004,100
+0743,5088007850014625308008,50,Rajshahi,88,Sirajganj,00,,78,Sirajganj Sadar,50,Sirajganj Pourasabha,014,Ward No. 14,625,Puthiabari (Part),308,Puthiabari,2,2,008,112
+0748,5088008900142617308002,50,Rajshahi,88,Sirajganj,00,,89,Tarash,00,,142,Baruhas,617,Palashi,308,Palashi,1,1,002,90
+0747,5088008900751771388023,50,Rajshahi,88,Sirajganj,00,,89,Tarash,00,,751,Tarash,771,Tarash,388,Tarash,1,1,023,100
+0750,5088009400344194068004,50,Rajshahi,88,Sirajganj,00,,94,Ullapara,00,,344,Hatikumrul,194,Dhopakandi,068,Dhopakandi,1,1,004,128
+0749,5088009400679714348002,50,Rajshahi,88,Sirajganj,00,,94,Ullapara,00,,679,Ramkrishnapur,714,Rouhadaha,348,Rouhadaha,1,1,002,85
+0752,5527001000408130030005,55,Rangpur,27,Dinajpur,00,,10,Birampur,00,,408,Jotbani,130,Chakul,030,Chakul,1,1,005,120
+0751,5527001012007192040001,55,Rangpur,27,Dinajpur,00,,10,Birampur,12,Birampur Pourasabha,007,Ward No. 07,192,Dosra Palashbari,040,Dosra Palashbari,2,2,001,85
+0753,5527001200524077020002,55,Rangpur,27,Dinajpur,00,,12,Birganj,00,,524,Mohanpur,077,Bara Karimpur,020,Bara Karimpur,1,1,002,100
+0754,5527001200719528130003,55,Rangpur,27,Dinajpur,00,,12,Birganj,00,,719,Shatagram,528,Muchibari,130,Muchibari,1,1,003,107
+0755,5527001700212555140002,55,Rangpur,27,Dinajpur,00,,17,Birol,00,,212,Dhamair,555,Nizampur,140,Nizampur,1,1,002,90
+0756,5527002100109080020001,55,Rangpur,27,Dinajpur,00,,21,Bochaganj,00,,109,Atgaon,080,Barua,020,Barua,1,1,001,100
+0757,5527003000127081020010,55,Rangpur,27,Dinajpur,00,,30,Chirirbandar,00,,127,Amarpur,081,Basudebpur,020,Basudebpur,1,1,010,100
+0758,5527003000712433110009,55,Rangpur,27,Dinajpur,00,,30,Chirirbandar,00,,712,Saintara,433,Khochna,110,Khochna,1,1,009,104
+0760,5527003800709121030003,55,Rangpur,27,Dinajpur,00,,38,Fulbari,00,,709,Shibnagar,121,Chak Kabir,030,Chak Kabir,1,1,003,100
+0759,5527003842003426110004,55,Rangpur,27,Dinajpur,00,,38,Fulbari,42,Fulbari Pourasabha,003,Ward No. 03,426,Krishnapur,110,Krishnapur,2,2,004,110
+0761,5527004700143074020006,55,Rangpur,27,Dinajpur,00,,47,Hakimpur,00,,143,Boaldar,074,Baigram,020,Baigram,1,1,006,100
+0762,5527005600707717190001,55,Rangpur,27,Dinajpur,00,,56,Kaharole,00,,707,Sundarpur,717,Sainagar,190,Sainagar,1,1,001,117
+0763,5527006000311312080016,55,Rangpur,27,Dinajpur,00,,60,Khansama,00,,311,Goaldihi,312,Hasimpur,080,Hasimpur,1,1,016,112
+0764,5527006400277612160003,55,Rangpur,27,Dinajpur,00,,64,Dinajpur Sadar,00,,277,Fazilpur,612,Purba Pargaon,160,Purba Pargaon,1,1,003,120
+0767,5527006400778534140002,55,Rangpur,27,Dinajpur,00,,64,Dinajpur Sadar,00,,778,Uthrail,534,Nun Sahar,140,Nun Sahar,1,1,002,122
+0765,5527006428002394136001,55,Rangpur,27,Dinajpur,00,,64,Dinajpur Sadar,28,Dinajpur Pourasabha,002,Ward No. 02,394,Kanchan (Part),136,Mudipara,2,2,001,110
+0766,5527006428010394020005,55,Rangpur,27,Dinajpur,00,,64,Dinajpur Sadar,28,Dinajpur Pourasabha,010,Ward No. 10,394,Kanchan (Part),020,Baluadanga,2,2,005,92
+0768,5527006900444088020001,55,Rangpur,27,Dinajpur,00,,69,Nababganj,00,,444,Kushdaha,088,Binnagari,020,Binnagari,1,1,001,115
+0769,5527007700342033010001,55,Rangpur,27,Dinajpur,00,,77,Parbatipur,00,,342,Habra,033,Arazi Debipur,010,Arazi Debipur,1,1,001,140
+0770,5527007700519540140006,55,Rangpur,27,Dinajpur,00,,77,Parbatipur,00,,519,Manmathpur,540,Narayanpur,140,Narayanpur,1,1,006,120
+0771,5532002100284071020003,55,Rangpur,32,Gaibandha,00,,21,Fulchhari,00,,284,Fulchhari,071,Bagbari,020,Bagbari,1,1,003,104
+0772,5532002400151415110002,55,Rangpur,32,Gaibandha,00,,24,Gaibandha Sadar,00,,151,Ballamjhar,415,Khamar Tengarjani,110,Khamar Tengarjani,1,1,002,120
+0774,5532002400453603160009,55,Rangpur,32,Gaibandha,00,,24,Gaibandha Sadar,00,,453,Kholahati,603,Pashchim Komarnai (Part),160,Pashchim Komarnai,1,1,009,110
+0773,5532002400715413110006,55,Rangpur,32,Gaibandha,00,,24,Gaibandha Sadar,00,,715,Sahapara,413,Khamar Pirgachha,110,Khamar Pirgachha,1,1,006,120
+0775,5532002422002262197001,55,Rangpur,32,Gaibandha,00,,24,Gaibandha Sadar,22,Gaibandha Pourasabha,002,Ward No. 02,262,Gobindapur (Part),197,Station Road Colony,2,2,001,45
+0777,5532003000443713180002,55,Rangpur,32,Gaibandha,00,,30,Gobindaganj,00,,443,Kamardaha,713,Rasulpur,180,Rasulpur,1,1,002,85
+0776,5532003000680101020001,55,Rangpur,32,Gaibandha,00,,30,Gobindaganj,00,,680,Rajahar,101,Beurgram,020,Beurgram,1,1,001,100
+0779,5532003000752769190002,55,Rangpur,32,Gaibandha,00,,30,Gobindaganj,00,,752,Taluk Kanupur,769,Sundail,190,Sundail,1,1,002,100
+0778,5532003033004146211003,55,Rangpur,32,Gaibandha,00,,30,Gobindaganj,33,Gobindaganj Pourasabha,004,Ward No. 04,146,Chak Gobinda (Part),211,Uttar Chak Gobinda,2,2,003,107
+0781,5532006700510381100003,55,Rangpur,32,Gaibandha,00,,67,Palashbari,00,,510,Mahadipur,381,Jalagari Durgapur,100,Jalagari Durgapur,1,1,003,100
+0780,5532006760009742190003,55,Rangpur,32,Gaibandha,00,,67,Palashbari,60,Palashbari Pourasabha,009,Ward No.09,742,Sidhangram,190,Sidhangram,2,2,003,101
+0783,5532008200219527130002,55,Rangpur,32,Gaibandha,00,,82,Sadullapur,00,,219,Dhaperhat,527,Monglapara,130,Monglapara,1,1,002,80
+0782,5532008200547559140009,55,Rangpur,32,Gaibandha,00,,82,Sadullapur,00,,547,Naldanga,559,Naldanga,140,Naldanga,1,1,009,100
+0784,5532008800410776200001,55,Rangpur,32,Gaibandha,00,,88,Saghata,00,,410,Jumarbari,776,Thaikarerpara,200,Thaikarerpara,1,1,001,97
+0787,5532009100142484130001,55,Rangpur,32,Gaibandha,00,,91,Sundarganj,00,,142,Bamandanga,484,Maniram,130,Maniram,1,1,001,107
+0786,5532009100221661161005,55,Rangpur,32,Gaibandha,00,,91,Sundarganj,00,,221,Dhopadanga,661,Rajibpur,161,Pashchim Rajibpur,1,1,005,101
+0785,5532009100722700021002,55,Rangpur,32,Gaibandha,00,,91,Sundarganj,00,,722,Shantiram,700,Shantiram,021,Baganchali,1,1,002,120
+0789,5549000600143788021001,55,Rangpur,49,Kurigram,00,,06,Bhurungamari,00,,143,Baladia,788,Uttar Baladia,021,Baladia,1,1,001,119
+0788,5549000600161417042005,55,Rangpur,49,Kurigram,00,,06,Bhurungamari,00,,161,Bhurungamari,417,Kamat Angaria,042,Dakkhin Kamat Angaria,2,3,005,105
+0790,5549000600745606160001,55,Rangpur,49,Kurigram,00,,06,Bhurungamari,00,,745,Tilai,606,Pashchim Chhat Gopalpur,160,Pashchim Chhat Gopalpur,1,1,001,102
+0791,5549000900741421010002,55,Rangpur,49,Kurigram,00,,09,Chilmari,00,,741,Thanahat,421,Kismat Banu,010,Abdul Moulvir Gram,1,1,002,100
+0792,5549001800708710040003,55,Rangpur,49,Kurigram,00,,18,Phulbari,00,,708,Shimulbari,710,Sonai Kazi,040,Dakkhin Sonai Kazi,1,1,003,97
+0793,5549005200410374215006,55,Rangpur,49,Kurigram,00,,52,Kurigram Sadar,00,,410,Jatrapur,374,Jatrapur,215,Uttar Char Jatrapur,1,1,006,110
+0794,5549005233007422226001,55,Rangpur,49,Kurigram,00,,52,Kurigram Sadar,33,Kurigram Pourasabha,007,Ward No. 07,422,Krishnapur (Part),226,Tantipara,2,2,001,129
+0795,5549006100169082021001,55,Rangpur,49,Kurigram,00,,61,Nageshwari,00,,169,Bhitarband,082,Bhangamor,021,Bhangamor,1,1,001,115
+0797,5549006100555722032002,55,Rangpur,49,Kurigram,00,,61,Nageshwari,00,,555,Newashi,722,Sukhati (Part),032,Chakertari,1,1,002,90
+0796,5549006155009608024002,55,Rangpur,49,Kurigram,00,,61,Nageshwari,55,Nageshwari Pourasabha,009,Ward No. 09,608,Pashchim Payradanga (Part),024,Bhushurkhana,2,2,002,100
+0798,5549007700185118030002,55,Rangpur,49,Kurigram,00,,77,Rajarhat,00,,185,Chhinai,118,Chhatrajit,030,Chhatrajit,1,1,002,95
+0799,5549007900142415166006,55,Rangpur,49,Kurigram,00,,79,Roumari,00,,142,Bandaber,415,Khanjanmara,166,Purba Khanjanmara,1,1,006,108
+0800,5549007900674674145001,55,Rangpur,49,Kurigram,00,,79,Roumari,00,,674,Roumari,674,Roumari Alga,145,Mollarchar,1,1,001,120
+0802,5549009400220082211003,55,Rangpur,49,Kurigram,00,,94,Ulipur,00,,220,Dhamshreni,082,Bijoyram Tabakpur,211,Uttar Bijoyram Tabakpur,1,1,003,90
+0801,5549009400613036199001,55,Rangpur,49,Kurigram,00,,94,Ulipur,00,,613,Pandul,036,Apuarkhata,199,Satghariapar,1,1,001,120
+0803,5552000200151602140003,55,Rangpur,52,Lalmonirhat,00,,02,Aditmari,00,,151,Bhelabari,602,Pashchim Bhelabari,140,Namurirpar,1,1,003,100
+0804,5552000200609489130008,55,Rangpur,52,Lalmonirhat,00,,02,Aditmari,00,,609,Palashi,489,Madanpur,130,Madanpur,1,1,008,105
+0805,5552003300151485130008,55,Rangpur,52,Lalmonirhat,00,,33,Hatibandha,00,,151,Bhelaguri,485,Madhyam Kadma,130,Madhyam Kadma,1,1,008,94
+0806,5552003300711037010004,55,Rangpur,52,Lalmonirhat,00,,33,Hatibandha,00,,711,Saniajan,037,Arazi Sheikhsundar,010,Arazi Sheikhsundar,1,1,004,120
+0807,5552003300729719190006,55,Rangpur,52,Lalmonirhat,00,,33,Hatibandha,00,,729,Singimari,719,Singimari,190,Singimari,2,3,006,115
+0808,5552003900176415110002,55,Rangpur,52,Lalmonirhat,00,,39,Kaliganj,00,,176,Chalbala,415,Khalisa Barajan,110,Khalisa Barajan,1,1,002,91
+0809,5552003900444410101002,55,Rangpur,52,Lalmonirhat,00,,39,Kaliganj,00,,444,Kakina,410,Kakina,101,Jelepara,1,1,002,105
+0811,5552005500308082020003,55,Rangpur,52,Lalmonirhat,00,,55,Lalmonirhat Sadar,00,,308,Gokunda,082,Berpanga,020,Berpanga,1,1,003,102
+0812,5552005500451429030003,55,Rangpur,52,Lalmonirhat,00,,55,Lalmonirhat Sadar,00,,451,Kulaghat,429,Kulaghat,030,Char Kulaghat,1,1,003,130
+0810,5552005500678122030004,55,Rangpur,52,Lalmonirhat,00,,55,Lalmonirhat Sadar,00,,678,Rajpur,122,Changara,030,Changara,1,1,004,95
+0813,5552005533003419214001,55,Rangpur,52,Lalmonirhat,00,,55,Lalmonirhat Sadar,33,Lalmonirhat Pourasabha,003,Ward No. 03,419,Khorda Saptana (Part),214,Telipara,2,2,001,100
+0814,5552007000418381100012,55,Rangpur,52,Lalmonirhat,00,,70,Patgram,00,,418,Jongra,381,Jongra,100,Jongra,1,1,012,100
+0815,5552007066001074041003,55,Rangpur,52,Lalmonirhat,00,,70,Patgram,66,Patgram Pourasabha,001,Ward No. 01,074,Bengkanda (Part),041,Dakkhin Bengkanda,2,2,003,100
+0817,5573001200209524140003,55,Rangpur,73,Nilphamari,00,,12,Dimla,00,,209,Dimla,524,Natabari,140,Natabari,1,1,003,95
+0816,5573001200544036010017,55,Rangpur,73,Nilphamari,00,,12,Dimla,00,,544,Nautara,036,Akashkuri,010,Akashkuri,1,1,017,85
+0818,5573001500160535140005,55,Rangpur,73,Nilphamari,00,,15,Domar,00,,160,Boragari,535,Naodabasha,140,Naodabasha,1,1,005,100
+0820,5573001500612608212009,55,Rangpur,73,Nilphamari,00,,15,Domar,00,,612,Panga Matukpur,608,Panga,212,Uttar Panga,1,1,009,95
+0819,5573001525003116211003,55,Rangpur,73,Nilphamari,00,,15,Domar,25,Domar Pourasabha,003,Ward No. 03,116,Chhota Rauta (Part),211,Uttar Sahapara,2,2,003,120
+0822,5573003600444076020002,55,Rangpur,73,Nilphamari,00,,36,Jaldhaka,00,,444,Kaimari,076,Balapara,020,Balapara,1,1,002,95
+0821,5573003600712301080002,55,Rangpur,73,Nilphamari,00,,36,Jaldhaka,00,,712,Shimulbari,301,Haroa Shimulbari,080,Haroa Shimulbari,1,1,002,89
+0824,5573004500443075020007,55,Rangpur,73,Nilphamari,00,,45,Kishoreganj,00,,443,Kishoreganj,075,Baje Dumuria,020,Baje Dumuria,1,1,007,116
+0823,5573004500678710190004,55,Rangpur,73,Nilphamari,00,,45,Kishoreganj,00,,678,Ranachandi,710,Sonakuri,190,Sonakuri,1,1,004,116
+0826,5573006400444166040006,55,Rangpur,73,Nilphamari,00,,64,Nilphamari Sadar,00,,444,Kachukata,166,Dondari,040,Dondari,1,1,006,102
+0827,5573006400681076160006,55,Rangpur,73,Nilphamari,00,,64,Nilphamari Sadar,00,,681,Ramnagar,076,Bahalipara,160,Pashchim Bahalipara,1,1,006,102
+0825,5573006450004303131011,55,Rangpur,73,Nilphamari,00,,64,Nilphamari Sadar,50,Nilphamari Pourasabha,004,Ward No. 04,303,Haroa (Part),131,Madhya Haroa,2,2,011,101
+0828,5573008500151710040001,55,Rangpur,73,Nilphamari,00,,85,Saidpur,00,,151,Botlagari,710,Sonakhuli,040,Dakkhin Sonakhuli,1,1,001,107
+0829,5573008575007077166007,55,Rangpur,73,Nilphamari,00,,85,Saidpur,75,Saidpur Pourasabha,007,Ward No. 07,077,Bangalipur (Part),166,Puratan Babupara,2,2,007,110
+0831,5577000400143076020002,55,Rangpur,77,Panchagarh,00,,04,Atowari,00,,143,Balarampur,076,Balarampur,020,Balarampur,1,1,002,110
+0830,5577000400741759212007,55,Rangpur,77,Panchagarh,00,,04,Atowari,00,,741,Taria,759,Tria,212,Uttar Toria,1,1,007,102
+0832,5577002500410043010004,55,Rangpur,77,Panchagarh,00,,25,Boda,00,,410,Jhalai Shalshiri,043,Araji Shikarpur-1,010,Araji Shikarpur-1,1,1,004,120
+0834,5577002500520315080003,55,Rangpur,77,Panchagarh,00,,25,Boda,00,,520,Maydandighi,315,Haripur Jot Samas,080,Haripur Jot Samas,2,3,003,100
+0833,5577002500612088139001,55,Rangpur,77,Panchagarh,00,,25,Boda,00,,612,Panchpir,088,Bairati,139,Mashanpara,1,1,001,115
+0836,5577003400210305130001,55,Rangpur,77,Panchagarh,00,,34,Debiganj,00,,210,Dandapal,305,Hakimpur,130,Moumari,1,1,001,120
+0837,5577003400718418100001,55,Rangpur,77,Panchagarh,00,,34,Debiganj,00,,718,Sonahar Mallikadaha,418,Kharija Sonahar,100,Jummapara,1,1,001,92
+0835,5577003430008162132005,55,Rangpur,77,Panchagarh,00,,34,Debiganj,30,Debiganj Pourasabha,008,Ward No. 08,162,Debiganj (Part),132,Collegepara,2,2,005,95
+0839,5577007300109720115002,55,Rangpur,77,Panchagarh,00,,73,Panchagarh Sadar,00,,109,Amarkhana,720,Sonarban,115,Khalpara,1,1,002,47
+0841,5577007300344498113001,55,Rangpur,77,Panchagarh,00,,73,Panchagarh Sadar,00,,344,Hafizabad,498,Molani Arazi,113,Kamarpara,1,1,001,130
+0838,5577007300612716114001,55,Rangpur,77,Panchagarh,00,,73,Panchagarh Sadar,00,,612,Panchagarh,716,Sardarpara (Part),114,Kayetpara,1,1,001,55
+0840,5577007350006607041001,55,Rangpur,77,Panchagarh,00,,73,Panchagarh Sadar,50,Panchagarh Pourasabha,006,Ward No. 06,607,Panchagarh (Part),041,Dakkhin Baniapara,2,2,001,70
+0842,5577009000211713084001,55,Rangpur,77,Panchagarh,00,,90,Tentulia,00,,211,Debnagar,713,Sheikhgachh,084,Hatupara,1,1,001,96
+0844,5585000300209491130009,55,Rangpur,85,Rangpur,00,,03,Badarganj,00,,209,Damodarpur,491,Mostafapur,130,Mostafapur,1,1,009,105
+0843,5585000300512778210003,55,Rangpur,85,Rangpur,00,,03,Badarganj,00,,512,Madhupur,778,Uttar Baochandi,210,Uttar Baochandi,1,1,003,120
+0845,5585002700310126030001,55,Rangpur,85,Rangpur,00,,27,Gangachara,00,,310,Gajaghanta,126,Chhalapak,030,Chhalapak,1,1,001,103
+0846,5585002700546614160009,55,Rangpur,85,Rangpur,00,,27,Gangachara,00,,546,Nohali,614,Pashchim Kachua,160,Pashchim Kachua,1,1,009,120
+0847,5585004200741674180001,55,Rangpur,85,Rangpur,00,,42,Kaunia,00,,741,Tepa Madhupur,674,Rajib,180,Rajib,1,1,001,110
+0848,5585004225002717281001,55,Rangpur,85,Rangpur,00,,42,Kaunia,25,Haragachh (Kaunia) Pourasabha,002,Ward No. 02,717,Sarai (Part),281,Vellatary,2,2,001,105
+0849,5585004900708410162003,55,Rangpur,85,Rangpur,00,,49,Rangpur Sadar,00,,708,Sadya Pushkarini,410,Keshabpur,162,Purbapara,1,1,003,100
+0852,5585005800180245060004,55,Rangpur,85,Rangpur,00,,58,Mithapukur,00,,180,Chengmari,245,Farmuderpara,060,Farmuderpara,1,1,004,100
+0851,5585005800448450110004,55,Rangpur,85,Rangpur,00,,58,Mithapukur,00,,448,Kafrikhal,450,Khorda Kashinathpur,110,Khorda Kashinathpur,1,1,004,126
+0850,5585005800535650160001,55,Rangpur,85,Rangpur,00,,58,Mithapukur,00,,535,Mirzapur,650,Puthimari,160,Puthimari,1,1,001,110
+0853,5585007300375308080002,55,Rangpur,85,Rangpur,00,,73,Pirgachha,00,,375,Itakumari,308,Hasna,080,Hasna,1,1,002,107
+0854,5585007300619122030005,55,Rangpur,85,Rangpur,00,,73,Pirgachha,00,,619,Pirgachha,122,Chandipur,030,Chandipur,1,1,005,113
+0855,5585007600178750190005,55,Rangpur,85,Rangpur,00,,76,Pirganj,00,,178,Chaitrakol,750,Salti,190,Salti,1,1,005,110
+0856,5585007600613642160001,55,Rangpur,85,Rangpur,00,,76,Pirganj,00,,613,Panchgachhi,642,Panchgachhi,160,Panchgachhi,1,1,001,96
+0857,5585009200242303080017,55,Rangpur,85,Rangpur,00,,92,Taraganj,00,,242,Ekarchali,303,Hajipur,080,Hajipur,1,1,017,106
+0858,5585754900004167110005,55,Rangpur,85,Rangpur,75,Rangpur City Corporation,49,Rangpur Sadar,00,,004,Ward No. 04,167,Debottar Taluk,110,Khatkhatia,2,9,005,107
+0860,5585754900014168144003,55,Rangpur,85,Rangpur,75,Rangpur City Corporation,49,Rangpur Sadar,00,,014,Ward No. 14,168,Deodoba,144,Nekarpara,2,9,003,110
+0859,5585754900020262072009,55,Rangpur,85,Rangpur,75,Rangpur City Corporation,49,Rangpur Sadar,00,,020,Ward No. 20,262,Ganeshpur (Part),072,Guratipara,2,9,009,115
+0861,5585754900028739131002,55,Rangpur,85,Rangpur,75,Rangpur City Corporation,49,Rangpur Sadar,00,,028,Ward No. 28,739,Tajhat ( Part),131,Lalbag,2,9,002,107
+0862,5594000800143165040002,55,Rangpur,94,Thakurgaon,00,,08,Baliadangi,00,,143,Bara Palashbari,165,Dakkhin Duari,040,Dakkhin Duari,1,1,002,105
+0863,5594000800222500130002,55,Rangpur,94,Thakurgaon,00,,08,Baliadangi,00,,222,Duosuo,500,Mahishmari,130,Mahishmari,1,1,002,108
+0865,5594005100211413110002,55,Rangpur,94,Thakurgaon,00,,51,Haripur,00,,211,Dangipara,413,Kandhal,110,Kandhal,1,1,002,86
+0864,5594005100345080020003,55,Rangpur,94,Thakurgaon,00,,51,Haripur,00,,345,Haripur,080,Bhabanandapur,020,Bhabanandapur,2,3,003,110
+0867,5594008200210390100002,55,Rangpur,94,Thakurgaon,00,,82,Pirganj,00,,210,Daulatpur,390,Joykur,100,Joykur,1,1,002,125
+0866,5594008200611097020005,55,Rangpur,94,Thakurgaon,00,,82,Pirganj,00,,611,Pirganj,097,Birahali,020,Birahali,1,1,005,118
+0868,5594008600342084020001,55,Rangpur,94,Thakurgaon,00,,86,Ranishankail,00,,342,Hossaingaon,084,Banshrail,020,Banshrail,1,1,001,90
+0869,5594008600552133030007,55,Rangpur,94,Thakurgaon,00,,86,Ranishankail,00,,552,Nekmarad,133,Chandan Chahat,030,Chandan Chahat,1,1,007,100
+0874,5594009400145094020013,55,Rangpur,94,Thakurgaon,00,,94,Thakurgaon Sadar,00,,145,Balia,094,Bara Balia,020,Bara Balia,1,1,013,100
+0870,5594009400224435110001,55,Rangpur,94,Thakurgaon,00,,94,Thakurgaon Sadar,00,,224,Dholarhat,435,Kharibari (Part),110,Kharibari,1,1,001,126
+0873,5594009400425621040002,55,Rangpur,94,Thakurgaon,00,,94,Thakurgaon Sadar,00,,425,Jamalpur,621,Parpugi,040,Dakkhin Purba Parpugi,2,3,002,110
+0872,5594009400551425110006,55,Rangpur,94,Thakurgaon,00,,94,Thakurgaon Sadar,00,,551,Nargun,425,Kaharpara,110,Kaharpara,1,1,006,100
+0875,5594009400720431110002,55,Rangpur,94,Thakurgaon,00,,94,Thakurgaon Sadar,00,,720,Ruhia Pashchim,431,Kashalgaon,110,Kashalgaon,1,1,002,105
+0871,5594009466006559112006,55,Rangpur,94,Thakurgaon,00,,94,Thakurgaon Sadar,66,Thakurgaon Pourasabha,006,Ward No. 06,559,Nishchintapur (Part),112,Kalibari,2,2,006,112
+0876,6036000200143589408001,60,Sylhet,36,Habiganj,00,,02,Ajmiriganj,00,,143,Badalpur,589,Paharpur,408,Udaypur,1,1,001,53
+0879,6036000500142083028002,60,Sylhet,36,Habiganj,00,,05,Bahubal,00,,142,Bahubal,083,Baraiuri,028,Baraiuri,1,1,002,124
+0878,6036000500142342188001,60,Sylhet,36,Habiganj,00,,05,Bahubal,00,,142,Bahubal,342,Islampur (Part),188,Jangalia,2,3,001,120
+0880,6036000500508160068001,60,Sylhet,36,Habiganj,00,,05,Bahubal,00,,508,Mirpur,160,Dakkhin Sultanpur (Part),068,Dakkhin Sultanpur Ghoshpara,1,1,001,50
+0877,6036000500708722455001,60,Sylhet,36,Habiganj,00,,05,Bahubal,00,,708,Satkapan,722,Sibai,455,Madhupur Tea Garden,1,1,001,90
+0883,6036001100218379188005,60,Sylhet,36,Habiganj,00,,11,Baniachong,00,,218,Dakkhin Purba Baniachong,379,Jatukarna,188,Jatukarnapara,1,1,005,100
+0882,6036001100452823028001,60,Sylhet,36,Habiganj,00,,11,Baniachong,00,,452,Khagaura,823,Ujirpur,028,Basantapur,1,1,001,93
+0884,6036001100622171348001,60,Sylhet,36,Habiganj,00,,11,Baniachong,00,,622,Pukhra,171,Dakkhin Sikandarpur,348,Ramganj,1,1,001,96
+0881,6036001100791502248003,60,Sylhet,36,Habiganj,00,,11,Baniachong,00,,791,Uttar Purba Baniachong,502,Majlishpur,248,Majlish Mahalla,1,1,003,102
+0889,6036002600210161276001,60,Sylhet,36,Habiganj,00,,26,Chunarughat,00,,210,Deorgachh,161,Deorgachh (Part),276,Nayani Bangaon,1,1,001,95
+0886,6036002600509600308003,60,Sylhet,36,Habiganj,00,,26,Chunarughat,00,,509,Mirashi,600,Pakuria (Part),308,Pakuria,1,1,003,88
+0888,6036002600710163068001,60,Sylhet,36,Habiganj,00,,26,Chunarughat,00,,710,Satiajuri,163,Deulgaon,068,Deulgaon,1,1,001,96
+0885,6036002600778796408005,60,Sylhet,36,Habiganj,00,,26,Chunarughat,00,,778,Ubahata,796,Ulukandi,408,Ulukandi,1,1,005,95
+0887,6036002616009119316002,60,Sylhet,36,Habiganj,00,,26,Chunarughat,16,Chunarughat Pourasabha,009,Ward No. 09,119,Chandana (Part),316,Purba Chandana,2,2,002,120
+0890,6036004400541215088001,60,Sylhet,36,Habiganj,00,,44,Habiganj Sadar,00,,541,Nizampur,215,Etbarpur,088,Etbarpur,1,1,001,100
+0892,6036004400685796268001,60,Sylhet,36,Habiganj,00,,44,Habiganj Sadar,00,,685,Richi,796,Uttarkul (Part),268,Nasratpur,1,1,001,95
+0891,6036004420006722188001,60,Sylhet,36,Habiganj,00,,44,Habiganj Sadar,20,Habiganj Pourasabha,006,Ward No. 06,722,Sultan Mahmudpur (Part),188,Gosainagar,2,2,001,150
+0893,6036006800475036008005,60,Sylhet,36,Habiganj,00,,68,Lakhai,00,,475,Lakhai,036,Amanullapur,008,Amanullapur,1,1,005,100
+0894,6036006800475714368005,60,Sylhet,36,Habiganj,00,,68,Lakhai,00,,475,Lakhai,714,Swajangaon,368,Swajangaon,2,3,005,124
+0895,6036007100109285248003,60,Sylhet,36,Habiganj,00,,71,Madhabpur,00,,109,Adaoir,285,Ghilatali (Part),248,Mithapukur,1,1,003,120
+0896,6036007100153187068001,60,Sylhet,36,Habiganj,00,,71,Madhabpur,00,,153,Bahara,187,Durlabhpur,068,Durlabhpur,1,1,001,100
+0898,6036007100189325128001,60,Sylhet,36,Habiganj,00,,71,Madhabpur,00,,189,Choumuhani,325,Harinkhola,128,Gopinathpur,1,1,001,115
+0899,6036007100414438208001,60,Sylhet,36,Habiganj,00,,71,Madhabpur,00,,414,Jagadishpur,438,Khatura,208,Khatura,1,1,001,110
+0897,6036007100713815388001,60,Sylhet,36,Habiganj,00,,71,Madhabpur,00,,713,Shahjahanpur,815,Uttar Sultanpur,388,Teliapara,1,1,001,65
+0900,6036007700210716368007,60,Sylhet,36,Habiganj,00,,77,Nabiganj,00,,210,Debpara,716,Sadarghat,368,Sadarghat,1,1,007,116
+0901,6036007700378813408001,60,Sylhet,36,Habiganj,00,,77,Nabiganj,00,,378,Inatganj,813,Uttar Ramjanpur,408,Uttar Ramjanpur,1,1,001,92
+0903,6036007700547127048001,60,Sylhet,36,Habiganj,00,,77,Nabiganj,00,,547,Nabiganj,127,Choushatpur,048,Choushatpur,1,1,001,120
+0902,6036007760005427308001,60,Sylhet,36,Habiganj,00,,77,Nabiganj,60,Nabiganj Pourasabha,005,Ward No. 05,427,Kanaipur (Part),308,Pirijpur,2,2,001,90
+0904,6036008700187042008012,60,Sylhet,36,Habiganj,00,,87,Shayestaganj,00,,187,Brahmandora,042,Alipur,008,Alipur,1,1,012,102
+0905,6058001400151086036003,60,Sylhet,58,Moulvibazar,00,,14,Baralekha,00,,151,Barni,086,Barni,036,Barni,1,1,003,111
+0907,6058001400228072028001,60,Sylhet,58,Moulvibazar,00,,14,Baralekha,00,,228,Dakkhinbhag (Uttar),072,Boc Kechhrigul (Part),028,B & C Kechrigul,1,1,001,100
+0906,6058001400744080028001,60,Sylhet,58,Moulvibazar,00,,14,Baralekha,00,,744,Talimpur,080,Bara Maydan,028,Bara Maydan,1,1,001,100
+0908,6058001413007596308003,60,Sylhet,58,Moulvibazar,00,,14,Baralekha,13,Baralekha Pourasabha,007,Ward No. 07,596,Pakhiala (Part),308,Pakhiala,2,2,003,98
+0910,6058003500308677088001,60,Sylhet,58,Moulvibazar,00,,35,Juri,00,,308,Goalbari,677,Ratna Te,088,Elapur,1,1,001,105
+0909,6058003500708035008001,60,Sylhet,58,Moulvibazar,00,,35,Juri,00,,708,Sagarnal,035,Alipur,008,Alipur,1,1,001,85
+0912,6058005600118664348001,60,Sylhet,58,Moulvibazar,00,,56,Kamalganj,00,,118,Alinagar,664,Rameshwarpur,348,Rameshwarpur,1,1,001,110
+0911,6058005600509478308001,60,Sylhet,58,Moulvibazar,00,,56,Kamalganj,00,,509,Madhabpur,478,Madhabpur Te,308,Padmachhara,1,1,001,102
+0913,6058005600677154208017,60,Sylhet,58,Moulvibazar,00,,56,Kamalganj,00,,677,Rahimpur,154,Deorachhara Te,208,Kalenga,1,1,017,100
+0914,6058005615009666348002,60,Sylhet,58,Moulvibazar,00,,56,Kamalganj,15,Kamalganj Pourasabha,009,Ward No. 09,666,Rampasha (Part),348,Rampasha,2,2,002,94
+0916,6058006500151070388001,60,Sylhet,58,Moulvibazar,00,,65,Kulaura,00,,151,Bhatera,070,Baburgul,388,Tulapur,1,1,001,112
+0915,6058006500344414388001,60,Sylhet,58,Moulvibazar,00,,65,Kulaura,00,,344,Hajipur,414,Katarkona,388,Tukli,1,1,001,63
+0919,6058006500454412028002,60,Sylhet,58,Moulvibazar,00,,65,Kulaura,00,,454,Karmadha,412,Karmadha,028,Babnia,1,1,002,90
+0917,6058006500613930392001,60,Sylhet,58,Moulvibazar,00,,65,Kulaura,00,,613,Pritwimpasha,930,Yusuf Sadar,392,Samman,1,1,001,116
+0918,6058006500748537248001,60,Sylhet,58,Moulvibazar,00,,65,Kulaura,00,,748,Tilagaon,537,Naimpur,248,Mobarakpur,1,1,001,85
+0921,6058007400177743368007,60,Sylhet,58,Moulvibazar,00,,74,Moulvibazar Sadar,00,,177,Chandnighat,743,Shyamerkona,368,Shyamerkona,1,1,007,98
+0923,6058007400462034008003,60,Sylhet,58,Moulvibazar,00,,74,Moulvibazar Sadar,00,,462,Khalilpur,034,Ainpur,008,Ainpur,1,1,003,105
+0920,6058007400548187028001,60,Sylhet,58,Moulvibazar,00,,74,Moulvibazar Sadar,00,,548,Nazirabad,187,Dashkahania,028,Baraikhali,1,1,001,42
+0922,6058007450004521264001,60,Sylhet,58,Moulvibazar,00,,74,Moulvibazar Sadar,50,Moulvibazar Pourasabha,004,Ward No. 04,521,Moulvibazar Municipality (Part),264,Muslim Quarter,2,2,001,100
+0924,6058008000440315148003,60,Sylhet,58,Moulvibazar,00,,80,Rajnagar,00,,440,Kamarchak,315,Haor Karaiya,148,Haor Karaiya Panchanandapur,1,1,003,113
+0925,6058008000608090028001,60,Sylhet,58,Moulvibazar,00,,80,Rajnagar,00,,608,Panchgaon,090,Bhumiura,028,Bageshwar,1,1,001,109
+0926,6058008000776313148001,60,Sylhet,58,Moulvibazar,00,,80,Rajnagar,00,,776,Uttarbhag,313,Haldigul,148,Haldigul,1,1,001,100
+0928,6058008300109747208001,60,Sylhet,58,Moulvibazar,00,,83,Sreemangal,00,,109,Ashidron,747,Tikria,208,Khandakargul,1,1,001,102
+0927,6058008300441483248006,60,Sylhet,58,Moulvibazar,00,,83,Sreemangal,00,,441,Kalapur,483,Majdihi Te,248,Majdihi Te,1,1,006,100
+0929,6058008300675077028001,60,Sylhet,58,Moulvibazar,00,,83,Sreemangal,00,,675,Rajghat,077,Barmachhara Te,028,Barmachhara,1,1,001,109
+0931,6058008300718698376003,60,Sylhet,58,Moulvibazar,00,,83,Sreemangal,00,,718,Sindurkhan,698,Saitula (Part),376,Saitula,1,1,003,53
+0930,6058008300727080028007,60,Sylhet,58,Moulvibazar,00,,83,Sreemangal,00,,727,Sreemangal,080,Bharaura (Part),028,Biraimpur,2,3,007,120
+0932,6090001800208564368003,60,Sylhet,90,Sunamganj,00,,18,Bishwambharpur,00,,208,Dakkhin Badaghat,564,Omarpur,368,Shaktiarkhala,1,1,003,120
+0933,6090001800607411308002,60,Sylhet,90,Sunamganj,00,,18,Bishwambharpur,00,,607,Palash,411,Kanchirganti,308,Padmanagar,1,1,002,80
+0938,6090002300142748368001,60,Sylhet,90,Sunamganj,00,,23,Chhatak,00,,142,Bhatgaon,748,Sanjabpur,368,Sanjabpur,1,1,001,95
+0935,6090002300212506248002,60,Sylhet,90,Sunamganj,00,,23,Chhatak,00,,212,Dakkhin Khurma,506,Madan,248,Madan,1,1,002,100
+0934,6090002300380267068002,60,Sylhet,90,Sunamganj,00,,23,Chhatak,00,,380,Islampur,267,Ganeshpur,068,Dakkhin Ganeshpur,1,1,002,110
+0936,6090002300548072028002,60,Sylhet,90,Sunamganj,00,,23,Chhatak,00,,548,Noarai,072,Batiarkandi,028,Batirkandi,1,1,002,90
+0937,6090002320004265128002,60,Sylhet,90,Sunamganj,00,,23,Chhatak,20,Chhatak Pourasabha,004,Ward No. 04,265,Ganakkhai,128,Ganakkhai,2,2,002,120
+0940,6090002900142498248003,60,Sylhet,90,Sunamganj,00,,29,Derai,00,,142,Bhatipara,498,Mathurapur,248,Mathurapur,1,1,003,75
+0941,6090002900443717368001,60,Sylhet,90,Sunamganj,00,,29,Derai,00,,443,Karimpur,717,Sakitpur,368,Sakitpur,1,1,001,75
+0942,6090002900744073068001,60,Sylhet,90,Sunamganj,00,,29,Derai,00,,744,Taral,073,Banait,068,Dhal Chandpur,1,1,001,65
+0939,6090002940004674348002,60,Sylhet,90,Sunamganj,00,,29,Derai,40,Derai Pourasabha,004,Ward No. 04,674,Radhanagar,348,Radhanagar,2,2,002,110
+0943,6090003200609745368006,60,Sylhet,90,Sunamganj,00,,32,Dharmapasha,00,,609,Paikurati,745,Sunui,368,Sunui,1,1,006,70
+0946,6090003300142777188004,60,Sylhet,90,Sunamganj,00,,33,Dowarabazar,00,,142,Banglabazar,777,Thabalee,188,Jhumgaon,1,1,004,100
+0945,6090003300476743068002,60,Sylhet,90,Sunamganj,00,,33,Dowarabazar,00,,476,Lakkhipur,743,Surigaon,068,Delwarnagar,1,1,002,90
+0944,6090003300611279070001,60,Sylhet,90,Sunamganj,00,,33,Dowarabazar,00,,611,Pandargaon,279,Gopinagar,070,Bahadurpur(Part),1,1,001,110
+0948,6090004700441079028001,60,Sylhet,90,Sunamganj,00,,47,Jagannathpur,00,,441,Kalkalia,079,Balikandi,028,Balikandi,1,1,001,111
+0949,6090004700676078028005,60,Sylhet,90,Sunamganj,00,,47,Jagannathpur,00,,676,Raniganj,078,Bagmayna,028,Bagmayna,1,1,005,95
+0947,6090004750003095188001,60,Sylhet,90,Sunamganj,00,,47,Jagannathpur,50,Jagannathpur Pourasabha,003,Ward No. 03,095,Bharatpur,188,Jalalpur,2,2,001,125
+0950,6090005000275373128002,60,Sylhet,90,Sunamganj,00,,50,Jamalganj,00,,275,Fenarbank,373,Jashamantapur,128,Gazaria,1,1,002,110
+0951,6090005000707603268003,60,Sylhet,90,Sunamganj,00,,50,Jamalganj,00,,707,Sachna Bazar,603,Purba Nurpur,268,Nurpur,1,1,003,84
+0952,6090006300209512248001,60,Sylhet,90,Sunamganj,00,,63,Madhyanagar,00,,209,Dakkhin Bangshikunda,512,Mohammad Alipur,248,Mohammad Alipur,1,1,001,75
+0953,6090008600143592028005,60,Sylhet,90,Sunamganj,00,,86,Shalla,00,,143,Bahara,592,Panchbrahma,028,Bheradahar,1,1,005,110
+0954,6090008700407156128001,60,Sylhet,90,Sunamganj,00,,87,Shantiganj,00,,407,Joykalas,156,Dakkhin Alampur,128,Gagli,1,1,001,100
+0955,6090008700624548268001,60,Sylhet,90,Sunamganj,00,,87,Shantiganj,00,,624,Patharia,548,Nagar,268,Nagar,1,1,001,90
+0956,6090008900307038205002,60,Sylhet,90,Sunamganj,00,,89,Sunamganj Sadar,00,,307,Gourarang,038,Amritasri,205,Umed Srwee,1,1,002,115
+0957,6090008900450078028002,60,Sylhet,90,Sunamganj,00,,89,Sunamganj Sadar,00,,450,Kurbannagar,078,Brahmangaon,028,Brahmangaon,1,1,002,105
+0960,6090008900677293368001,60,Sylhet,90,Sunamganj,00,,89,Sunamganj Sadar,00,,677,Rangarchar,293,Hasaura,368,Shahpur,1,1,001,80
+0958,6090008960001477248001,60,Sylhet,90,Sunamganj,00,,89,Sunamganj Sadar,60,Sunamganj Paurasabha,001,Ward No. 01,477,Maijbari (Part),248,Maijbari,2,2,001,40
+0959,6090008960006744428001,60,Sylhet,90,Sunamganj,00,,89,Sunamganj Sadar,60,Sunamganj Paurasabha,006,Ward No. 06,744,Tegharia (Part),428,Uttar Arfin Nagar,2,2,001,101
+0962,6090009200142603408004,60,Sylhet,90,Sunamganj,00,,92,Tahirpur,00,,142,Badaghat,603,Puran Laur,408,Uttar Maksedpur,1,1,004,46
+0961,6090009200774596308001,60,Sylhet,90,Sunamganj,00,,92,Tahirpur,00,,774,Uttar Baradal,596,Pailanpur,308,Pailanpur,1,1,001,89
+0963,6091000800151155208001,60,Sylhet,91,Sylhet,00,,08,Balaganj,00,,151,Boaljur,155,Dakkhin Islampur,208,Kharmapur,1,1,001,92
+0966,6091001700109411208002,60,Sylhet,91,Sylhet,00,,17,Beanibazar,00,,109,Alinagar,411,Kadi Mallik,208,Kadi Mallik,1,1,002,120
+0964,6091001700476074388003,60,Sylhet,91,Sylhet,00,,17,Beanibazar,00,,476,Lauta,074,Bag Prachandakhan,388,Tikarpara,1,1,003,110
+0965,6091001700745169068001,60,Sylhet,91,Sylhet,00,,17,Beanibazar,00,,745,Tilpara,169,Debaraichak,068,Debaraichak,1,1,001,115
+0967,6091001716006236108002,60,Sylhet,91,Sylhet,00,,17,Beanibazar,16,Beanibazar Pourasabha,006,Ward No. 06,236,Fatepur,108,Fatehpur,2,2,002,81
+0969,6091002000219710068001,60,Sylhet,91,Sylhet,00,,20,Bishwanath,00,,219,Daulatpur,710,Satpara,068,Dakkhin Satpara,1,1,001,98
+0968,6091002000677419188007,60,Sylhet,91,Sylhet,00,,20,Bishwanath,00,,677,Rampasha,419,Konaura (Part),188,Jamsherpur,1,1,007,110
+0970,6091002700392405076003,60,Sylhet,91,Sylhet,00,,27,Companiganj,00,,392,Islampur Purba,405,Kalasadak (Part),076,Dakkhin Kalabari,1,1,003,104
+0973,6091003100209410208001,60,Sylhet,91,Sylhet,00,,31,Dakkhin Surma,00,,209,Daudpur,410,Kauakuli,208,Kauakuli,1,1,001,102
+0971,6091003100511079028002,60,Sylhet,91,Sylhet,00,,31,Dakkhin Surma,00,,511,Moglabazar,079,Baraigaon,028,Baraigram,1,1,002,121
+0972,6091003100745078028002,60,Sylhet,91,Sylhet,00,,31,Dakkhin Surma,00,,745,Tetli,078,Baneshwarpur,028,Baneshwarpur,1,1,002,115
+0974,6091003500507530308001,60,Sylhet,91,Sylhet,00,,35,Fenchuganj,00,,507,Maijgaon,530,Nizampur,308,Puran Bazar,1,1,001,98
+0976,6091003800151234108005,60,Sylhet,91,Sylhet,00,,38,Golapganj,00,,151,Bhadeshwar,234,Fatehpur,108,Fatehpur,1,1,005,110
+0975,6091003800312721368005,60,Sylhet,91,Sylhet,00,,38,Golapganj,00,,312,Golapganj,721,Sherpur,368,Sherpur Khalagram,1,1,005,115
+0977,6091003800779038008005,60,Sylhet,91,Sylhet,00,,38,Golapganj,00,,779,Uttar Badepasha,038,Amkona,008,Amkona,1,1,005,95
+0978,6091003825007681408002,60,Sylhet,91,Sylhet,00,,38,Golapganj,25,Golapganj Pourasabha,007,Ward No. 07,681,Ranakeli (Part),408,Uttar Ranakeli,2,2,002,116
+0980,6091004100542556268003,60,Sylhet,91,Sylhet,00,,41,Gowainghat,00,,542,Nandirgaon,556,Nandirgaon,268,Nandirgaon,1,1,003,116
+0979,6091004100618122308002,60,Sylhet,91,Sylhet,00,,41,Gowainghat,00,,618,Purba Jaflong,122,Chailakhel 2Nd Khanda,308,Pashchim Lakherpar,1,1,002,80
+0981,6091004100677441208001,60,Sylhet,91,Sylhet,00,,41,Gowainghat,00,,677,Rustampur,441,Kulum Chhararpar,208,Kulum Chharpar,1,1,001,85
+0983,6091005300210071028001,60,Sylhet,91,Sylhet,00,,53,Jaintapur,00,,210,Darbast,071,Barakhala,028,Barakhala,1,1,001,120
+0982,6091005300543070028001,60,Sylhet,91,Sylhet,00,,53,Jaintapur,00,,543,Nijpat,070,Baraganti,028,Baraganti,1,1,001,100
+0985,6091005900408159128002,60,Sylhet,91,Sylhet,00,,59,Kanaighat,00,,408,Jhingabari,159,Dakkhin Dhaknail,128,Goaljur,1,1,002,122
+0984,6091005900617620208002,60,Sylhet,91,Sylhet,00,,59,Kanaighat,00,,617,Purba Dighirpar,620,Pashchim Darpannagar,208,Karchhati,1,1,002,95
+0987,6091006000142528268004,60,Sylhet,91,Sylhet,00,,60,Osmaninagar,00,,142,Burunga Bazar,528,Nij Burunga,268,Nij Burunga,1,1,004,93
+0986,6091006000707707368003,60,Sylhet,91,Sylhet,00,,60,Osmaninagar,00,,707,Sadipur,707,Sadipur 81 848 Saiyad Pur,368,Sadipur,1,1,003,115
+0991,6091006200340487028003,60,Sylhet,91,Sylhet,00,,62,Sylhet Sadar,00,,340,Hatkhola,487,Meghergaon,028,Bara Faud,1,1,003,50
+0989,6091006200451035328001,60,Sylhet,91,Sylhet,00,,62,Sylhet Sadar,00,,451,Khadimnagar,035,Angarua,328,Pirergaon,1,1,001,90
+0992,6091006200460157016001,60,Sylhet,91,Sylhet,00,,62,Sylhet Sadar,00,,460,Khadimpara,157,Debpur (Part),016,Atalu,2,3,001,90
+0990,6091006200460411348002,60,Sylhet,91,Sylhet,00,,62,Sylhet Sadar,00,,460,Khadimpara,411,Khidirpur,348,Rustampur,1,1,002,120
+0988,6091006200752157268002,60,Sylhet,91,Sylhet,00,,62,Sylhet Sadar,00,,752,Tultikar,157,Debpur (Part),268,Mirapara,1,1,002,120
+0993,6091009400160120248001,60,Sylhet,91,Sylhet,00,,94,Zakiganj,00,,160,Birasree,120,Chhariolbhag,248,Maiyakhali,1,1,001,88
+0994,6091009400511299068001,60,Sylhet,91,Sylhet,00,,94,Zakiganj,00,,511,Manikpur,299,Haraitrilochan,068,Dudherchak,1,1,001,97
+0995,6091500500006034028005,60,Sylhet,91,Sylhet,50,Sylhet City Corporation,05,Airport,00,,006,Ward No. 06,034,Ambarkhana (Part),028,Badam Bagicha,2,9,005,90
+0996,6091503100026488208001,60,Sylhet,91,Sylhet,50,Sylhet City Corporation,31,Dakkhin Surma,00,,026,Ward No. 26,488,Mominkhala (Part),208,Kadamtali,2,9,001,80
+0998,6091505500009403088002,60,Sylhet,91,Sylhet,50,Sylhet City Corporation,55,Kotwali,00,,009,Ward No. 09,403,Kasba Akhalia (Part),088,Etim School Road,2,9,002,100
+0997,6091505500012706790011,60,Sylhet,91,Sylhet,50,Sylhet City Corporation,55,Kotwali,00,,012,Ward No. 12,706,Sylhet Municipality (Part),790,Sheikhghat,2,9,011,100
+0999,6091505500018706650001,60,Sylhet,91,Sylhet,50,Sylhet City Corporation,55,Kotwali,00,,018,Ward No. 18,706,Sylhet Municipality (Part),650,Pashchim Raynagar,2,9,001,123
+1000,6091506800021660368007,60,Sylhet,91,Sylhet,50,Sylhet City Corporation,68,Shahparan,00,,021,Ward No. 21,660,Raynagar (Part),368,Sonarpara,2,9,007,100
