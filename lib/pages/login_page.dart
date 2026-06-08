@@ -1,15 +1,16 @@
-import 'dart:convert';
+//import 'dart:convert';
 import 'dart:math';
 import 'package:crypto/crypto.dart';
 import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
-
+//import 'package:bcrypt/bcrypt.dart';
 import '../services/supabase_service.dart';
 import '../config/supabase_config.dart';
 import 'first_login_page.dart';
 //import 'forgot_password_page.dart';
 import 'dashboard_page.dart';
+import 'dart:convert';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
@@ -53,9 +54,12 @@ class _LoginPageState extends State<LoginPage> {
   }
 
   String hashPassword(String password) {
-    return sha256.convert(utf8.encode(password)).toString();
-  }
-
+  return sha256
+      .convert(
+        utf8.encode(password),
+      )
+      .toString();
+}
   Future<void> downloadUserData() async {
     final metaBox = Hive.box('metaBox');
     final surveyBox = Hive.box('surveyBox');

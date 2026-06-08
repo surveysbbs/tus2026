@@ -2,7 +2,7 @@ import 'dart:convert';
 import 'package:crypto/crypto.dart';
 import 'package:flutter/material.dart';
 import 'package:supabase_flutter/supabase_flutter.dart';
-import 'package:hive/hive.dart';
+//import 'package:hive/hive.dart';
 import 'login_page.dart';
 
 class FirstLoginPage extends StatefulWidget {
@@ -15,7 +15,7 @@ class FirstLoginPage extends StatefulWidget {
 }
 
 class _FirstLoginPageState extends State<FirstLoginPage> {
- // final nameController = TextEditingController();
+  //final nameController = TextEditingController();
   //final mobileController = TextEditingController();
   final passwordController = TextEditingController();
   final confirmPasswordController = TextEditingController();
@@ -36,14 +36,22 @@ class _FirstLoginPageState extends State<FirstLoginPage> {
       return;
     }
 
+    if (passwordController.text.trim() !=
+        confirmPasswordController.text.trim()) {
+      ScaffoldMessenger.of(
+        context,
+      ).showSnackBar(const SnackBar(content: Text("পাসওয়ার্ড মিলছে না")));
+      return;
+    }
+
     setState(() => loading = true);
 
     try {
       await Supabase.instance.client
           .from('enumerators')
           .update({
-           // 'name': nameController.text.trim(),
-           // 'mobile': mobileController.text.trim(),
+            // 'name': nameController.text.trim(),
+            // 'mobile': mobileController.text.trim(),
             'password_hash': hashPassword(passwordController.text.trim()),
             'first_login': false,
             'login_status': 0,
@@ -51,23 +59,20 @@ class _FirstLoginPageState extends State<FirstLoginPage> {
           })
           .eq('username', widget.userData['username']);
 
-      final metaBox = Hive.box('metaBox');
+      //final metaBox = Hive.box('metaBox');
 
-      await metaBox.put('is_logged_in', true);
-      await metaBox.put('user_id', widget.userData['id']);
-      await metaBox.put('username', widget.userData['username']);
-      await metaBox.put('name', widget.userData['name']);
-      await metaBox.put('mobile', widget.userData['mobile']);
-      await metaBox.put('psu', widget.userData['psu']);
+      //await metaBox.put('is_logged_in', true);
+      //await metaBox.put('user_id', widget.userData['id']);
+     // await metaBox.put('username', widget.userData['username']);
+     // await metaBox.put('name', widget.userData['name']);
+     // await metaBox.put('mobile', widget.userData['mobile']);
+     // await metaBox.put('psu', widget.userData['psu']);
 
       if (!mounted) return;
 
-       Navigator.pushReplacement(
+      Navigator.pushReplacement(
         context,
-        MaterialPageRoute(
-          builder: (_) =>
-              LoginPage(),
-        ),
+        MaterialPageRoute(builder: (_) => LoginPage()),
       );
     } catch (e) {
       ScaffoldMessenger.of(
@@ -77,14 +82,7 @@ class _FirstLoginPageState extends State<FirstLoginPage> {
 
     setState(() => loading = false);
 
-    if (passwordController.text.trim() !=
-        confirmPasswordController.text.trim()) {
-      ScaffoldMessenger.of(
-        context,
-      ).showSnackBar(const SnackBar(content: Text("পাসওয়ার্ড মিলছে না")));
-
-      return;
-    }
+    
   }
 
   @override
@@ -95,7 +93,7 @@ class _FirstLoginPageState extends State<FirstLoginPage> {
         padding: const EdgeInsets.all(20),
         child: Column(
           children: [
-           /* TextField(
+            /* TextField(
               controller: nameController,
               decoration: const InputDecoration(labelText: "নাম"),
             ),
@@ -109,7 +107,6 @@ class _FirstLoginPageState extends State<FirstLoginPage> {
             ),
 
             const SizedBox(height: 15),*/
-
             TextField(
               controller: passwordController,
               obscureText: true,

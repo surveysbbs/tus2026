@@ -13,7 +13,7 @@ class SupabaseService {
     return data;
   }
   // ===================================
-  // Remove dangerous null fields before upload
+  // Remove null fields before upload
   // যেগুলো overwrite হলে data loss হবে
   // ===================================
 

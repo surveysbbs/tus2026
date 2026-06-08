@@ -44,6 +44,7 @@ dependencies:
   permission_handler: ^11.3.0
   workmanager: ^0.7.0
   path_provider: any
+  bcrypt: ^1.1.3
 
     
 
