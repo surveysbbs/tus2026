@@ -11,6 +11,7 @@ import 'first_login_page.dart';
 //import 'forgot_password_page.dart';
 import 'dashboard_page.dart';
 import 'dart:convert';
+import 'package:flutter/services.dart';
 
 class LoginPage extends StatefulWidget {
   const LoginPage({super.key});
@@ -54,12 +55,9 @@ class _LoginPageState extends State<LoginPage> {
   }
 
   String hashPassword(String password) {
-  return sha256
-      .convert(
-        utf8.encode(password),
-      )
-      .toString();
-}
+    return sha256.convert(utf8.encode(password)).toString();
+  }
+
   Future<void> downloadUserData() async {
     final metaBox = Hive.box('metaBox');
     final surveyBox = Hive.box('surveyBox');
@@ -143,6 +141,13 @@ class _LoginPageState extends State<LoginPage> {
       ScaffoldMessenger.of(
         context,
       ).showSnackBar(const SnackBar(content: Text("সব ঘর পূরণ করতে হবে")));
+      return;
+    }
+
+    if (userController.text.trim().length != 11) {
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text("ইউজারনেম অবশ্যই ১১ ডিজিট হতে হবে")),
+      );
       return;
     }
 
@@ -333,13 +338,17 @@ class _LoginPageState extends State<LoginPage> {
 
               TextField(
                 controller: userController,
+                keyboardType: TextInputType.number,
+                maxLength: 11,
+                inputFormatters: [
+                  FilteringTextInputFormatter.digitsOnly,
+                  LengthLimitingTextInputFormatter(11),
+                ],
                 decoration: const InputDecoration(
-                  labelText: "লগইন আইডি",
-                  prefixIcon: Icon(Icons.person),
-                  border: OutlineInputBorder(),
+                  labelText: "ইউজারনেম",
+                  counterText: "",
                 ),
               ),
-
               const SizedBox(height: 15),
 
               TextField(
