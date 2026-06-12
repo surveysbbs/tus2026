@@ -15,8 +15,7 @@ class FirstLoginPage extends StatefulWidget {
 }
 
 class _FirstLoginPageState extends State<FirstLoginPage> {
-  //final nameController = TextEditingController();
-  //final mobileController = TextEditingController();
+  
   final passwordController = TextEditingController();
   final confirmPasswordController = TextEditingController();
 
@@ -27,9 +26,7 @@ class _FirstLoginPageState extends State<FirstLoginPage> {
   }
 
   Future<void> saveInfo() async {
-    if (//nameController.text.trim().isEmpty ||
-        //mobileController.text.trim().isEmpty ||
-        passwordController.text.trim().isEmpty) {
+    if (passwordController.text.trim().isEmpty || confirmPasswordController.text.trim().isEmpty) {
       ScaffoldMessenger.of(
         context,
       ).showSnackBar(const SnackBar(content: Text("সব তথ্য দিন")));
@@ -50,8 +47,7 @@ class _FirstLoginPageState extends State<FirstLoginPage> {
       await Supabase.instance.client
           .from('enumerators')
           .update({
-            // 'name': nameController.text.trim(),
-            // 'mobile': mobileController.text.trim(),
+            
             'password_hash': hashPassword(passwordController.text.trim()),
             'first_login': false,
             'login_status': 0,
@@ -59,14 +55,7 @@ class _FirstLoginPageState extends State<FirstLoginPage> {
           })
           .eq('username', widget.userData['username']);
 
-      //final metaBox = Hive.box('metaBox');
-
-      //await metaBox.put('is_logged_in', true);
-      //await metaBox.put('user_id', widget.userData['id']);
-     // await metaBox.put('username', widget.userData['username']);
-     // await metaBox.put('name', widget.userData['name']);
-     // await metaBox.put('mobile', widget.userData['mobile']);
-     // await metaBox.put('psu', widget.userData['psu']);
+      
 
       if (!mounted) return;
 

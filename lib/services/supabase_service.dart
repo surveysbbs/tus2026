@@ -1,5 +1,5 @@
 import 'package:supabase/supabase.dart';
-//import 'package:tus_listing_app/config/supabase_config.dart';
+import '../config/app_config.dart';
 
 class SupabaseService {
   final SupabaseClient supabase;
@@ -21,18 +21,36 @@ class SupabaseService {
     row.removeWhere((key, value) => value == null && key != 'remarks');
   }
 
+  Future<bool> isVersionAllowed() async {
+    final setting = await supabase
+        .from('app_settings')
+        .select()
+        .eq('id', 1)
+        .single();
+
+    return setting['active_phase'] == AppConfig.surveyPhase;
+  }
+
   // একক ডাটা insert/update
   Future<void> upsertSurvey(Map<String, dynamic> surveyData) async {
-    // null value remove
+    if (!await isVersionAllowed()) {
+      throw Exception("এই অ্যাপ ভার্সন বন্ধ করা হয়েছে");
+    }
+
     removeNullFields(surveyData);
+
     await supabase.from('surveys').upsert(surveyData, onConflict: 'house_id');
   }
 
   // অনেকগুলো ডাটা একসাথে insert/update
   Future<void> bulkUpsert(List<Map<String, dynamic>> allData) async {
+    if (!await isVersionAllowed()) {
+      throw Exception("এই অ্যাপ ভার্সন বন্ধ করা হয়েছে");
+    }
+
     if (allData.isEmpty) return;
+
     for (var row in allData) {
-      // কোনো null দিয়ে server overwrite করবে না
       removeNullFields(row);
     }
 
