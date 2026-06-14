@@ -2,7 +2,7 @@ import 'package:flutter/material.dart';
 import 'package:hive/hive.dart';
 import '../config/app_config.dart';
 import '../services/supabase_service.dart';
-//import 'package:tus_listing_app/config/supabase_config.dart';
+import 'package:supabase_flutter/supabase_flutter.dart';
 
 class SyncPage extends StatefulWidget {
   final SupabaseService supabaseService;
@@ -34,6 +34,34 @@ class _SyncPageState extends State<SyncPage> {
   }
 
   Future<void> syncAll() async {
+    try {
+      final setting = await Supabase.instance.client
+          .from('app_settings')
+          .select()
+          .eq('id', 1)
+          .single();
+
+      if (setting['active_phase'] != AppConfig.surveyPhase) {
+        if (!mounted) return;
+
+        ScaffoldMessenger.of(context).showSnackBar(
+          const SnackBar(content: Text("এই অ্যাপ ভার্সন বন্ধ করা হয়েছে")),
+        );
+
+        Navigator.pop(context);
+        return;
+      }
+    } catch (e) {
+      if (!mounted) return;
+
+      ScaffoldMessenger.of(context).showSnackBar(
+        const SnackBar(content: Text("সার্ভারের সাথে সংযোগ করা যাচ্ছে না")),
+      );
+
+      Navigator.pop(context);
+      return;
+    }
+
     if (!mounted) return;
     setState(() => syncing = true);
 

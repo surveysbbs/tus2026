@@ -6,7 +6,7 @@
     <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
     <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
     <application
-        android:label="tus_listing_app"
+        android:label="TUS Training"
         android:name="${applicationName}"
         android:icon="@mipmap/ic_launcher">
         <activity

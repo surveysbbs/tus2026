@@ -18,6 +18,10 @@ class AboutPage extends StatelessWidget {
       "Md. Aminul Islam, 01521205479": {},
       "Md. Meraz Ali, 01744507892": {},
     },
+    "Senior Data Entry Control Operator": {
+      "Debarghya Kundu Setu, 01741933974": {},
+    },
+
   };
 
   Widget buildRoleIcon(String role) {
@@ -33,11 +37,15 @@ class AboutPage extends StatelessWidget {
     } else if (role.contains("Maintenance")) {
       icon = Icons.handyman;
       color = Colors.teal;
-    } else if (role.contains("Programmer") && !role.contains("Assistant")) {
-      icon = Icons.laptop_mac;
-      color = Colors.indigo;
     } else if (role.contains("Assistant Programmer")) {
       icon = Icons.engineering;
+      color = Colors.deepPurple;
+
+    } else if (role.contains("Programmer")) {
+      icon = Icons.laptop_mac;
+      color = Colors.indigo;
+    } else if (role.contains("Senior Data Entry Control Operator")) {
+      icon = Icons.storage;
       color = Colors.orange;
     } else {
       icon = Icons.person;
@@ -86,7 +94,7 @@ class AboutPage extends StatelessWidget {
               crossAxisAlignment: CrossAxisAlignment.start,
               children: [
                 const Text(
-                  "👨‍💻 Computer Wing - Software Development Team",
+                  "👨‍💻 Software Development Team",
                   style: TextStyle(
                     fontSize: 16,
                     fontWeight: FontWeight.bold,
