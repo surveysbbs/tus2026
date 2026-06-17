@@ -57,6 +57,9 @@ class _ListingFormPageState extends State<ListingFormPage> {
   final digitsOnlyFormatter = FilteringTextInputFormatter.allow(
     RegExp(r'[0-9]'),
   );
+  final commentFormatter = FilteringTextInputFormatter.allow(
+    RegExp(r'[a-zA-Z0-9\s-]'),
+  );
 
   // show validation errors after user tries complete save/send
   bool showValidationError = false;
@@ -199,6 +202,7 @@ class _ListingFormPageState extends State<ListingFormPage> {
     bool readOnly = false,
     bool required = true,
     bool isAddress = false,
+    bool isComment = false,
   }) {
     return Padding(
       padding: const EdgeInsets.symmetric(vertical: 6),
@@ -212,6 +216,8 @@ class _ListingFormPageState extends State<ListingFormPage> {
               ? digitsOnlyFormatter
               : isAddress
               ? addressFormatter
+              : isComment
+              ? commentFormatter
               : englishOnlyFormatter,
         ],
         //onChanged: (_) => setState(() {}),
@@ -764,7 +770,7 @@ class _ListingFormPageState extends State<ListingFormPage> {
                 ),
               ),
 
-            field("মন্তব্য", comment, required: false),
+            field("মন্তব্য", comment, required: false, isComment: true),
 
             const SizedBox(height: 25),
 
